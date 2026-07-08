@@ -1,0 +1,24 @@
+Package: GOV
+Type: Package
+Title: Graph on Vector Regression with Latent Scale Gaussian Process
+Version: 0.1.0
+Authors@R: person("Sagnik", "Bhadury", email = "bhadury@umich.edu", role = c("aut", "cre"))
+Description: Tools for regressing a scalar response on a network-valued
+    predictor. An EM algorithm (EM_toU()) estimates low-rank latent node
+    positions from an observed adjacency matrix via a latent space network
+    model. A latent-space Gaussian process regression with spike-and-slab
+    variable selection over nodes (lsGPR_VS()) then regresses a response on
+    a distance kernel built from those (and optionally other) latent
+    positions, selecting which nodes' positions actually drive the kernel.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    igraph,
+    MASS,
+    matrixcalc,
+    invgamma,
+    mvtnorm,
+    stats,
+    utils
+RoxygenNote: 7.3.1
