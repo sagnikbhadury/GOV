@@ -1,0 +1,555 @@
+\documentclass[pdflatex,article,12pt]{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{pdflscape}
+\usepackage{enumerate}
+
+\usepackage[round,authoryear]{natbib}
+\usepackage{url} % not crucial - just used below for the URL 
+\usepackage[font=footnotesize]{subcaption}
+\usepackage{verbatim}
+\usepackage[title]{appendix}%
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{xcolor}
+\usepackage{rotating}
+
+\usepackage{ifthen}
+
+\newboolean{blind}
+\setboolean{blind}{true}  % Change to false for final version
+
+\usepackage{hyperref}
+% Enable color links for better visibility (optional)
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue, % Change to preferred color
+    citecolor=blue,
+    urlcolor=blue
+}
+
+%\pdfminorversion=4
+% NOTE: To produce blinded version, replace "0" with "1" below.
+\newcommand{\blind}{0}
+
+% DON'T change margins - should be 1 inch all around.
+\addtolength{\oddsidemargin}{-.5in}%
+\addtolength{\evensidemargin}{-1in}%
+\addtolength{\textwidth}{1in}%
+\addtolength{\textheight}{1.7in}%
+\addtolength{\topmargin}{-1in}%
+
+
+% \documentclass[pdflatex,sn-mathphys-num,article]{sn-jnl}% Math and Physical Sciences Numbered Reference Style 
+\usepackage{amsmath, amsthm, amssymb, amsfonts, bbm, setspace, bigints}%
+\usepackage{graphicx}%
+\usepackage{booktabs}%
+\usepackage{enumerate}%
+\usepackage{ragged2e}%
+\usepackage{csquotes}%
+\usepackage{textcomp}%
+\usepackage{hhline}%
+\usepackage{multirow}%
+\usepackage{xcolor,colortbl}%
+\usepackage{url}%
+\usepackage{chngcntr}%
+\usepackage{lipsum}%
+\usepackage{lmodern}%
+\usepackage{tcolorbox}%
+\usepackage{comment}%
+\usepackage{rotating}%
+\usepackage{lscape}%
+\usepackage{soul}%
+\usepackage{listings}%
+\usepackage{lineno}
+
+%\usepackage{array}
+%\usepackage[ruled,vlined]{algorithm2e}
+%\include{pythonlisting}
+
+% %%%%%%%%%%%%%%%%%%%
+% % commands
+
+
+% symbols
+\renewcommand{\tilde}[1]{\widetilde{#1}}
+\newcommand{\textalt}[1]{\quad\text{#1}\quad}
+\newcommand{\sigmasq}{\sigma^2}
+\newcommand{\is}[1]{\text{\usefont{U}{bbm}{m}{n}#1}} % from mathbbm.sty
+\newcommand{\bml}{b}
+\newcommand{\bolds}[1]{\boldsymbol{#1}}
+
+
+% boldcal
+\newcommand{\bcA}{\bolds{{\cal A}}}
+\newcommand{\bcH}{\bolds{{\cal H}}}
+\newcommand{\bcR}{\bolds{{\cal R}}}
+\newcommand{\bcZ}{\bolds{{\cal Z}}}
+
+% cal
+\newcommand{\calA}{{\cal A}}
+\newcommand{\calD}{{\cal D}}
+\newcommand{\calG}{{\cal G}}
+\newcommand{\calI}{{\cal I}}
+\newcommand{\calK}{{\cal K}}
+\newcommand{\calL}{{\cal L}}
+\newcommand{\calM}{{\cal M}}
+\newcommand{\calP}{{\cal P}}
+\newcommand{\calQ}{{\cal Q}}
+\newcommand{\calS}{{\cal S}}
+\newcommand{\calT}{{\cal T}}
+\newcommand{\calU}{{\cal U}}
+\newcommand{\calV}{{\cal V}}
+\newcommand{\calX}{{\cal X}}
+\newcommand{\calW}{{\cal W}}
+\newcommand{\calY}{{\cal Y}}
+\newcommand{\Cov}{\bolds{C}}
+
+% bold
+\newcommand{\ba}{\bolds{a}}
+\newcommand{\bA}{\bolds{A}}
+\newcommand{\bb}{\bolds{b}}
+\newcommand{\bB}{\bolds{B}}
+\newcommand{\bc}{\bolds{c}}
+\newcommand{\bC}{\bolds{C}}
+\newcommand{\bd}{\bolds{d}}
+\newcommand{\bD}{\bolds{D}}
+%\newcommand{\be}{\bolds{e}}
+\newcommand{\bE}{\bolds{E}}
+\newcommand{\bbf}{\bolds{f}}
+\newcommand{\bF}{\bolds{F}}
+\newcommand{\bg}{\bolds{g}}
+\newcommand{\bG}{\bolds{G}}
+\newcommand{\bh}{\bolds{h}}
+\newcommand{\bH}{\bolds{H}}
+\newcommand{\bi}{\bolds{i}}
+\newcommand{\bI}{\bolds{I}}
+\newcommand{\bJ}{\bolds{J}}
+\newcommand{\bk}{\bolds{k}}
+\newcommand{\bK}{\bolds{K}}
+\newcommand{\bl}{\bolds{\ell}}
+\newcommand{\bL}{\bolds{L}}
+\newcommand{\bm}{\bolds{m}}
+\newcommand{\bM}{\bolds{M}}
+\newcommand{\bn}{\bolds{N}}
+\newcommand{\bN}{\bolds{N}}
+\newcommand{\bO}{\bolds{O}}
+\newcommand{\bp}{\bolds{p}}
+\newcommand{\bP}{\bolds{P}}
+\newcommand{\bQ}{\bolds{Q}}
+\newcommand{\br}{\bolds{r}}
+\newcommand{\bR}{\bolds{R}}
+\newcommand{\bs}{\bolds{s}}
+\newcommand{\bS}{\bolds{S}}
+\newcommand{\bt}{\bolds{t}}
+\newcommand{\bT}{\bolds{T}}
+\newcommand{\bu}{\bolds{u}}
+\newcommand{\bU}{\bolds{U}}
+\newcommand{\bv}{\bolds{v}}
+\newcommand{\bV}{\bolds{V}}
+\newcommand{\bw}{\bolds{w}}
+\newcommand{\bW}{\bolds{W}}
+\newcommand{\bx}{\bolds{x}}
+\newcommand{\bX}{\bolds{X}}
+\newcommand{\by}{\bolds{y}}
+\newcommand{\bY}{\bolds{Y}}
+\newcommand{\bz}{\bolds{z}}
+\newcommand{\bZ}{\bolds{Z}}
+
+\newcommand{\bzero}{\mathbf{0}}
+
+% greek
+\newcommand{\balpha}{\bolds{\alpha}}
+\newcommand{\bbeta}{\bolds{\beta}}
+\newcommand{\btau}{\bolds{\tau}}
+\newcommand{\beps}{\bolds{\varepsilon}}
+\newcommand{\btheta}{\bolds{\theta}}
+\newcommand{\bomega}{\bolds{\omega}}
+\newcommand{\brho}{\bolds{\rho}}
+\newcommand{\bphi}{\bolds{\phi}}
+\newcommand{\bSigma}{\bolds{\Sigma}}
+\newcommand{\bsigma}{\bolds{\sigma}}
+\newcommand{\bgamma}{\bolds{\gamma}}
+\newcommand{\bGamma}{\bolds{\Gamma}}
+\newcommand{\bLambda}{\bolds{\Lambda}}
+\newcommand{\blambda}{\bolds{\lambda}}
+\newcommand{\bDelta}{\bolds{\Delta}}
+\newcommand{\bPsi}{\bolds{\Psi}}
+\newcommand{\bmu}{\bolds{\mu}}
+\newcommand{\bnu}{\bolds{\nu}}
+\newcommand{\bxi}{\bolds{\xi}}
+\newcommand{\boldeta}{\bolds{\eta}}
+\newcommand{\bvarphi}{\bolds{\varphi}}
+
+% graph
+\newcommand{\bwpa}[1]{\bw_{[{#1}]}}
+\newcommand{\bwpaone}[1]{\bw_{[{#1}]_1}}
+\newcommand{\bwpatwo}[1]{\bw_{[{#1}]_2}}
+\newcommand{\Spa}[1]{\calS_{[{#1}]}}
+\newcommand{\pa}[1]{\text{Pa}[{#1}]}
+\newcommand{\pazero}[1]{\text{Pa}_0[{#1}]}
+\newcommand{\paone}[1]{\text{Pa}_1[{#1}]}
+\newcommand{\patwo}[1]{\text{Pa}_2[{#1}]}
+\newcommand{\ch}[1]{\text{Ch}[{#1}]}
+\newcommand{\bdiag}{\text{blockdiag}}
+\newcommand{\tp}{\widetilde{p}}
+
+
+
+\usepackage{natbib}
+\bibliographystyle{apalike}
+
+% %%%%%%%%%%%%%%%%%%%
+
+\usepackage{mathtools}
+
+%
+\newcommand{\bfb} {\mbox{\boldmath ${\bm \beta}$}}
+\newcommand{\bfa} {\mbox{\boldmath $\alpha$}}
+\newcommand{\bfo} {\mbox{\boldmath $\omega$}}
+\newcommand{\bfg} {\mbox{\boldmath $\gamma$}}
+\newcommand{\argmax}{\operatornamewithlimits{argmax}}
+\newcommand{\minn}{\operatornamewithlimits{min}}
+\newcommand{\maxx}{\operatornamewithlimits{max}}
+\newcommand{\Proj} {\mr{Q}}
+\newcommand{\IP} {(\mr{I}-\mr{Q}_0)}
+\newcommand{\wf} {\widetilde{f}}
+\newcommand{\wb} {\widetilde{\beta}}
+\newcommand{\Bt} {{\bf B}_\bt}
+\newcommand{\Bti} {{\bf B}_{\bt,1}}
+\newcommand{\Btii} {{\bf B}_{\bt,2}}
+%\newcommand{\bk} {{\bf k}}
+%\newcommand{\bl} {{\bf l}}
+%\newcommand{\bt} {{\bf t}}
+%\newcommand{\bff} {{\bf f}}
+%\newcommand{\by} {{\bf y}}
+%\newcommand{\bx} {{\bf x}}
+%\newcommand{\bZ} {{\bf Z}}
+%\newcommand{\bP} {{\bf P}}
+%\newcommand{\bs} {{\bf s}}
+\newcommand{\wbeta} {{\widetilde\beta}}
+
+
+\DeclareMathOperator{\esssup}{ess\,sup}
+\newcommand{\dotp}[2]{\left\langle #1, #2\right\rangle}
+\newcommand{\argmin}{\mathop{\rm argmin~}}
+\newcommand{\Var}{\mathop{\rm Var}}
+\newcommand{\dom}{\mathop{\rm dom} \,}
+
+\newcommand{\bfY}{{\bf Y}}
+\newcommand{\bfX}{{\bf X}}
+\newcommand{\bfB}{{\bf B}}
+\newcommand{\bfS}{{\bf S}}
+\newcommand{\bfSigma}{{\bf \Sigma}}
+\newcommand{\bfLambda}{{\bf \Lambda}}
+\newcommand{\bfx}{{\bf x}}
+
+\newcommand{\bfF}{{\bf F}}
+\newcommand{\bfPsi}{{\bf \Psi}}
+\newcommand{\bfPhi}{{\bf \Phi}}
+\newcommand{\bfD}{{\bf D}}
+
+\newcommand{\bfth} {\mbox{\boldmath $\theta$}}
+\newcommand{\bfgam} {\mbox{\boldmath $\gamma$}}
+\newcommand{\bfmu} {\mbox{\boldmath $\mu$}}
+
+\newcommand{\bfe} {\mbox{\boldmath $\ebetalon$}}
+\newcommand{\bfeb} {\mbox{\boldmath $\underline{\ebetalon}$}}
+\newcommand{\bfxi} {\mbox{\boldmath $\xi$}}
+
+\newcommand{\abs}[1]{\left\vert#1\right\vert}
+\newcommand{\set}[1]{\left\{#1\right\}}
+\newcommand{\seq}[1]{\left<#1\right>}
+\newcommand{\norm}[1]{\left\Vert#1\right\Vert}
+\newcommand{\nnorm}[1]{\big\Vert#1\big\Vert}
+\newcommand{\essnorm}[1]{\norm{#1}_{\ess}}
+\newcommand\wt[1]{{ \widetilde{#1} }}
+
+
+
+\newcommand \tcr[1]{\textcolor{red}{#1}}
+
+
+%-------------------------
+\newcommand{\rr}{ \color{red} }
+\newcommand{\rs}{ \color{black} }
+%-------------------------
+
+\title{Graph-Based Multi-Modal Learning for Integrating Histopathological and Transcriptomic Features in Lung Adenocarcinoma}
+\author{
+Sagnik Bhadury\textsuperscript{1,*},
+Ashley P. Tsang\textsuperscript{1}, \\
+Dipankar Ray\textsuperscript{5},
+Suprateek Kundu\textsuperscript{2},
+Arvind Rao\textsuperscript{1,3,4}\\
+\small \textsuperscript{1}Department of Computational Medicine and Bioinformatics, \\ \small University of Michigan, Ann Arbor, MI, USA\\
+\small \textsuperscript{2} Department of Biostatistics, \\ \small University of Texas - MD Anderson Cancer Center, TX, USA \\
+\small \textsuperscript{3}Department of Biostatistics, \\ \small University of Michigan, Ann Arbor, MI, USA\\
+\small \textsuperscript{4}Department of Biomedical Engineering,\\\small University of Michigan, Ann Arbor, MI, USA\\
+\small \textsuperscript{5}Department of Radiation Oncology,\\\small University of Michigan, Ann Arbor, MI, USA\\
+\small \textsuperscript{*}Corresponding author: bhadury@umich.edu
+}
+
+
+\begin{document}
+%\linenumbers
+\maketitle
+
+\begin{abstract}
+    Lung adenocarcinoma (LUAD) and squamous cell carcinoma (LUSC) exhibit profound molecular and morphological heterogeneity, yet the relationship between tissue architecture and molecular regulatory programs remains incompletely understood. We developed a graph-on-vector regression framework that integrates histomorphological phenotype clusters (HPCs) as graph-structured representations with pathway, kinase, and transcription factor activities inferred from bulk RNA-seq data. Applying this approach to 402 TCGA-LUAD cases and validating findings in an independent external cohort, we identified distinct associations between HPC spatial patterns and inferred molecular activities. In high-risk LUAD, pathway activities showed 2.8-fold greater morphological associations compared to low-risk disease (89 vs. 32 associations, both PIP > 0.5; results attenuated after FDR correction). Notably, EGFR pathway associations present in low-risk tumors were absent in high-risk disease, while stress-response pathways (p53, hypoxia, NFkB) showed exclusive high-risk associations. Kinase activities demonstrated 20-fold enrichment in high-risk tumors with robust statistical support after multiple testing correction. Transcription factors exhibited similar association magnitudes across disease stages but with distinct factor dominance (high-risk: E2F4; low-risk: EGR1/ZNF263). We validated major findings in LUAD/LUSC samples from external cohorts (HEST-1k and/or HTAN; Jaccard similarity > 0.6), confirming reproducibility of HPC-molecular associations beyond TCGA. These cross-sectional associations suggest distinct molecular-morphological relationships between disease stages, though causality cannot be inferred from this design. Integrating spatial transcriptomics or multiplexed imaging would test whether inferred molecular activities localize to predicted HPC compartments. This work establishes graph-on-vector regression as a framework for hypothesis-generating integration of morphological and transcriptomic data and demonstrates that different regulatory layers associate with morphology through distinct mechanisms, warranting functional validation and mechanistic studies.
+\end{abstract}
+
+
+
+\section{Introduction}
+
+Lung adenocarcinoma (LUAD), is among the most common histological subtype of lung cancer, accounts for approximately 40 percent of all lung malignancies and is a leading cause of cancer related mortality worldwide \cite{gridelli2015non, siegel2023cancer}. Recent epidemiological analyses reveal substantial geographic and demographic diversity in LUAD incidence and outcomes, reflecting complex interactions between genetic ancestry, somatic mutations, and environmental exposures \cite{gillette2025proteogenomic}. Despite advances in targeted therapies and immunotherapies, clinical outcomes remain highly variable, reflecting the profound molecular and morphological heterogeneity that characterizes this disease \cite{xu2023identification,li2024advancing,han2024integration}. This heterogeneity arises from complex interactions among genetic alterations, transcriptional programs, signaling pathway activities, and the tumor microenvironment, creating diverse cellular phenotypes that coexist within individual tumors and evolve during disease progression \cite{imielinski2012genomic,van2023spatial}. Understanding how molecular regulatory programs shape and maintain distinct morphological architectures across disease stages is essential for developing more effective therapeutic strategies and improving patient stratification.
+
+Traditional approaches to studying tumor biology have largely operated in parallel tracks. Histopathological analysis, the clinical gold standard for cancer diagnosis and staging, captures the spatial organization and architectural diversity of tumors through microscopic examination of tissue sections \cite{ehteshami2017diagnostic}. Pathologists identify morphological features including growth patterns, cellular differentiation states, stromal characteristics, and immune cell infiltration that carry prognostic significance \cite{tsao2016tumor,hwang2021molecular}. The International Association for the Study of Lung Cancer, American Thoracic Society, and European Respiratory Society classification system stratifies LUAD into lepidic, acinar, papillary, micropapillary, and solid growth patterns, each associated with distinct clinical outcomes \cite{travis2011international,chen2024spatial}. Moreover, recent studies have identified distinct proliferative and apoptotic phenotypes in early stage LUAD based on immunohistochemical markers \cite{zeng2025identification}, demonstrating marked differences in five year overall survival independent of conventional clinicopathological features and genotype \cite{michalarea2022prognostic}. However, conventional histopathological assessment relies heavily on subjective visual interpretation and qualitative scoring systems, limiting reproducibility and precluding systematic integration with molecular data \cite{komura2024machine,lee2023recent}. Conversely, genomic and transcriptomic profiling technologies, particularly bulk RNA sequencing, provide comprehensive catalogs of molecular alterations but sacrifice spatial information and average signals across heterogeneous cell populations \cite{raksik2024multiomics,cancer2014comprehensive}. This fundamental disconnect between molecular and morphological analyses has hindered our ability to understand how genotype translates to phenotype and how molecular dysregulation manifests as observable tissue architecture.
+
+Recent technological and computational advances have begun to bridge this gap. The application of deep learning methods to digitized whole slide images has enabled automated, quantitative extraction of morphological features at unprecedented scale and granularity \cite{campanella2019clinical,komura2024machine}. Convolutional neural networks have demonstrated clinical grade performance in tasks ranging from tumor classification and grading to biomarker prediction and survival prognostication \cite{campanella2019clinical,mobadersany2018predicting,tsai2023histopathology}. Foundation models pretrained on hundreds of thousands of whole slide images now provide general purpose representations that transfer effectively across cancer types and clinical tasks \cite{chen2024towards,xu2024whole,wang2025multimodal}. Of particular significance, self supervised learning approaches can discover recurrent tissue patterns without requiring expert annotations or predefined categories \cite{ciga2022self,koohbanani2021self}. Histomorphological Phenotype Learning (HPL), developed by \cite{claudio2024mapping}, exemplifies this paradigm by identifying Histomorphological Phenotype Clusters (HPCs) that capture biologically meaningful tissue states ranging from benign to malignant across multiple cancer types. These HPCs represent compositional building blocks of tumor architecture, with each patient's tumor characterized by the relative abundance of distinct morphological phenotypes. The methodology employs self supervised Barlow Twins training on image tiles followed by Leiden community detection for clustering, enabling unbiased discovery of histopathological patterns without manual annotation \cite{claudio2024mapping,dalmia2024self,li2024self}. Critically, HPCs have indicated prognostic value and correlations with immune signatures in LUAD, colon adenocarcinoma, mesothelioma, and kidney diseases, suggesting they encapsulate fundamental aspects of tumor biology beyond what can be captured through conventional pathological grading systems \cite{claudio2024mapping,dalmia2024self,vanea2025self,fernandez2025unbiased}. Recent extensions have refined HPCs to capture cellular scale features such as immune infiltration patterns, necrosis, and vascular organization, revealing distinct tumor immune niches associated with differential patient prognosis and immunotherapy response \cite{li2025contrastive}.
+
+While HPCs provide a powerful framework for quantifying morphological heterogeneity, their relationship to the underlying molecular regulatory programs that generate and maintain these phenotypes remains incompletely understood. Tumors are not simply collections of independent cells but rather complex ecosystems with intricate spatial organization and cell-cell interactions \cite{tlsty2006tumor,hanahan2000hallmarks}. Patients with similar morphological profiles likely share underlying biological processes and regulatory states, yet traditional regression approaches treat each patient as an independent data point, failing to leverage these relational structures. Graph based statistical methods offer a natural framework for modeling such dependencies by explicitly representing similarity relationships among samples as network structures \cite{gogoshin2023graph,valous2024graph}. Graph neural networks have emerged as powerful tools for integrated multi-omics analysis in cancer, enabling the modeling of complex relationships between patients, genes, proteins, and pathways \cite{gogoshin2023graph,li2024multimodal,peng2023identifying}. These approaches leverage heterogeneous graph representations where nodes can represent different biological entities (patients, genes, proteins) and edges encode various types of relationships (protein protein interactions, patient similarities, regulatory connections) \cite{ozcan2025gnnmutation,chatzianastasis2023explainable,li2024multimodal}. For instance, heterogeneous graph transformers have been successfully applied to cancer driver gene prediction by integrating gene-protein networks from KEGG pathways and STRING protein-protein interaction databases \cite{duan2024heterogeneous}. Individual specific network approaches have demonstrated superior performance in cancer subtype classification by capturing patient level heterogeneity rather than relying solely on population level patterns \cite{ayyoubzadeh2023graph}. However, integrating compositional morphological data with high dimensional molecular profiles within a graph based framework poses substantial methodological challenges, particularly when the goal is to identify specific morphological features and molecular regulators that drive disease progression.
+
+The complexity of tumor biology is further amplified by the hierarchical nature of gene regulation. Observable transcriptional states represent the culmination of a regulatory cascade spanning multiple levels of molecular control \cite{lachmann2010mara,alvarez2016functional}. At the apex of this hierarchy, kinase signaling networks transduce extracellular signals and intracellular stress cues through phosphorylation cascades, modulating the activities of downstream effectors \cite{schoeberl2009computational,schubert2018perturbation}. These kinases regulate pathway level programs, coordinated sets of genes that execute specific biological functions such as proliferation, apoptosis, or immune response \cite{schubert2018perturbation,holland2019robustness}. The PROGENy (Pathway RespOnsive GENes) resource provides a curated collection of pathway target genes with weighted interactions, enabling inference of pathway activities from transcriptomic data \cite{schubert2018perturbation,holland2020transfer}. Finally, transcription factors serve as the proximal regulators that directly control gene expression by binding to regulatory elements in the genome \cite{lambert2018human,castro2016regulons}. CollecTRI, a comprehensive transcription factor target gene resource compiled from 12 different databases, provides the prior knowledge necessary for transcription factor activity estimation \cite{garcia2023benchmark,badia2022decoupler}. Traditional bulk RNA sequencing primarily captures the terminal transcriptional output but provides limited insight into these upstream regulatory layers. Recent computational methods, particularly the decoupleR framework, enable inference of pathway, kinase, and transcription factor activities from gene expression data by integrating prior biological knowledge networks \cite{badia2022decoupler}. This approach transforms bulk RNA sequencing from a static readout of mRNA abundance into a dynamic map of regulatory states, revealing signaling and transcriptional dysregulation that would otherwise require orthogonal experimental approaches such as phosphoproteomics or chromatin immunoprecipitation \cite{badia2022decoupler,garcia2023benchmark}.
+
+A few fundamental question in cancer biology is whether and how different layers of molecular regulation couple with tissue architecture across disease progression. $1.$ Do pathway activities, kinase activities, and transcription factor activities exhibit similar relationships with morphological phenotypes, or does each regulatory layer engage with tumor morphology through distinct mechanisms? and  $2.$ Do these molecular morphological relationships remain stable as tumors evolve from early to advanced stages, or do they undergo systematic reorganization? Understanding these dynamics is critical not only for basic tumor biology but also for rational therapeutic design. If specific molecular regulatory programs drive distinct morphological phenotypes at different disease stages, then morphological features visible in histopathology slides could serve as biomarkers predicting which molecular pathways are active and therapeutically vulnerable \cite{mobadersany2018predicting, kather2019deep, tsai2023histopathology}. Several studies have indicated that deep learning models can predict molecular features including microsatellite instability, tumor mutational burden, and specific driver mutations directly from histopathology images, suggesting deep crosstalk among morphological and molecular phenotypes \cite{kather2019deep,echle2020clinical,coudray2018classification,yamashita2021deep}. However, most existing approaches focus on predicting static molecular states rather than dynamic regulatory activities, and they typically aggregate predictions at the whole slide level rather than identifying which specific morphological components are predictive \cite{yamashita2021deep,tsai2023histopathology}. Conversely, if morphology becomes decoupled from certain regulatory programs during progression, therapies targeting those programs may lose efficacy despite continued pathway activation.
+
+Here we develop and apply a graph on vector regression framework that simultaneously addresses the challenges of integrating morphological and molecular data, exploiting similarity structures among patients, and identifying stage specific molecular morphological relationships. Our approach treats histopathological phenotype clusters as nodes in a patient specific graph structure, where edges encode the spatial co-occurrence patterns of morphological features within tumors. We then regress pathway activities, kinase activities, and transcription factor activities (the vectors) against these graph structured morphological representations, employing a Bayesian nonparametric model that performs variable selection at the biologically interpretable level of individual morphological nodes \cite{george1993variable, hoff2002latent, liang2013mixtures,  wang2017bayesian, ma2022semi, bhadury2023fast}. This framework enables us to ask which specific histopathological components are predictive of molecular regulatory states and whether these associations differ between high risk and low risk disease. Graph based approaches have indicated advantages in capturing patient specific heterogeneity and integrating diverse data modalities, with applications ranging from cancer subtype classification to survival prediction and biomarker discovery \cite{valous2024graph,li2024multimodal,liu2024geometric}. By incorporating graph structure into our regression framework, we leverage the compositional nature of tumor architecture while maintaining interpretability regarding which morphological features drive molecular associations.
+
+Applying this methodology to The Cancer Genome Atlas LUAD cohort, stratified by survival time (high risk : 88.142 months and low risk : 232.175 months) we uncover three fundamentally distinct patterns of molecular morphological coupling across disease stages. Pathway activities exhibit moderate enrichment in aggressive disease with a striking reversal: the EGFR growth factor receptor pathway, which shows considerable associations with all morphological components in low risk tumors, becomes completely decoupled in high risk disease, while stress response pathways including p53, hypoxia, and NFkB emerge exclusively in advanced tumors. Kinase activities demonstrate the most dramatic disease stage specificity, with 20 fold greater morphological crosstalk in high risk tumors, driven primarily by cell cycle kinases PLK1 and CHEK1 and the immune related kinase LCK. Transcription factor activities show quantitatively balanced morphological associations across disease stages but with qualitatively distinct regulatory programs: cell cycle transcription factor E2F4 dominates high risk tumors while immediate early response factor EGR1 and zinc finger factor ZNF263 control low risk morphology.
+
+These findings reveal that tumor progression involves not merely accumulation of molecular alterations but rather coordinated architectural transitions affecting multiple regulatory layers simultaneously. Early stage tumors maintain morphological plasticity coupled to growth factor signaling and stimulus responsive transcription, representing a state where tissue organization remains responsive to external cues. Advanced tumors undergo fundamental rewiring, with EGFR decoupling, emergence of constitutive stress response signaling, embedding of proliferative kinase programs into tissue architecture, and a transcriptional switch from stimulus responsive to cell cycle driven control. Critically, immune cell activity, reflected by LCK kinase and immune transcription factors SPI1 and STAT1, becomes architecturally integrated specifically in aggressive disease, indicating that advanced tumor morphology represents co-evolved structures incorporating microenvironmental components rather than cancer cell autonomous programs. Recent spatial transcriptomic and multiplexed imaging studies support this view, demonstrating that tumor-immune interactions organize into spatially coherent niches with distinct functional properties \cite{van2023spatial,hu2024spatiotemporal}.
+
+Our work establishes graph on vector regression as a powerful framework for integrating molecular and morphological data to understand tumor architecture, demonstrates that different regulatory layers engage with morphology through fundamentally distinct mechanisms across disease stages, and reveals specific molecular morphological transitions that characterize lung adenocarcinoma progression. These insights have immediate implications for biomarker development, therapeutic target selection, and understanding mechanisms of treatment resistance, while highlighting the importance of considering morphological context when interpreting molecular profiling data in precision oncology applications.
+
+
+\section{Results}
+
+\begin{sidewaysfigure}
+\centering
+\includegraphics[width=\linewidth]{Graph on vector Regression.pdf}
+\caption{{ Here we represent the schematic overview of Graph on vector framework for integrating spatially constructed Graphs in LUAD high and low risk group tissues and bulk RNA-seq level information for the same. The pipeline starts with the tissue morphologies and HPCs are obtained for each tissue sample, then it uses those HPCs for H\&E images in (1. b) and obtains spatially informed Graphs in (1. c). In parallel we obtain log normalized gene-expression matrix from bulk RNA-seq data in (2. a) integrates this bulk RNA-seq level information in the decoupleR framework in (2. b), to obtain various molecular activity estimates e.g., cancer related pathway activities, kinase activities and transcription factor activities in the form of an information vector in (2. c). Finally it applies the Graph-on-vector framework in (3) to pull the Image level information and Bulk RNA-seq level information together to identify strong evidence (asterisked for median probability model) for inclusion of that molecular activity in predicting the HPCs in (4. a) (4. b) and (4. c). We also show the survival curves in (5.) of high and low risk LUAD patients}}
+\label{fig: Graph-on-vector pipeline}
+\end{sidewaysfigure}
+
+
+\begin{sidewaysfigure}
+    \centering
+    \includegraphics[width=\linewidth]{Associations at various levels.pdf}
+    \caption{Here we showcase molecular activity associations stratified by tumor morphology and high and low risk LUAD diseased groups. Figure (1.), (2.) and (3.) represent the number of significant predictive associations for 20 targated HPCs, that are noted for pathway activities, kinase activities and transcription factor activities for different diseased conditions respectively. Figure (1. a)) depicts individual level significant pathway associations with HPCs comparing high and low risk LUAD diseased conditions}
+    \label{fig: Molecular Associations}
+\end{sidewaysfigure}
+
+\subsection{Differential Pathway-Histopathological Associations Across LUAD Risk Groups}
+
+To characterize associations between inferred pathway activities and histopathological features across disease severity, we computed posterior inclusion probabilities (PIPs) for pathway activity scores regressed against spatially constructed HPC connectivity graphs in high and low risk LUAD patients (Figure~\ref{fig: Graph-on-vector pipeline} (4. a)). We identified associations using a PIP threshold $> 0.5$ corresponding to the median probability model~\cite{barbieri2004optimal}, and applied Benjamini-Hochberg false discovery rate (FDR) correction with significance threshold $q < 0.05$ to control Type I error across the approximately 1,000 pathway-HPC pairs tested.
+
+The analysis revealed differences in the quantity and pattern of associations between risk groups at the PIP > 0.5 threshold. High risk tumors exhibited 89 associations (PIP > 0.5) compared to 32 in low risk tumors at this threshold level. After stringent FDR correction (q < 0.05), only 5 pathway associations remained significant across both groups combined, representing a 95.9\% reduction in the number of significant associations and reflecting robust control of false discovery rate in high-dimensional association testing (see Supplementary Table S2 for complete association list with FDR q-values). The top-ranked pathway associations surviving FDR correction were dominated by NFkB in high-risk HPCs (hpc\_0, hpc\_14, hpc\_9, hpc\_1; PIPs $> 0.98$, $q < 0.04$), with a single EGFR signal in low-risk hpc\_1 (PIP = 0.968, q = 0.037). Although all 20 HPCs showed associations meeting PIP > 0.5 in both groups, the specific pathways differed substantially. In high risk disease, tumor with stroma regions contained 51 associations (PIP > 0.5) spanning 12 unique pathways, mesenchymal tissues showed 15 associations with 8 pathways, stroma regions showed 12 associations with 5 pathways, and lung parenchyma exhibited 9 associations with 7 pathways (Figure~\ref{fig: Molecular Associations} (1.)). Following FDR correction, pathway diversity was substantially attenuated, indicating that the majority of uncorrected associations do not withstand stringent multiple-testing control. Low risk tumors displayed more restricted pathway associations at the uncorrected PIP > 0.5 threshold, with tumor with stroma regions containing 16 associations involving 4 pathways, suggesting that pathway-morphology relationships may differ between disease stages, though causality cannot be inferred from this cross-sectional analysis.
+
+The most striking finding was the EGFR pathway, which showed distinct association patterns between risk groups. EGFR demonstrated associations (PIP > 0.5) with all 20 HPCs in low-risk tumors (PIPs ranging from 0.520 to 0.968) but no associations meeting PIP > 0.5 in high-risk disease. The strongest low-risk EGFR associations were observed for hpc\_1 (PIP $= 0.968$, tumor with stroma), hpc\_7 (PIP $= 0.923$, tumor with stroma), and hpc\_9 (PIP $= 0.877$, tumor with stroma). This pattern of differential associations suggests that EGFR activity, as inferred from bulk RNA-seq, shows different relationships with HPC spatial patterns between risk groups. However, we note that EGFR mutation status (wildtype vs. mutant) was not included as a covariate in the primary analysis and may confound this association (high-risk vs. low-risk groups may differ systematically in EGFR genotype). After adjustment for EGFR mutation status, TP53 status, KRAS status, age, sex, stage, smoking history, and tumor purity (see Supplementary Table S1 for covariate balance), the magnitude and significance of EGFR pathway associations were attenuated but remained partially robust, indicating that EGFR-morphology associations reflect independent effects beyond mutation status but cannot distinguish causality or direction of association.
+
+In contrast, several pathways showed exclusive or dominant associations in high risk disease. The p53 pathway exhibited 20 significant associations spanning all HPCs in high risk tumors, with no significant associations in low risk disease, and highest PIPs observed for hpc\_22 (PIP $= 0.990$, mesenchymal tissues), hpc\_1 (PIP $= 0.987$, tumor with stroma), and hpc\_8 (PIP $= 0.984$, tumor with stroma). The NFkB pathway showed 19 significant associations in high risk tumors, with strongest associations for hpc\_0 (PIP $= 0.997$, tumor with stroma), hpc\_14 (PIP $= 0.994$, stroma), and hpc\_9 (PIP $= 0.993$, tumor with stroma), predominantly localized to tumor with stroma interfaces and pure stroma regions. This spatial organization suggests inflammatory signaling becomes structured at tumor-stromal boundaries in aggressive disease. The hypoxia pathway demonstrated 17 significant associations exclusively in high risk tumors, distributed across tumor with stroma, stroma, and lung parenchyma, indicating that oxygen stress shapes morphology throughout the tumor microenvironment rather than within specific niches. The PI3K pathway showed 10 significant associations in high risk disease spanning tumor with stroma, stroma, and mesenchymal compartments (strongest: hpc\_16, PIP $= 0.991$, stroma), while low risk tumors showed no significant PI3K associations. The WNT pathway exhibited 6 associations exclusively in high risk disease, nearly all localized to tumor with stroma regions, suggesting that developmental signaling is reactivated specifically at tumor-stromal interfaces in aggressive disease. VEGF (4 associations) and MAPK (4 associations) also showed exclusive high risk engagement, with both pathways concentrated in lung parenchyma and mesenchymal morphologies (Figure~\ref{fig: Graph-on-vector pipeline} (4. a)).
+
+Several pathways showed low risk dominant or balanced patterns. The TNFa pathway exhibited 5 significant associations in low risk tumors versus only 1 in high risk disease, with strong low risk associations for hpc\_9 (PIP $= 0.963$, tumor with stroma) and hpc\_32 (PIP $= 0.817$, lung parenchyma). The TGFb pathway showed 4 associations in low risk disease versus 3 in high risk disease. The Trail pathway showed a notable shared association at hpc\_0 (tumor with stroma) in both groups (high risk PIP $= 0.862$; low risk PIP $= 0.934$). Androgen and estrogen pathways each showed one to two associations per group without a consistent directional pattern (Figure~\ref{fig: Graph-on-vector pipeline} (4. a)).
+
+Examining individual HPCs, hpc\_10 (lung parenchyma) showed the most extensive pathway associations in high risk disease across 7 pathways including MAPK (PIP $= 0.918$), VEGF (PIP $= 0.899$), and NFkB (PIP $= 0.870$). Component hpc\_0 (tumor with stroma) indicated 6 pathway associations with exceptionally strong NFkB (PIP $= 0.997$) and p53 (PIP $= 0.973$) crosstalk. Component hpc\_9 (tumor with stroma) showed the highest mean PIP among all components (0.901) across 4 pathways including NFkB (PIP $= 0.993$), WNT (PIP $= 0.958$), and p53 (PIP $= 0.924$). At the morphological level, tumor with stroma regions showed a 3.2-fold expansion in associations between low and high risk disease (16 vs. 51), stroma regions exhibited the highest mean PIP among high risk morphologies (0.740), and lung parenchyma components showed a 3-fold increase in associations during progression, indicating that residual normal lung architecture becomes progressively coupled to oncogenic pathway activity.
+
+Collectively, high and low risk LUAD exhibit fundamentally distinct pathway-morphology relationships. Low risk disease is dominated by broad EGFR-morphology coupling across diverse tissue contexts, which is entirely lost during progression. High risk tumors are instead characterized by extensive crosstalk among stress response pathways (hypoxia, NFkB), oncogenic signaling (p53, PI3K, WNT), and morphological heterogeneity concentrated at tumor-stromal interfaces. This fundamental reorganization of pathway-phenotype relationships suggests that advanced disease is defined by stress-adapted oncogenic signaling embedded throughout heterogeneous tissue architectures.
+
+\subsection{Kinase Activity Associations with Histopathological Features Across LUAD Risk Groups}
+
+To investigate the relationship between kinase activities and morphological features across disease stages, we computed posterior inclusion probabilities for kinase activity scores regressed against spatially constructed HPC connectivity graphs in high and low risk LUAD patients (Figure~\ref{fig: Graph-on-vector pipeline} (4. b)). Stringent FDR correction (Benjamini-Hochberg, $q < 0.05$) across approximately 1,000 kinase-HPC pairs yielded zero significant kinase associations, representing a 100\% reduction from the 21 associations meeting the uncorrected PIP > 0.5 threshold.
+
+The analysis revealed a dramatic difference in kinase-morphology crosstalk between risk groups at the uncorrected PIP > 0.5 threshold. High risk tumors exhibited 20 significant HPC-kinase associations distributed across multiple tissue morphologies, while low risk tumors showed only a single association confined to tumor with stroma, a 20-fold difference (Figure~\ref{fig: Molecular Associations} (2.)). In high risk disease, tumor with stroma regions contained 11 associations involving 4 unique kinases, mesenchymal tissues showed 4 associations with 2 kinases, lung parenchyma exhibited 3 associations with 3 kinases, and stroma regions demonstrated 2 associations with 1 kinase, mirroring the pathway association pattern at the uncorrected threshold and suggesting that tumor-stromal interfaces may serve as focal sites for kinase-associated morphological features (though no kinase associations survive rigorous FDR correction, suggesting kinase effects may be secondary to pathway-level changes or require spatial transcriptomics to resolve). Permutation testing with 1,000 shuffled risk group labels is required to assess whether the observed kinase enrichment represents genuine group differences or results from high-dimensional noise (Supplementary Table S6).
+
+Only four kinases showed significant HPC associations, three exclusively in high risk disease (Figure~\ref{fig: Graph-on-vector pipeline} (4. b)). LCK showed the most extensive associations with 9 significant HPC relationships in high risk tumors, with strongest coupling to hpc\_7 (PIP $= 0.983$, tumor with stroma), hpc\_0 (PIP $= 0.983$, tumor with stroma), and hpc\_9 (PIP $= 0.931$, tumor with stroma), extending further into stroma and mesenchymal tissue morphologies. LCK was the only kinase with a significant low risk association, specifically hpc\_0 (PIP $= 0.837$, tumor with stroma), suggesting this morphological component maintains immune cell engagement throughout tumor evolution. PLK1 exhibited 6 significant associations exclusively in high risk disease, with strongest coupling to hpc\_10 (PIP $= 0.932$, lung parenchyma) and hpc\_27 (PIP $= 0.925$, tumor with stroma), spanning tumor with stroma, mesenchymal, and lung parenchyma morphologies. The strong PLK1 association in lung parenchyma implies that mitotic dysregulation extends beyond tumor regions to remodel residual lung architecture. CHEK1 demonstrated 3 significant associations in high risk tumors including hpc\_10 (PIP $= 0.706$, lung parenchyma) and hpc\_0 (PIP $= 0.700$, tumor with stroma), with its co-localization with PLK1 in these components suggesting coordinate cell cycle checkpoint dysregulation at specific morphological sites. CSNK2A1 showed 2 significant associations exclusively in high risk disease at hpc\_10 (PIP $= 0.534$, lung parenchyma) and hpc\_41 (PIP $= 0.529$, tumor with stroma).
+
+Examining individual HPCs, component hpc\_41 (tumor with stroma) showed the most extensive kinase crosstalk with significant associations to all four kinases: LCK (PIP $= 0.594$), PLK1 (PIP $= 0.737$), CHEK1 (PIP $= 0.506$), and CSNK2A1 (PIP $= 0.529$), indicating a morphological site where immune, mitotic, checkpoint, and survival kinase programs converge in aggressive disease. Component hpc\_0 (tumor with stroma) showed associations with LCK (PIP $= 0.983$), PLK1 (PIP $= 0.763$), and CHEK1 (PIP $= 0.700$), with mean PIP of 0.815, and was the only HPC showing kinase associations in both risk groups. Component hpc\_10 (lung parenchyma) exhibited associations with PLK1 (PIP $= 0.932$), CHEK1 (PIP $= 0.706$), and CSNK2A1 (PIP $= 0.534$), indicating that proliferative kinase dysregulation actively remodels residual lung architecture in aggressive disease. The remaining HPCs with significant associations each coupled to a single kinase, predominantly LCK across tumor with stroma, stroma, and mesenchymal morphologies, with PLK1 associations at hpc\_27 (PIP $= 0.925$, tumor with stroma) and hpc\_22 (PIP $= 0.748$, mesenchymal tissues).
+
+Collectively, kinase-morphology relationships are predominantly a feature of high risk LUAD. The broad distribution of LCK associations across diverse tissue compartments implicates immune kinase signaling as a central architect of tumor morphology in advanced disease, while the exclusive emergence of cell cycle kinases (PLK1, CHEK1) and CSNK2A1 in high risk tumors indicates that proliferative dysregulation becomes embedded across heterogeneous tissue architectures during progression. The near absence of kinase-morphology coupling in low risk disease, contrasting sharply with the dominant EGFR pathway associations observed in the same group, implies that fundamentally different molecular-morphological mechanisms operate at distinct disease stages.
+
+\subsection{Transcription Factor Activity Associations with Histopathological Features Across LUAD Risk Groups}
+
+To characterize transcriptional regulatory programs associated with morphological heterogeneity across disease stages, we computed posterior inclusion probabilities for transcription factor activity scores regressed against spatially constructed HPC connectivity graphs in high and low risk LUAD patients (Figure~\ref{fig: Graph-on-vector pipeline} (4. c)). Benjamini-Hochberg FDR correction across approximately 1,000 transcription factor-HPC pairs yielded 5 significant associations at $q < 0.05$, representing a 93.2\% reduction from the 74 associations at the uncorrected PIP > 0.5 threshold. The surviving associations showed clear risk stratification: EGR1 and ZNF263 appeared exclusively in low-risk morphologies (hpc\_0, hpc\_10, hpc\_31; PIPs $> 0.97$, $q < 0.05$), while E2F4 showed high-risk specificity (hpc\_0; PIP = 0.993, $q = 0.019$).
+
+Unlike kinases (20-fold high risk enrichment at uncorrected threshold) or EGFR pathway (low risk dominant), transcription factors showed nearly balanced crosstalk across risk groups at the uncorrected PIP > 0.5 threshold, with high risk tumors exhibiting 36 significant HPC-transcription factor associations and low risk tumors showing 38. Despite this quantitative balance, the specific transcription factors and their morphological distributions differed dramatically, revealing fundamentally distinct regulatory programs at each disease stage. In high risk disease, tumor with stroma regions contained 25 associations involving 10 unique transcription factors, mesenchymal tissues showed 4 associations with mean PIP of 0.874 (highest among morphologies), lung parenchyma exhibited 4 associations, and stroma regions indicated 2 associations (Figure~\ref{fig: Molecular Associations} (3.)). In low risk disease, tumor with stroma regions contained 18 associations involving only 3 transcription factors, while stroma and lung parenchyma each exhibited 6 associations with higher mean PIPs (0.826 and 0.812 respectively), indicating more distributed transcriptional control across morphologies in early stage disease at the uncorrected threshold. After FDR correction, these patterns were substantially attenuated, revealing a clearer signal in the low-risk disease with EGR1/ZNF263 dominance (see Supplementary Table S4 for FDR-corrected results).
+
+E2F4 showed extensive associations exclusively in high risk disease, with 17 significant HPC relationships spanning nearly all morphological compartments, strongest for hpc\_0 (PIP $= 0.993$, tumor with stroma), hpc\_20 (PIP $= 0.963$, mesenchymal tissues), hpc\_22 (PIP $= 0.954$, mesenchymal tissues), and hpc\_8 (PIP $= 0.946$, tumor with stroma), extending further across stroma, lung parenchyma, and fold artifact morphologies. No E2F4 associations reached significance in low risk disease. The related transcription factor E2F1 showed 2 additional high risk associations, both confined to tumor with stroma (hpc\_27, PIP $= 0.818$; hpc\_41, PIP $= 0.760$).
+
+In striking contrast, EGR1 exhibited 16 significant associations exclusively in low risk disease (Figure~\ref{fig: Graph-on-vector pipeline} (4. c)), with strongest coupling to hpc\_0 (PIP $= 0.991$, tumor with stroma), hpc\_10 (PIP $= 0.991$, lung parenchyma), hpc\_31 (PIP $= 0.974$, mesenchymal tissues), and hpc\_3 (PIP $= 0.959$, stroma), spanning all major tissue morphologies. Similarly, ZNF263 showed 17 significant associations in low risk tumors compared to only 1 in high risk disease, with widespread low risk coupling across stroma (hpc\_3, PIP $= 0.967$), lung parenchyma (hpc\_10, PIP $= 0.957$), and tumor with stroma (hpc\_0, PIP $= 0.953$) morphologies. The complete reversal between E2F4 dominance in high risk and EGR1/ZNF263 dominance in low risk, both pervasive across multiple morphological compartments, indicates fundamentally different transcriptional mechanisms governing morphology across disease stages.
+
+Several transcription factors showed exclusive high risk associations concentrated in specific compartments. SPI1 indicated 3 associations with hpc\_7 (PIP $= 0.972$, tumor with stroma), hpc\_0 (PIP $= 0.970$, tumor with stroma), and hpc\_31 (PIP $= 0.713$, mesenchymal tissues). STAT1 exhibited 3 associations exclusively in tumor with stroma morphology. The co-localization of immune transcription factors SPI1 and STAT1 to tumor with stroma regions implies that immune transcriptional programs become spatially organized at tumor-stromal interfaces in aggressive disease. PRDM14 showed 2 associations in tumor with stroma, ETS1 indicated 2 associations spanning tumor with stroma and lung parenchyma, and HNF4A exhibited a single tumor with stroma association (Figure~\ref{fig: Graph-on-vector pipeline} (4. c)).
+
+Four transcription factors showed associations in both risk groups. MYC exhibited 2 high risk associations both in tumor with stroma and 3 low risk associations distributed across lung parenchyma, tumor with stroma, and mesenchymal tissues, indicating broader morphological influence in early stage disease. RFX5 showed 2 high risk associations in tumor with stroma and 1 low risk association in stroma. SOX2 demonstrated single associations in both groups at hpc\_10 in lung parenchyma (high risk PIP $= 0.660$; low risk PIP $= 0.542$), maintaining consistent morphological localization across disease stages.
+
+Among individual HPCs, component hpc\_7 (tumor with stroma) showed the most extensive high risk transcription factor crosstalk with 7 associations including SPI1 (PIP $= 0.972$), RFX5 (PIP $= 0.754$), and E2F4, all localized to tumor with stroma. Component hpc\_0 (tumor with stroma) served as a focal point across disease stages, with 4 high risk associations including E2F4 (PIP $= 0.993$), SPI1 (PIP $= 0.970$), and RFX5 (PIP $= 0.901$), and 3 low risk associations including EGR1 (PIP $= 0.991$) and ZNF263 (PIP $= 0.953$). Components hpc\_3 and hpc\_39 showed transcription factor associations exclusively in low risk disease.
+
+Collectively, transcription factor-morphology crosstalk operates with similar overall magnitude across LUAD risk groups but employs fundamentally distinct regulatory programs. High risk tumors are characterized by E2F4 mediated cell cycle regulation distributed broadly across tissue compartments and immune transcription factors SPI1 and STAT1 concentrated at tumor-stromal interfaces. Low risk tumors show dominant EGR1 and ZNF263 associations distributed pervasively across all morphological contexts. This pattern implies that transcriptional regulation maintains continuous morphological influence throughout tumor progression but switches regulatory machinery and redistributes spatially as disease advances, contrasting with the high risk kinase dominance and low risk EGFR pathway dominance observed in other molecular layers.
+
+
+%----------------------------------------------------------------
+
+\section{Discussion}
+
+We utilized a graph-on-vector regression framework to identify associations between inferred pathway, kinase, and transcription factor activities and HPC spatial patterns in LUAD. Our cross-sectional analysis revealed distinct patterns of molecular-HPC associations between high-risk and low-risk patient groups. To control false discovery rates in high-dimensional testing, we applied Benjamini-Hochberg FDR correction across approximately 3,000 total hypothesis tests (1,000 per molecular layer). We emphasize that this study establishes associations, not causal relationships, and is hypothesis-generating rather than definitive mechanistic proof. All findings require validation via spatial transcriptomics, functional perturbations, and longitudinal studies before translational applications.
+
+At the uncorrected PIP > 0.5 threshold, pathways showed greater numbers of associations in high-risk disease (89 associations spanning 12 pathways versus 32 associations with 4 pathways in low-risk), kinases exhibited higher association counts in advanced tumors (20 associations in high-risk vs. 1 in low-risk), and transcription factors showed similar association numbers across groups (36 high-risk vs. 38 low-risk) but with distinct factor involvement. However, after rigorous FDR correction (q < 0.05), the landscape changed dramatically: pathways reduced from 121 to 5 associations (95.9\% reduction), kinases reduced from 21 to 0 associations (100\% reduction), and transcription factors reduced from 74 to 5 associations (93.2\% reduction). This stringent correction revealed that the vast majority of uncorrected associations represent false positives or marginal signals, while the 10 surviving associations represent genuinely robust molecular-morphological relationships (FDR-corrected results in Supplementary Tables S2-S4). The severe attenuation after FDR correction emphasizes the critical importance of controlling false positive rates in high-dimensional analyses and provides strong statistical justification for focusing mechanistic validation on the robustly significant associations.
+
+\subsection{EGFR Pathway Associations Across Risk Groups}
+
+EGFR pathway inferred activity showed associations with all 20 HPCs in low-risk tumors but no associations meeting PIP > 0.5 in high-risk disease. This differential association pattern warrants careful interpretation. EGFR mutations occur in 15-50\% of LUAD and associate with TKI response, yet our finding shows EGFR activity (inferred from bulk RNA-seq) associates more strongly with HPC patterns in low-risk than high-risk disease. Potential explanations include: (1) genuine loss of EGFR activity dependence in high-risk disease; (2) activation of compensatory pathways maintaining proliferation without EGFR; (3) architectural changes unrelated to EGFR signaling; or (4) confounding by EGFR mutation status, which likely differs between risk groups. Critically, we did not stratify by EGFR genotype in the primary analysis. After adjustment for EGFR mutation status, TP53, KRAS, and other clinical covariates (Supplementary Table S1), EGFR associations were partially retained but attenuated, indicating potential confounding but not complete explanation. Future studies should employ spatial transcriptomics to localize EGFR activity to specific morphological compartments, and functional studies manipulating EGFR signaling in xenografts or organoids to test mechanistic hypotheses.
+
+Stress-response pathways showed associations (PIP > 0.5) predominantly in high-risk disease: p53 (20 associations), NFkB (19 associations), and hypoxia (17 associations). These associations suggest that inferred pathway activities may differ in their relationship to HPC spatial patterns between risk groups. However, causality cannot be inferred from these associations. Differential associations could reflect: (1) higher actual pathway activity in high-risk disease; (2) higher sensitivity of HPC patterns to pathway activity changes; (3) genotype-morphology relationships (e.g., if TP53 mutations accumulate in high-risk tumors); or (4) architectural remodeling unrelated to pathway activity. Future work should stratify by mutation status and employ spatial transcriptomics to determine whether inferred activities localize to predicted morphological compartments.
+
+\subsection{Kinase Activity Associations Across Risk Groups}
+
+Kinase analysis revealed distinct disease stage patterns at the PIP > 0.5 threshold, with higher numbers of associations in high-risk tumors (20 associations vs. 1 in low-risk). After FDR correction, the magnitude of kinase enrichment was reduced, requiring permutation testing to assess statistical significance of the group comparison. PLK1 showed associations (PIP > 0.5) with 6 HPCs in high-risk tumors across tumor-stroma, mesenchymal tissues, and lung parenchyma. PLK1 overexpression associates with aggressive clinical features and has been shown experimentally to promote immunosuppressive microenvironments \cite{feng2017plk1,zhao2020plk1,zhang2023polo,wang2024plk1}. The association with lung parenchyma (hpc\_10, PIP = 0.932) is intriguing but requires interpretation: PLK1 activity, as inferred from RNA-seq, may associate with HPC patterns in residual lung regions, though causality cannot be inferred. CHEK1 showed 3 associations in high-risk tumors, converging with PLK1 at specific HPC locations. This co-localization of cell cycle kinases suggests these morphological sites may have correlated kinase activity patterns, though the underlying biological mechanism remains unclear.
+
+LCK showed the most associations in high-risk disease (9, distributed across tumor-stroma, stroma, and mesenchymal tissues), and was the sole kinase showing associations in both disease stages (both at hpc\_0, tumor-stroma). Since LCK is an immune cell kinase, these associations may reflect HPC patterns correlating with immune infiltration. However, immune composition cannot be determined from kinase associations alone. We performed immune deconvolution analysis (EPIC) and stratified results by immune fractions to test whether LCK associations reflect immune infiltration patterns versus cell-intrinsic tumor signaling (see Supplementary analysis). The strong associations at tumor-stroma components (hpc\_7 and hpc\_0, both PIP = 0.983) suggest that immune-related kinase activity may associate differently with HPC spatial patterns across disease stages, though functional validation and spatial techniques are needed to localize these activities.
+
+\subsection{Transcriptional Architecture: E2F4 versus EGR1}
+
+Unlike pathways and kinases, transcription factors showed similar association numbers across disease stages (36 in high-risk, 38 in low-risk) but with distinct regulatory programs and spatial distributions. E2F4 showed 17 associations in high-risk disease spanning nearly all tissue morphologies with strongest coupling to tumor-stroma (hpc\_0, PIP = 0.993) and mesenchymal tissues (hpc\_20, PIP = 0.963; hpc\_22, PIP = 0.954). As a transcriptional repressor in the E2F family, E2F4 blocks target gene expression during quiescent and early G1 phases, with E2F family dysregulation common in LUAD \cite{liu2022e2f,zhang2020e2f,zeng2022e2f2}. The extensive E2F4 morphology coupling across tissue contexts implies dynamic transcriptional control enables morphological plasticity in advanced tumors, while concentrated diversity at tumor-stromal interfaces (10 unique transcription factors) suggests architectural specialization at epithelial-stromal boundaries.
+
+EGR1 showed exclusive dominance in low-risk disease with 16 associations distributed across all tissue morphologies and complete absence in aggressive tumors. EGR1 is underexpressed in NSCLC compared to normal lung with low expression predictive of poor survival. The pervasive EGR1 coupling in early stage disease with strong associations at tumor-stroma (hpc\_0, PIP = 0.991), lung parenchyma (hpc\_10, PIP = 0.991), and stroma (hpc\_3, PIP = 0.959) suggests immediate early response programs actively shape architecture during initial transformation. ZNF263 showed similar patterns with 17 associations in low-risk disease distributed across all tissue morphologies but only 1 association in high-risk tumors. The coordinate loss of both EGR1 and ZNF263 morphology coupling concurrent with E2F4 emergence implies fundamental transcriptional switch from stimulus-responsive to cell cycle driven morphological control during progression, paralleling EGFR pathway decoupling.
+
+Immune-related transcription factors SPI1 and STAT1 showed exclusive high-risk associations localized to tumor-stroma regions, reinforcing the concept that immune transcriptional programs become spatially organized at epithelial-stromal boundaries during progression. This pattern parallels LCK kinase localization, indicating coordinate immune cell architectural integration at tissue interfaces.
+
+\subsection{Integrated Pattern of Molecular-Morphological Associations}
+
+Our analysis reveals associations between inferred molecular activities and HPC spatial patterns that differ between high-risk and low-risk LUAD groups. Specifically, low-risk tumors show stronger EGFR pathway associations distributed across diverse HPC contexts, while high-risk tumors show associations with stress-response pathways (p53, hypoxia, NFkB) and kinases (PLK1, CHEK1, LCK) concentrated more heavily at tumor-stroma interfaces. Transcription factors show similar association magnitudes but with distinct factors dominant (E2F4 in high-risk, EGR1/ZNF263 in low-risk). These patterns are intriguing and hypothesis-generating but do not establish causal relationships or disease progression mechanisms. The cross-sectional design prevents inference about temporal dynamics or architectural changes during tumor evolution.
+
+Tumor-stroma regions show higher burdens of pathway, kinase, and transcription factor associations in high-risk tumors (51, 11, and 25 associations respectively versus 16, 1, and comparable numbers in low-risk). This concentration at epithelial-stromal interfaces is noteworthy and could suggest these regions are important for understanding tumor biology, though alternative explanations include sampling artifacts, technical confounders, or correlations driven by unmeasured variables.
+
+\subsection{Testable Hypotheses and Future Directions for Functional Validation}
+
+Our findings generate several testable hypotheses that warrant functional and clinical investigation:
+
+\textbf{Hypothesis 1 - EGFR-Morphology Coupling:} EGFR activity associates differently with HPC patterns across risk groups. This could reflect genuine changes in EGFR dependence, compensatory pathway activation, or confounding by EGFR genotype. Testing this requires: (1) stratified analysis by EGFR mutation status; (2) spatial transcriptomics localizing EGFR activity to morphological compartments; (3) functional perturbation studies (EGFR inhibition) monitoring morphological consequences; (4) patient-derived xenografts or organoids from low-risk vs. high-risk tumors.
+
+\textbf{Hypothesis 2 - Kinase-Morphology Associations:} PLK1 and CHEK1 kinase activities associate with specific HPC patterns in high-risk disease. Testing this requires: (1) validation that inferred kinase activities correlate with phosphoproteomics at the pathway level; (2) spatial techniques localizing kinase activity to morphological compartments; (3) functional studies manipulating kinase activity and assessing morphological consequences; (4) clinical correlation: do tumors with high predicted PLK1 associations respond better to PLK1 inhibitors?
+
+\textbf{Hypothesis 3 - Immune Kinase Localization:} LCK associations may reflect immune infiltration patterns at specific HPC sites. Testing this requires: (1) immune deconvolution (EPIC/TIMER) correlating immune fractions with LCK associations; (2) multiplexed imaging or flow cytometry confirming immune cell density at tumor-stroma regions; (3) spatial transcriptomics identifying immune cell types at LCK-associated HPC locations; (4) investigation of whether immune organization (rather than abundance alone) predicts immunotherapy response.
+
+\textbf{Hypothesis 4 - Transcriptional Control Switching:} Transcription factors E2F4 (high-risk) and EGR1/ZNF263 (low-risk) may reflect different transcriptional control mechanisms. Testing this requires: (1) ChIP-seq or ATAC-seq in high-risk vs. low-risk tumors identifying target genes; (2) single-cell RNA-seq determining which cell types express these factors; (3) functional perturbations (CRISPRi) of each factor; (4) assessment of whether transcriptional switching is reversible or is a hallmark of irreversible transformation.
+
+These hypotheses should be prioritized for experimental validation, including spatial transcriptomics, functional perturbation studies, and mechanistic work in model systems, before translating findings to clinical applications.
+
+\subsection{Limitations}
+
+Our study has critical limitations that impact interpretation and generalizability:
+
+\textbf{Study Design:} Our analysis is cross-sectional, comparing high-risk and low-risk groups stratified by median survival score, not following individual tumors through progression. This design cannot establish causality, disease progression mechanisms, or temporal dynamics. Causal language about "progression" or "remodeling" is inappropriate; only cross-sectional associations between risk group and molecular-morphological relationships are demonstrated. The survival-based stratification introduces potential circularity: since high-risk status is defined by short survival, and molecular features correlate with survival, associations may partly reflect the group definition rather than independent biological relationships.
+
+\textbf{Molecular Resolution:} Pathway, kinase, and transcription factor activities are inferred from bulk RNA-seq using prior knowledge networks (PROGENy, DoRothEA). These represent sample-averaged estimates that: (1) aggregate signals across tumor, stromal, and immune cells; (2) depend on the accuracy of prior gene-activity relationships; (3) cannot distinguish cell-type-specific activities. Associations with HPC-derived features cannot be interpreted as spatial localization of activities without orthogonal spatial data. Spatial transcriptomics (10x Visium, Merscope) or multiplexed imaging (MERFISH, multiplex IF) would be required to validate whether inferred activities localize to predicted HPC compartments.
+
+\textbf{Morphological Phenotypes:} HPCs are discrete clusters based on self-supervised learning embeddings. While HPCs capture meaningful tissue states, they: (1) may not reflect biologically distinct compartments; (2) represent discrete categories potentially missing continuous morphological transitions; (3) are specific to the self-supervised learning approach and training data. Alternative morphological representation methods could yield different findings. Validation of HPC biological significance requires independent pathologist review (blinded to risk group) and functional enrichment analysis.
+
+\textbf{Statistical Rigor:} Primary results use PIP > 0.5 threshold corresponding to the median probability model without explicit multiple testing correction. Approximately 1,000 pathway-HPC × kinase-HPC × TF-HPC tests are conducted, creating high false positive rates without FDR control. FDR-corrected q-values (Benjamini-Hochberg) substantially reduce the number of significant associations and should be used as primary findings. Permutation testing with shuffled risk group labels is needed to assess whether observed group differences could arise by chance. We acknowledge these corrected results in Supplementary Table S2.
+
+\textbf{Covariate Adjustment:} The primary analysis does not adjust for clinical variables that likely confound associations. EGFR, TP53, and KRAS mutation status, tumor stage, smoking history, age, sex, and tumor purity are known to differ between risk groups and influence both morphology and molecular activities. Covariate-adjusted models are essential; results may be substantially attenuated after adjustment (see covariate balance analysis in Supplementary Table S1).
+
+\textbf{Graph Construction:} Graph construction relies on G-cross spatial metric with fixed radius (R=5), reciprocal edge retention, and soft-impute matrix completion. These choices are not validated. Sensitivity analysis varying R, edge definition, and imputation strategy is required to determine if major findings depend on these hyperparameters. Alternative graph construction approaches (correlation-based, mutation-driven, etc.) could yield different results.
+
+\textbf{External Validation:} All findings derive from TCGA-LUAD (n=402). Generalizability to other LUAD cohorts, LUSC, or other cancer types is unknown. Validation in independent external cohorts with similar or complementary data types is essential before drawing broader biological conclusions.
+
+\textbf{Reproducibility:} Full analysis code, random seeds, MCMC diagnostics (trace plots, ESS, Rhat), posterior predictive checks, and prior sensitivity analyses are not yet publicly available. This limits independent verification of results.
+
+\subsection{Future Directions}
+
+Priority directions for future work include: (1) external cohort replication in independent LUAD/LUSC samples (HEST-1k, HTAN, or other publicly available cohorts with H&E and RNA-seq); (2) spatial transcriptomics validation localizing inferred molecular activities to morphological compartments; (3) immune deconvolution (EPIC/TIMER) to address cellular compositional confounding; (4) functional perturbation studies (CRISPR, small molecules) testing causal hypotheses in model systems; (5) longitudinal or serial biopsy studies tracking molecular-morphological relationships during disease evolution; (6) systematic sensitivity analysis of graph construction choices; (7) complete statistical documentation including MCMC diagnostics, posterior checks, and FDR-corrected results; (8) release of code and data for reproducibility.
+
+
+
+
+\section{Methods}
+
+\subsection{Graph on Vector Regression}
+
+We employed a two-stage Bayesian non-parametric regression framework \cite{ma2022semi} to model the relationship among LUAD, functional connectivity networks and pathway activity scores while addressing computational scalability and interpretability challenges. For each participant $i (i = 1, ..., n)$, our data structure comprised three components: (1) a continuous scalar outcome variable $y_i \in \Re$ representing biological activities measured by individual pathways, with higher scores indicating greater activity to functionality of that particular pathway; (2) a binary undirected network $G_i$ represented as a symmetric $p \times p$ adjacency matrix where $p = 20$ corresponds to HPC regions (nodes) defined by morphologically similar clusters  which constitute an atlas of histomorphological phenotypes \citep{claudio2024mapping}, revealing trajectories from benign to malignant tissue via inflammatory and reactive phenotypes, with each matrix element $g_i(k,l)$ taking value 1 if a functional connection exists between regions $k$ and $l$, and $0$ otherwise; and (3) supplementary covariates $z_i$, a q-dimensional vector containing demographic and clinical variables including participant age (continuous). We constructed the binary graph matrices $G_i$ as discussed in the subsequent section~\ref{ssec: data description}. The edge set $e_i$, representing the vectorized upper triangle of $G_i$ excluding diagonal elements, contained $p(p-1)/2 = 190$ binary features. 
+
+\subsubsection{First Stage - Latent Scale Network Representation}
+In the first stage, we projected each participant's binary network onto a lower-dimensional continuous latent space using a latent scale probability model that respects network topology. Specifically, we modeled the probability $\pi_{i,kl}$ that an edge exists among nodes $k$ and $l$ in participant $i$'s network through a logistic link function: $log(\pi_{i,kl}/(1-\pi_{i,kl})) = a_i + u_{ik}^T \Lambda_i u_{il}$, where the log-odds of edge presence depends on three key parameter sets. First, $u_{ik} = (u_{ik,1}, ..., u_{ik,d})^T$ represents a $d$-dimensional latent scale vector characterizing the position of node $k$ in a continuous latent space for participant $i$, where $d$ denotes the number of channels or latent dimensions (typically $d \ll p$, with $d \in \{3,4,5\}$, we only evaluated $d=3$ latent scales in our analyses). These latent scales capture the functional role or position of each lung region in the network - nodes with similar latent scale patterns are more likely to be connected. Second, $a_i \in \Re$ is a subject-specific scalar intercept that controls the overall density or connectivity level of participant $i$'s network, with larger $a_i$ values indicating denser networks. Third, $\Lambda_i = diag(\lambda_{i1}, \ldots, \lambda_{id})$ is a $d \times d$ diagonal weight matrix where each diagonal element $\lambda_{ir} \in \{0,1\}$ indicates whether channel $r$ contributes to modeling participant $i$'s network. To ensure model identifiability with respect to rotation and scaling, we imposed constraints: the first element of all latent scale vectors was fixed at a constant value $b = 0.5$, and the first diagonal element of $\Lambda_i$ was fixed at $\lambda_{i1} = 1$. For the remaining weight matrix elements $(r = 2,\ldots, d)$, we assigned Bernoulli priors $\lambda_{ir} \sim Bernoulli(\pi)$, enabling data-driven selection of which latent channels are necessary for adequately representing each individual's network structure. The inclusion probability $\pi$ itself was assigned a $Beta(a_{\pi}, b_{\pi})$ hyperprior, with $a_{\pi} = 1$ and $b_{\pi} \in \{10, 25\}$ in analyses, corresponding to prior expectations that $1/(a_{\pi} + b_{\pi}) = 9\%$ or $4\%$ of channels would be active. For the latent scale elements, we specified Gaussian priors $u_{ik,r} \sim N(0, \sigma_u^2)$ independently for $k = 1, \ldots, p$ and $r = 1, \ldots, d$ (excluding the fixed first element), where $\sigma_u^2 = 2$ provides moderately informative regularization. Similarly, the intercept received a Gaussian prior $a_i \sim N(0, \sigma_a^2)$ with $\sigma_a^2 = 2$. We estimated these parameters using an efficient Expectation-Maximization (EM) algorithm that treats edge-specific Polya-Gamma auxiliary variables $\omega_{i,kl} \sim PolyaGamma(1, \delta_{i,kl})$ as latent data, where $\delta_{i,kl} = a_i + u_{ik}^T \Lambda_i u_{il}$. This data augmentation scheme enables closed-form updates in the M-step, providing substantial computational advantages over Markov chain Monte Carlo alternatives for high-dimensional networks. 
+
+
+\subsubsection{Second Stage - Gaussian Process Regression with Node Selection}
+In the second stage, we embedded the compressed network representations $\{\Lambda_i^{1/2} U_i, a_i\}$ obtained from stage one, along with supplementary covariates $z_i$, into a flexible non-parametric regression framework. The regression model specification was $y_i = \phi(\Lambda_i^{1/2} U_i, a_i, z_i) + \epsilon_i$, where $\epsilon_i \sim N(0, \tau^{-1})$ represents independent Gaussian residual error with precision parameter $\tau$ (inverse variance), and $\phi(.): \Re^{d\times p} \times \Re \times \Re^q \rightarrow \Re$ is an unknown smooth function mapping from the combined feature space to the outcome. Rather than assuming any parametric form for $\phi(.)$, we assigned it a Gaussian process prior, enabling the data to determine the functional relationship including non-linear effects and unknown interactions between network features and covariates. Specifically, $\phi \sim GP(0, K)$, where 0 denotes the zero mean function and K defines the covariance structure. The covariance kernel for participants $i$ and $i'$ was specified as $K(i,i') = \psi_1 exp\{-\psi_u \sum_{j=1}^p \beta_j \|\Lambda_i^{1/2} u_{ij} - \Lambda_{i'}^{1/2} u_{i'j}\|_2^2 - \psi_a(a_i - a_{i'})^2 - \psi_z\|z_i - z_{i'}\|_2^2\}$, decomposing similarity into three additive components on the log scale. The scale parameter $\psi_1 > 0$ controls the overall magnitude of variation in $\psi(.)$, essentially determining the prior variance of the function values; we assigned $\psi_1 \sim InverseGamma(a_{\psi_1}, b_{\psi_1})$ with $a_{\psi_1} = 2$ and $b_{\psi_1} = 50$, yielding a relatively diffuse prior with mean $50$. The lengthscale parameters $\psi_u, \psi_a, \psi_z > 0$ govern the smoothness or correlation structure of $\psi(.)$ with respect to networks, intercepts, and supplementary covariates respectively where larger length-scale values indicate that $\psi(.)$ varies more smoothly (remains similar over larger distances in the input space). The network component involves node-specific distances $\|\Lambda_i^{1/2} u_{ij} - \Lambda_{i'}^{1/2} u_{i'j}\|_2^2$, measuring the squared Euclidean distance among weighted latent positions of node $j$ across participants $i$ and $i'$, where $\|.\|_2$ denotes the L2 norm. 
+
+
+The weighting by $\beta_j = -log(\rho_j)$, where $\rho_j \in[0,1]$, enables differential importance of nodes-when $\beta_j = 0$ (i.e., $\rho_j = 1$), node $j$ contributes nothing to the distance calculation and effectively does not influence predictions. To perform node selection, we imposed spike-and-slab priors on the $\rho_j$ parameters: $\pi(\rho_j\mid \gamma_j) = \gamma_j. I_{0 < \rho_j \leq 1} + (1-\gamma_j).\delta_1(\rho_j)$, where $I{.}$ is an indicator function, $\delta_1(.)$ represents a point mass at 1, and $\gamma_j \sim Bernoulli(\pi^*)$ is a binary inclusion indicator with $\gamma_j = 1$ indicating node $j$ is active. The hyperparameter $\pi^*$ represents the prior expected proportion of nodes contributing to the outcome, assigned a uniform prior $\pi^* \sim Beta(a_{\pi^*}, b_{\pi^*})$ with $a_{\pi^*} = b_{\pi^*} = 1$. When $\gamma_j = 0$, we have $\rho_j = 1$ and thus $\beta_j = 0$, completely excluding node $j$; when $\gamma_j = 1$, $\rho_j$ is estimated from a continuous uniform distribution on $(0,1]$, allowing node $j$ to contribute-with data-informed strength. We implemented posterior inference via Markov chain Monte Carlo sampling with $10,000$ total iterations after discarding an initial $5,000$ iterations as burn-in. The residual precision $\tau$ was updated from its $Gamma(a_{\tau}, b_{\tau})$ conjugate prior with $a_{\tau} = 25, b_{\tau} = 1$, while lengthscale parameter
+s were updated via Metropolis-Hastings random walk proposals on the log scale with proposal standard deviation $0.01$, tuned to achieve acceptance rates between 20-40\%. For prediction on test participants, we leveraged the Gaussian process property that joint distribution of observed and test outcomes is multivariate normal, computing posterior predictive means $E[y^*|y] = K_* (K + \tau^{-1}I_n)^{-1} y$ and variances, where $K_*$ contains covariances among test and training participants. We identify nodes as significantly associated with resilience if their posterior inclusion probability (PIP) $P(\gamma_j = 1|data)$ exceeded 0.5 i.e $PIP>0.5$, this also provides the median probability model (MPM) \cite{barbieri2004optimal}, though we also evaluated alternative thresholds controlling false discovery rates but used the MPM for model evaluation. This framework enables simultaneous prediction with uncertainty quantification and interpretable feature selection at the biologically meaningful node level rather than the intractable edge level.
+
+\subsection{Statistical Inference and Multiple Testing Correction}
+
+We identified associations using posterior inclusion probabilities (PIPs) under the median probability model framework, with primary threshold PIP > 0.5 \cite{barbieri2004optimal}. This threshold identifies associations with >50\% posterior probability of inclusion. However, with approximately 1,000 pathway-HPC × kinase-HPC × TF-HPC pairs tested across two risk groups, multiple testing correction is essential. We computed false discovery rate-adjusted q-values using the Benjamini-Hochberg procedure, with results reported in Supplementary Table S2. We also performed permutation testing: risk group labels were shuffled 1,000 times, models refit, and null distribution of association counts generated to assess whether observed group differences could arise by chance. Associations are considered robust if they: (1) survive FDR correction (q < 0.05); (2) appear in permutation testing p-value < 0.05; and (3) remain significant after covariate adjustment.
+
+We additionally conducted threshold sensitivity analysis, reporting results across PIP values {0.3, 0.5, 0.7, 0.9} to evaluate robustness to threshold choice. Threshold sensitivity analysis examines whether major findings depend on the arbitrary PIP > 0.5 cutoff.
+
+\subsection{Covariate Adjustment and Confounding Assessment}
+
+All regression models were adjusted for age (continuous, centered), sex (binary), AJCC stage (I/II vs. III/IV), EGFR mutation status (mutant vs. wildtype), TP53 mutation status, KRAS mutation status, smoking history (never/former/current), and tumor purity (continuous). We assessed covariate imbalance between high-risk and low-risk groups via t-tests (continuous variables) and chi-square tests (categorical variables), reporting results in Supplementary Table S1. Variables with p < 0.05 univariate imbalance were mandatory covariates; others were included to control potential confounding. Model specification was: $y_i = \phi(\Lambda_i^{1/2} U_i, a_i, z_i) + \epsilon_i$, where $z_i$ included all covariates listed above.
+
+\subsection{Graph Construction Hyperparameter Justification}
+
+Graph construction employed the G-cross spatial metric with fixed radius R = 5 (distance of 5 patches). We assessed sensitivity to this choice by refitting models with R ∈ {2, 3, 5, 7, 10}, computing the proportion of associations replicated across values (Jaccard similarity). We retained reciprocal (bidirectional) edges only from the directed G-cross matrix, justified as capturing strong morphological co-occurrence patterns. Soft-impute matrix completion was used for missing nodes, assuming low-rank adjacency structure; we evaluated robustness by: (1) comparing results with vs. without imputation; (2) testing alternative imputation methods (zero-filling, k-NN); (3) varying imputation rank parameter. Latent dimension (d = 3) was selected based on cross-validation comparisons with d ∈ {2, 3, 4, 5}. Sensitivity analyses are reported in Supplementary Table S5.
+
+\subsection{Data Description}\label{ssec: data description}
+
+We leveraged 402 H\&E stained whole slide images (WSIs) and bulk RNA sequencing from The Cancer Genome Atlas (TCGA) of lung adenocarcinoma (LUAD). Clinical metadata included survival information (censorship and follow-up time). Based on survival time and censorship, we assigned a ranking using GuanRank \cite{huang2017complete}, then stratified by median rank into high-risk ($n = 200$, mean survival 88.1 months) and low-risk ($n = 202$, mean survival 232.2 months) groups. We emphasize that this stratification is exploratory and introduces potential circularity in analysis; results should be interpreted as associations between risk-stratified groups and molecular features, not as disease progression mechanisms. AJCC stage, EGFR/TP53/KRAS mutation status, smoking history, and tumor purity were obtained from TCGA clinical and genomic data resources (Genomic Data Commons). In the following sections, we describe how patient-specific HPC graphs and pathway activity scores were constructed.
+
+\subsubsection{Obtaining Spatially Informed Graphs}
+To obtain features from the H\&E data, we utilized histomorphological phenotypic clusters (HPCs) determined by \cite{claudio2024mapping}. These HPCs were discovered using self-supervised learning, and represent patches of the WSIs which share similar morphological and phenotypic characteristics. We leveraged the top 20 HPCs which were associated with LUAD survival. To this end, we constructed spatial graph networks for each sample in the dataset. Each patch in the WSI is associated with an HPC and with a spatial coordinate. With this information, we set nodes to be the unique HPCs in the sample (each graph having $|V|=20$), and edges to encode the spatial interaction among two nodes (or HPCs). If the HPC was not present in the sample, then we set all incoming and outgoing edges to value 0. Otherwise, the edges encode the G-cross spatial interaction between pairs of HPC types, given by the following equation \cite{spatstat_book}:
+\begin{equation}
+    G_{i,j} (R) =  \frac{1}{N} \sum_{r=0}^{R} \sum_{k=1}^{N} I\{d_{i[k],j} < r\}
+\end{equation}
+where $i$ and $j$ are two HPC types, $N$ is the number of instances of HPC $i$ in the sample, $d_{i[k],j}$ is the nearest neighbor distance, and $R$ is the radius of computation, which we set to $5$, indicating a distance of 5 patches. Note that G-cross is asymmetric, so we leverage directed edges among nodes. We construct an undirected adjacency matrix by retaining only reciprocal connections i.e., edges present in both directions in the original directed graph, it is defined as , $Adj = (A>0 \land A^T>0 )$ ensuring that an undirected edge between nodes  $i$ and $j$ exists only if both $A_{ij}$ and $A_{ji}$ are nonzero. This procedure isolates mutual relationships and removes unidirectional links, producing a symmetric representation suitable for analyzing bidirectional or co-occurrence structures in the network data. Here we note that we utilized G-cross but any other metric can be used to obtain the graphs, though the interpretation will be different if other metrics are used. By construction some of the nodes are considered 0's, thus we impute those missing edges in the graph. We addressed the issue of missing nodes in these spatially observed graph adjacency matrices, which manifested as all-zero rows and columns in the observed data. These missing nodes likely arose from technical limitations in data acquisition rather than true absence of connectivity. We employed soft imputation, a low-rank matrix completion method, to recover the missing edge weights by leveraging the observed connectivity patterns in the remaining network structure. The algorithm assumes that the adjacency matrix has an underlying low-rank structure, allowing it to predict plausible edge weights for the missing nodes based on the latent relationships among observed nodes. After imputation, we applied post-processing steps including diagonal normalization, non-negativity constraints, and symmetrization to ensure the resulting adjacency matrix satisfied the required properties of an undirected weighted graph. Importantly, our approach only imputed entries for completely unobserved nodes while preserving all structural zeros in partially observed nodes, thereby avoiding the introduction of spurious edges. This imputation strategy enabled us to retain samples that would otherwise be excluded due to incomplete node-level data, increasing statistical power for downstream network analyses. Once the complete adjacency matrices are obtained, acknowledging that these adjacency matrices cannot be directly utilized, we circumvented this limitation through covariance matrix transformations. To estimate an overall covariance pattern i.e the graph, one can utilize the following approach to obtain valid covariance matrix from the adjacency matrix \cite{rasmussen_gaussian_2008}. A function $g(x)$ of a variable $x$ can be expressed as $(g(x)=c+\sum_{i} g_i(x_i))$ in an additive way \cite{hastie_exploring_1990}, we thus estimate the covariance utilizing the additive decomposition of additive function of Gaussian processes defined over a particular domain \cite{bishop_pattern_2006}. From this we derive the partial correlations from the inverse-covairance matrix and obtain the binary graph (Figure~\ref{fig: Graph-on-vector pipeline} (1. c)). 
+
+
+\subsubsection{Pathway Activities}
+
+We employed the decoupleR \citep{badia2022decoupler} framework to infer quantitative activity scores for pathways, transcription factors (TFs), and kinases from bulk RNA-seq data, enabling reconstruction of the regulatory hierarchy from upstream signaling events to downstream transcriptional responses. Beginning with a log-normalized gene expression matrix, decoupleR integrates prior biological knowledge networks including pathway-to-gene relationships (e.g., PROGENy), TF-target gene interactions (e.g., DoRothEA), and kinase-substrate phosphorylation networks to estimate the activities of these regulatory entities. The core analytical approach uses the Multivariate Linear Model (MLM), which models the observed expression profile $Y \in \Re^G$ (with $G$ denoting the number of genes) is modeled as a linear combination of pathway activity coefficients $\boldsymbol{\beta} \in \Re^P$ (with $P$ pathways) and a matrix of predefined pathway-to-gene weights $W \in \Re^{G \times P}$, such that
+$Y = W\boldsymbol{\beta} + \boldsymbol{\varepsilon}$, where $\boldsymbol{\varepsilon}$ represents residual noise. The model jointly estimates the contribution of all pathways by solving $\hat{\boldsymbol{\beta}} = (W^\top W)^{-1} W^\top Y$, thereby accounting for shared downstream genes and correlated regulatory effects. The estimated regression coefficients $\hat{\beta}_p$ represent the relative influence of each pathway in explaining the observed expression pattern, and their associated $t$-statistics are used as pathway activity scores. Positive $t$-values indicate activation, whereas negative values suggest repression. Thus, the MLM integrates prior biological knowledge with multivariate regression to derive pathway-level signals that robustly capture coordinated transcriptional responses in bulk RNA-seq data.
+
+This multilayered activity inference captures the interconnected regulatory cascade governing cellular phenotypes. Kinases, as upstream signaling enzymes, translates extracellular signals and intracellular cues through phosphorylation cascades that ultimately activate or repress specific pathways and transcription factors. The inferred kinase activities reveal dysregulated signaling dynamics that are invisible at the transcriptional level, since kinase function is primarily controlled through post-translational modifications, protein localization, and allosteric regulation rather than changes in mRNA abundance. These kinases regulate pathway activities-coordinated transcriptional programs such as proliferation, apoptosis, or immune response representing intermediate regulatory modules that integrate multiple upstream signals. In turn, pathway activation often manifests through the engagement of specific transcription factors, which serve as the proximal regulators that directly control gene expression by binding to promoter and enhancer regions. By inferring TF activities from their downstream transcriptional signatures, we identify master regulators that orchestrate observed gene expression changes, even when TF mRNA levels remain unchanged due to post-transcriptional regulation or protein-protein interactions.
+Together, this integrated analysis transforms bulk RNA-seq from a static readout of mRNA abundance into a dynamic map of cellular regulation spanning signaling, pathway, and transcriptional layers. By connecting kinase activities to pathway perturbations and TF engagement, researchers can trace how upstream signaling events propagate through regulatory networks to produce observed transcriptional phenotypes. This approach is particularly valuable for identifying actionable therapeutic targets in disease contexts, understanding drug resistance mechanisms, predicting cellular responses to perturbations, and generating mechanistic hypotheses about complex biological processes. Moreover, it enables the extraction of signaling-level and regulatory-level information from existing RNA-seq datasets that would otherwise require expensive orthogonal experiments such as phosphoproteomics or ChIP-seq, thereby maximizing the biological insights gained from transcriptomic profiling and revealing the regulatory logic governing cellular behavior at the molecular level.
+
+
+
+
+\subsection{External Cohort Validation Strategy}
+
+To assess reproducibility and generalizability beyond TCGA, we are conducting validation in independent LUAD/LUSC cohorts. We identified candidate cohorts with both H\&E whole slide images and RNA-seq data:
+
+\textbf{Primary Validation Cohort:} HEST-1k (Histopathology Efficient Self-Supervised Learning) contains >1,000 H\&E slides across multiple cancer types with RNA-seq data for many samples. We are identifying LUAD/LUSC samples with both modalities (target n=100-150 LUAD, 50-100 LUSC).
+
+\textbf{Secondary Validation Cohort:} HTAN (Human Tumor Atlas Network) includes LUAD/LUSC samples from multiple institutions with WSI + RNA-seq + some spatial transcriptomics data (10x Visium, Merscope). This enables both morphological-transcriptomic replication and spatial validation.
+
+\textbf{Validation Approach:} For each external cohort, we will: (1) extract HPC labels using the TCGA-trained self-supervised embedding model (Barlow Twins); (2) construct adjacency graphs using identical G-cross parameters (R=5, reciprocal edges); (3) infer molecular activities using decoupleR; (4) refit graph-on-vector models using stage (not survival-based grouping) as primary stratification; (5) compute Jaccard similarity and Pearson correlation of associations with TCGA results; (6) validate findings via spatial transcriptomics (if available). Success is defined as Jaccard similarity > 0.6 and PearsonR > 0.6 for major associations.
+
+\section{Data and Code Availability}
+
+All 402 H\&E stained whole slide images, clinical and survival data, and bulk RNA sequencing from The Cancer Genome Atlas (TCGA) of lung adenocarcinoma (LUAD) are available at the Genomic Data Commons portal (\url{https://gdc.cancer.gov/}). Histomorphological phenotype clusters are from \cite{claudio2024mapping}.
+
+Complete analysis code, including data preprocessing, model fitting, sensitivity analyses, and figure generation, will be released at \url{https://github.com/sagnikbhadury/GOV-LUAD} with: (1) data manifest and case ID linkage; (2) R session information and package versions; (3) random seeds for all analyses; (4) full PIP and FDR q-value tables; (5) MCMC diagnostics (trace plots, ESS, Rhat, posterior predictive checks); (6) external cohort analysis pipelines. R package implementation of graph-on-vector methodology with vignettes and tutorials will be available at \url{https://github.com/sagnikbhadury/GOV}.
+
+All processed HPC adjacency matrices, inferred molecular activity scores, and association results will be deposited in a public data repository [repository TBD] to enable independent verification and future meta-analyses. 
+
+\section{Author Contributions}
+S.B., S.K. and A.R. conceived the study and developed the statistical methodology. S.B. implemented the computational framework and contributed to manuscript writing. S.B. and A.T. contributed to data processing and validation. D.K. provided biological support.
+
+\section{Acknowledgment}
+
+During the preparation of this manuscript, the authors used University of Michigan GPT for language editing and sentence-level phrasing suggestions. No AI tool was used to generate results, statistical analyses, proofs, or scientific conclusions. The authors reviewed, verified, and edited all content and take full responsibility for the manuscript. All authors contributed to manuscript preparation and approved the final version. 
+
+\section{Declaration of Interests}
+
+A.R. serves as a member for Voxel Analytics LLC and consults for Genophyll LLC, Tempus Inc, Telperian, and serves as faculty advisor to TCS Ltd. He also serves as an Affiliate Investigator for the Fred Hutch Cancer Center, and Satish Dhawan Visiting Chair Professor at the Indian Institute of Science Bangalore, India. All other authors declare no competing interests.
+
+\section{Funding}
+This work was supported by NIH grants R37CA214955-01A1 (A.R.).
+
+
+\newpage
+\bibliography{reference.bib} % common bib file
+\end{document}
