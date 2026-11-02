@@ -6,6 +6,27 @@ Code, analysis scripts and processed outputs for
 > and Transcriptomic Features in Lung Adenocarcinoma.* npj Artificial
 > Intelligence (2026). DOI 10.1038/s44387-026-00178-z
 
+![Figure 1. Schematic of the graph-on-vector workflow](man/figures/Figure1.png)
+
+**Figure 1. Schematic of the graph-on-vector workflow used to relate
+histomorphological phenotype clusters to inferred molecular activities in lung
+adenocarcinoma.** **a**, Whole-slide H&E image of a LUAD case with tiles shaded
+by coarse tissue morphology. **b**, The same slide with tiles shaded by
+histomorphological phenotype cluster (HPC); the 20 survival-associated HPCs are
+used throughout. **c**, The participant-specific spatial HPC graph derived from
+panel b (nodes are HPCs, edges are retained G-cross spatial relations).
+**d**, Log-normalised bulk RNA-seq expression matrix. **e**, decoupleR activity
+inference from the expression matrix and three prior-knowledge networks
+(kinase-substrate, PROGENy pathway, DoRothEA transcription-factor targets).
+**f**, The resulting per-participant activity vector. **g**, The graph-on-vector
+regression framework, which takes the graph of panel c and the activity vector
+of panel f and returns node-level posterior inclusion probabilities (PIPs).
+**h**-**j**, PIP heat maps for the pathway, kinase and transcription-factor
+layers (high-risk group left, low-risk group right; a dot marks PIP > 0.5).
+**k**, Kaplan-Meier overall-survival curves of the two survival-rank-defined
+groups. The schematic illustrates the workflow; the quantitative post-burn-in
+PIPs are in `results/audit/post_burnin_pips.csv` and Figure 2 of the paper.
+
 The repository has three parts.
 
 | Part | Where | What it is |
