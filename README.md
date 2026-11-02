@@ -102,4 +102,4 @@ MIT (see `LICENSE`).
 
 ## Contact
 
-Sagnik Bhadury (sagnik.bhadury@gmail.com)
+Sagnik Bhadury (bhadury@upenn.edu)
