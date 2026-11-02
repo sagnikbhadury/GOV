@@ -4,7 +4,11 @@ Code, analysis scripts and processed outputs for
 
 > Bhadury S. et al. *Graph-on-Vector Association Modeling of Histopathological
 > and Transcriptomic Features in Lung Adenocarcinoma.* npj Artificial
-> Intelligence (2026). DOI 10.1038/s44387-026-00178-z
+> Intelligence (2026, accepted 1 Nov 2026; in production).
+>
+> DOI 10.1038/s44387-026-00178-z has been assigned by the journal and will
+> resolve once the article is published online; until then the link returns
+> "DOI not found".
 
 ![Figure 1. Schematic of the graph-on-vector workflow](man/figures/Figure1.png)
 
