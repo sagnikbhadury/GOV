@@ -1,0 +1,25 @@
+"risk_group","molecular_layer","threshold","selected","total_tests"
+"high","Pathway",0.3,136,280
+"high","Pathway",0.5,89,280
+"high","Pathway",0.7,48,280
+"high","Pathway",0.9,24,280
+"low","Pathway",0.3,52,280
+"low","Pathway",0.5,32,280
+"low","Pathway",0.7,14,280
+"low","Pathway",0.9,4,280
+"high","Kinase",0.3,43,280
+"high","Kinase",0.5,20,280
+"high","Kinase",0.7,13,280
+"high","Kinase",0.9,5,280
+"low","Kinase",0.3,7,280
+"low","Kinase",0.5,1,280
+"low","Kinase",0.7,1,280
+"low","Kinase",0.9,0,280
+"high","Transcription factor",0.3,93,280
+"high","Transcription factor",0.5,36,280
+"high","Transcription factor",0.7,20,280
+"high","Transcription factor",0.9,10,280
+"low","Transcription factor",0.3,64,280
+"low","Transcription factor",0.5,38,280
+"low","Transcription factor",0.7,25,280
+"low","Transcription factor",0.9,10,280

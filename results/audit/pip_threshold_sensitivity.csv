@@ -1,0 +1,25 @@
+"risk_group","molecular_layer","threshold","selected","total_tests"
+"HR","Kinase",0.3,41,280
+"HR","Kinase",0.5,18,280
+"HR","Kinase",0.7,15,280
+"HR","Kinase",0.9,5,280
+"LR","Kinase",0.3,12,280
+"LR","Kinase",0.5,2,280
+"LR","Kinase",0.7,1,280
+"LR","Kinase",0.9,0,280
+"HR","Pathway",0.3,146,280
+"HR","Pathway",0.5,97,280
+"HR","Pathway",0.7,58,280
+"HR","Pathway",0.9,35,280
+"LR","Pathway",0.3,59,280
+"LR","Pathway",0.5,35,280
+"LR","Pathway",0.7,26,280
+"LR","Pathway",0.9,11,280
+"HR","Transcription factor",0.3,98,280
+"HR","Transcription factor",0.5,49,280
+"HR","Transcription factor",0.7,21,280
+"HR","Transcription factor",0.9,10,280
+"LR","Transcription factor",0.3,70,280
+"LR","Transcription factor",0.5,43,280
+"LR","Transcription factor",0.7,33,280
+"LR","Transcription factor",0.9,18,280

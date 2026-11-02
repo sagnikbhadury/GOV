@@ -1,0 +1,1681 @@
+"risk_group","molecular_layer","activity","hpc_index","hpc","pip"
+"HR","Kinase","AKT1",1,"hpc_0",0.266
+"HR","Kinase","AKT1",2,"hpc_1",0.074
+"HR","Kinase","AKT1",3,"hpc_10",0.298
+"HR","Kinase","AKT1",4,"hpc_14",0.1
+"HR","Kinase","AKT1",5,"hpc_15",0.104
+"HR","Kinase","AKT1",6,"hpc_16",0.084
+"HR","Kinase","AKT1",7,"hpc_20",0.122
+"HR","Kinase","AKT1",8,"hpc_21",0.13
+"HR","Kinase","AKT1",9,"hpc_22",0.1
+"HR","Kinase","AKT1",10,"hpc_27",0.114
+"HR","Kinase","AKT1",11,"hpc_3",0.1
+"HR","Kinase","AKT1",12,"hpc_31",0.136
+"HR","Kinase","AKT1",13,"hpc_32",0.118
+"HR","Kinase","AKT1",14,"hpc_37",0.098
+"HR","Kinase","AKT1",15,"hpc_39",0.104
+"HR","Kinase","AKT1",16,"hpc_41",0.216
+"HR","Kinase","AKT1",17,"hpc_44",0.088
+"HR","Kinase","AKT1",18,"hpc_7",0.082
+"HR","Kinase","AKT1",19,"hpc_8",0.094
+"HR","Kinase","AKT1",20,"hpc_9",0.096
+"HR","Kinase","ATM",1,"hpc_0",0.378
+"HR","Kinase","ATM",2,"hpc_1",0.11
+"HR","Kinase","ATM",3,"hpc_10",0.3
+"HR","Kinase","ATM",4,"hpc_14",0.138
+"HR","Kinase","ATM",5,"hpc_15",0.148
+"HR","Kinase","ATM",6,"hpc_16",0.126
+"HR","Kinase","ATM",7,"hpc_20",0.118
+"HR","Kinase","ATM",8,"hpc_21",0.1
+"HR","Kinase","ATM",9,"hpc_22",0.128
+"HR","Kinase","ATM",10,"hpc_27",0.184
+"HR","Kinase","ATM",11,"hpc_3",0.112
+"HR","Kinase","ATM",12,"hpc_31",0.172
+"HR","Kinase","ATM",13,"hpc_32",0.154
+"HR","Kinase","ATM",14,"hpc_37",0.15
+"HR","Kinase","ATM",15,"hpc_39",0.14
+"HR","Kinase","ATM",16,"hpc_41",0.262
+"HR","Kinase","ATM",17,"hpc_44",0.142
+"HR","Kinase","ATM",18,"hpc_7",0.108
+"HR","Kinase","ATM",19,"hpc_8",0.154
+"HR","Kinase","ATM",20,"hpc_9",0.124
+"HR","Kinase","CDK1",1,"hpc_0",0.214
+"HR","Kinase","CDK1",2,"hpc_1",0.1
+"HR","Kinase","CDK1",3,"hpc_10",0.166
+"HR","Kinase","CDK1",4,"hpc_14",0.102
+"HR","Kinase","CDK1",5,"hpc_15",0.11
+"HR","Kinase","CDK1",6,"hpc_16",0.096
+"HR","Kinase","CDK1",7,"hpc_20",0.116
+"HR","Kinase","CDK1",8,"hpc_21",0.112
+"HR","Kinase","CDK1",9,"hpc_22",0.09
+"HR","Kinase","CDK1",10,"hpc_27",0.122
+"HR","Kinase","CDK1",11,"hpc_3",0.084
+"HR","Kinase","CDK1",12,"hpc_31",0.116
+"HR","Kinase","CDK1",13,"hpc_32",0.12
+"HR","Kinase","CDK1",14,"hpc_37",0.098
+"HR","Kinase","CDK1",15,"hpc_39",0.108
+"HR","Kinase","CDK1",16,"hpc_41",0.152
+"HR","Kinase","CDK1",17,"hpc_44",0.096
+"HR","Kinase","CDK1",18,"hpc_7",0.102
+"HR","Kinase","CDK1",19,"hpc_8",0.114
+"HR","Kinase","CDK1",20,"hpc_9",0.114
+"HR","Kinase","CDK2",1,"hpc_0",0.262
+"HR","Kinase","CDK2",2,"hpc_1",0.098
+"HR","Kinase","CDK2",3,"hpc_10",0.22
+"HR","Kinase","CDK2",4,"hpc_14",0.13
+"HR","Kinase","CDK2",5,"hpc_15",0.126
+"HR","Kinase","CDK2",6,"hpc_16",0.11
+"HR","Kinase","CDK2",7,"hpc_20",0.128
+"HR","Kinase","CDK2",8,"hpc_21",0.118
+"HR","Kinase","CDK2",9,"hpc_22",0.13
+"HR","Kinase","CDK2",10,"hpc_27",0.136
+"HR","Kinase","CDK2",11,"hpc_3",0.104
+"HR","Kinase","CDK2",12,"hpc_31",0.138
+"HR","Kinase","CDK2",13,"hpc_32",0.102
+"HR","Kinase","CDK2",14,"hpc_37",0.122
+"HR","Kinase","CDK2",15,"hpc_39",0.14
+"HR","Kinase","CDK2",16,"hpc_41",0.154
+"HR","Kinase","CDK2",17,"hpc_44",0.12
+"HR","Kinase","CDK2",18,"hpc_7",0.092
+"HR","Kinase","CDK2",19,"hpc_8",0.128
+"HR","Kinase","CDK2",20,"hpc_9",0.118
+"HR","Kinase","CHEK1",1,"hpc_0",0.72
+"HR","Kinase","CHEK1",2,"hpc_1",0.214
+"HR","Kinase","CHEK1",3,"hpc_10",0.716
+"HR","Kinase","CHEK1",4,"hpc_14",0.242
+"HR","Kinase","CHEK1",5,"hpc_15",0.18
+"HR","Kinase","CHEK1",6,"hpc_16",0.224
+"HR","Kinase","CHEK1",7,"hpc_20",0.294
+"HR","Kinase","CHEK1",8,"hpc_21",0.15
+"HR","Kinase","CHEK1",9,"hpc_22",0.262
+"HR","Kinase","CHEK1",10,"hpc_27",0.396
+"HR","Kinase","CHEK1",11,"hpc_3",0.186
+"HR","Kinase","CHEK1",12,"hpc_31",0.262
+"HR","Kinase","CHEK1",13,"hpc_32",0.204
+"HR","Kinase","CHEK1",14,"hpc_37",0.212
+"HR","Kinase","CHEK1",15,"hpc_39",0.252
+"HR","Kinase","CHEK1",16,"hpc_41",0.516
+"HR","Kinase","CHEK1",17,"hpc_44",0.204
+"HR","Kinase","CHEK1",18,"hpc_7",0.136
+"HR","Kinase","CHEK1",19,"hpc_8",0.244
+"HR","Kinase","CHEK1",20,"hpc_9",0.186
+"HR","Kinase","CSNK2A1",1,"hpc_0",0.214
+"HR","Kinase","CSNK2A1",2,"hpc_1",0.134
+"HR","Kinase","CSNK2A1",3,"hpc_10",0.492
+"HR","Kinase","CSNK2A1",4,"hpc_14",0.152
+"HR","Kinase","CSNK2A1",5,"hpc_15",0.136
+"HR","Kinase","CSNK2A1",6,"hpc_16",0.108
+"HR","Kinase","CSNK2A1",7,"hpc_20",0.28
+"HR","Kinase","CSNK2A1",8,"hpc_21",0.19
+"HR","Kinase","CSNK2A1",9,"hpc_22",0.148
+"HR","Kinase","CSNK2A1",10,"hpc_27",0.198
+"HR","Kinase","CSNK2A1",11,"hpc_3",0.164
+"HR","Kinase","CSNK2A1",12,"hpc_31",0.176
+"HR","Kinase","CSNK2A1",13,"hpc_32",0.156
+"HR","Kinase","CSNK2A1",14,"hpc_37",0.162
+"HR","Kinase","CSNK2A1",15,"hpc_39",0.15
+"HR","Kinase","CSNK2A1",16,"hpc_41",0.482
+"HR","Kinase","CSNK2A1",17,"hpc_44",0.148
+"HR","Kinase","CSNK2A1",18,"hpc_7",0.142
+"HR","Kinase","CSNK2A1",19,"hpc_8",0.278
+"HR","Kinase","CSNK2A1",20,"hpc_9",0.144
+"HR","Kinase","EGF",1,"hpc_0",0.214
+"HR","Kinase","EGF",2,"hpc_1",0.086
+"HR","Kinase","EGF",3,"hpc_10",0.236
+"HR","Kinase","EGF",4,"hpc_14",0.086
+"HR","Kinase","EGF",5,"hpc_15",0.09
+"HR","Kinase","EGF",6,"hpc_16",0.104
+"HR","Kinase","EGF",7,"hpc_20",0.11
+"HR","Kinase","EGF",8,"hpc_21",0.1
+"HR","Kinase","EGF",9,"hpc_22",0.08
+"HR","Kinase","EGF",10,"hpc_27",0.1
+"HR","Kinase","EGF",11,"hpc_3",0.1
+"HR","Kinase","EGF",12,"hpc_31",0.088
+"HR","Kinase","EGF",13,"hpc_32",0.088
+"HR","Kinase","EGF",14,"hpc_37",0.11
+"HR","Kinase","EGF",15,"hpc_39",0.1
+"HR","Kinase","EGF",16,"hpc_41",0.136
+"HR","Kinase","EGF",17,"hpc_44",0.094
+"HR","Kinase","EGF",18,"hpc_7",0.068
+"HR","Kinase","EGF",19,"hpc_8",0.1
+"HR","Kinase","EGF",20,"hpc_9",0.088
+"HR","Kinase","GSK3B",1,"hpc_0",0.124
+"HR","Kinase","GSK3B",2,"hpc_1",0.056
+"HR","Kinase","GSK3B",3,"hpc_10",0.098
+"HR","Kinase","GSK3B",4,"hpc_14",0.08
+"HR","Kinase","GSK3B",5,"hpc_15",0.072
+"HR","Kinase","GSK3B",6,"hpc_16",0.074
+"HR","Kinase","GSK3B",7,"hpc_20",0.066
+"HR","Kinase","GSK3B",8,"hpc_21",0.084
+"HR","Kinase","GSK3B",9,"hpc_22",0.062
+"HR","Kinase","GSK3B",10,"hpc_27",0.082
+"HR","Kinase","GSK3B",11,"hpc_3",0.072
+"HR","Kinase","GSK3B",12,"hpc_31",0.104
+"HR","Kinase","GSK3B",13,"hpc_32",0.064
+"HR","Kinase","GSK3B",14,"hpc_37",0.076
+"HR","Kinase","GSK3B",15,"hpc_39",0.09
+"HR","Kinase","GSK3B",16,"hpc_41",0.13
+"HR","Kinase","GSK3B",17,"hpc_44",0.078
+"HR","Kinase","GSK3B",18,"hpc_7",0.086
+"HR","Kinase","GSK3B",19,"hpc_8",0.068
+"HR","Kinase","GSK3B",20,"hpc_9",0.094
+"HR","Kinase","LCK",1,"hpc_0",0.998
+"HR","Kinase","LCK",2,"hpc_1",0.396
+"HR","Kinase","LCK",3,"hpc_10",0.336
+"HR","Kinase","LCK",4,"hpc_14",0.814
+"HR","Kinase","LCK",5,"hpc_15",0.28
+"HR","Kinase","LCK",6,"hpc_16",0.734
+"HR","Kinase","LCK",7,"hpc_20",0.622
+"HR","Kinase","LCK",8,"hpc_21",0.422
+"HR","Kinase","LCK",9,"hpc_22",0.342
+"HR","Kinase","LCK",10,"hpc_27",0.318
+"HR","Kinase","LCK",11,"hpc_3",0.462
+"HR","Kinase","LCK",12,"hpc_31",0.75
+"HR","Kinase","LCK",13,"hpc_32",0.398
+"HR","Kinase","LCK",14,"hpc_37",0.464
+"HR","Kinase","LCK",15,"hpc_39",0.794
+"HR","Kinase","LCK",16,"hpc_41",0.626
+"HR","Kinase","LCK",17,"hpc_44",0.462
+"HR","Kinase","LCK",18,"hpc_7",0.996
+"HR","Kinase","LCK",19,"hpc_8",0.356
+"HR","Kinase","LCK",20,"hpc_9",0.956
+"HR","Kinase","MAP3K14",1,"hpc_0",0.126
+"HR","Kinase","MAP3K14",2,"hpc_1",0.114
+"HR","Kinase","MAP3K14",3,"hpc_10",0.278
+"HR","Kinase","MAP3K14",4,"hpc_14",0.162
+"HR","Kinase","MAP3K14",5,"hpc_15",0.15
+"HR","Kinase","MAP3K14",6,"hpc_16",0.16
+"HR","Kinase","MAP3K14",7,"hpc_20",0.208
+"HR","Kinase","MAP3K14",8,"hpc_21",0.362
+"HR","Kinase","MAP3K14",9,"hpc_22",0.134
+"HR","Kinase","MAP3K14",10,"hpc_27",0.178
+"HR","Kinase","MAP3K14",11,"hpc_3",0.162
+"HR","Kinase","MAP3K14",12,"hpc_31",0.142
+"HR","Kinase","MAP3K14",13,"hpc_32",0.148
+"HR","Kinase","MAP3K14",14,"hpc_37",0.156
+"HR","Kinase","MAP3K14",15,"hpc_39",0.158
+"HR","Kinase","MAP3K14",16,"hpc_41",0.182
+"HR","Kinase","MAP3K14",17,"hpc_44",0.154
+"HR","Kinase","MAP3K14",18,"hpc_7",0.482
+"HR","Kinase","MAP3K14",19,"hpc_8",0.168
+"HR","Kinase","MAP3K14",20,"hpc_9",0.142
+"HR","Kinase","MAPK1",1,"hpc_0",0.152
+"HR","Kinase","MAPK1",2,"hpc_1",0.068
+"HR","Kinase","MAPK1",3,"hpc_10",0.182
+"HR","Kinase","MAPK1",4,"hpc_14",0.1
+"HR","Kinase","MAPK1",5,"hpc_15",0.09
+"HR","Kinase","MAPK1",6,"hpc_16",0.068
+"HR","Kinase","MAPK1",7,"hpc_20",0.086
+"HR","Kinase","MAPK1",8,"hpc_21",0.102
+"HR","Kinase","MAPK1",9,"hpc_22",0.102
+"HR","Kinase","MAPK1",10,"hpc_27",0.13
+"HR","Kinase","MAPK1",11,"hpc_3",0.112
+"HR","Kinase","MAPK1",12,"hpc_31",0.136
+"HR","Kinase","MAPK1",13,"hpc_32",0.1
+"HR","Kinase","MAPK1",14,"hpc_37",0.098
+"HR","Kinase","MAPK1",15,"hpc_39",0.116
+"HR","Kinase","MAPK1",16,"hpc_41",0.214
+"HR","Kinase","MAPK1",17,"hpc_44",0.1
+"HR","Kinase","MAPK1",18,"hpc_7",0.114
+"HR","Kinase","MAPK1",19,"hpc_8",0.09
+"HR","Kinase","MAPK1",20,"hpc_9",0.104
+"HR","Kinase","MAPK14",1,"hpc_0",0.18
+"HR","Kinase","MAPK14",2,"hpc_1",0.052
+"HR","Kinase","MAPK14",3,"hpc_10",0.224
+"HR","Kinase","MAPK14",4,"hpc_14",0.076
+"HR","Kinase","MAPK14",5,"hpc_15",0.068
+"HR","Kinase","MAPK14",6,"hpc_16",0.076
+"HR","Kinase","MAPK14",7,"hpc_20",0.114
+"HR","Kinase","MAPK14",8,"hpc_21",0.082
+"HR","Kinase","MAPK14",9,"hpc_22",0.072
+"HR","Kinase","MAPK14",10,"hpc_27",0.076
+"HR","Kinase","MAPK14",11,"hpc_3",0.094
+"HR","Kinase","MAPK14",12,"hpc_31",0.106
+"HR","Kinase","MAPK14",13,"hpc_32",0.106
+"HR","Kinase","MAPK14",14,"hpc_37",0.09
+"HR","Kinase","MAPK14",15,"hpc_39",0.09
+"HR","Kinase","MAPK14",16,"hpc_41",0.176
+"HR","Kinase","MAPK14",17,"hpc_44",0.076
+"HR","Kinase","MAPK14",18,"hpc_7",0.096
+"HR","Kinase","MAPK14",19,"hpc_8",0.094
+"HR","Kinase","MAPK14",20,"hpc_9",0.114
+"HR","Kinase","PLK1",1,"hpc_0",0.782
+"HR","Kinase","PLK1",2,"hpc_1",0.348
+"HR","Kinase","PLK1",3,"hpc_10",0.962
+"HR","Kinase","PLK1",4,"hpc_14",0.314
+"HR","Kinase","PLK1",5,"hpc_15",0.322
+"HR","Kinase","PLK1",6,"hpc_16",0.21
+"HR","Kinase","PLK1",7,"hpc_20",0.798
+"HR","Kinase","PLK1",8,"hpc_21",0.224
+"HR","Kinase","PLK1",9,"hpc_22",0.744
+"HR","Kinase","PLK1",10,"hpc_27",0.92
+"HR","Kinase","PLK1",11,"hpc_3",0.244
+"HR","Kinase","PLK1",12,"hpc_31",0.286
+"HR","Kinase","PLK1",13,"hpc_32",0.324
+"HR","Kinase","PLK1",14,"hpc_37",0.28
+"HR","Kinase","PLK1",15,"hpc_39",0.322
+"HR","Kinase","PLK1",16,"hpc_41",0.742
+"HR","Kinase","PLK1",17,"hpc_44",0.352
+"HR","Kinase","PLK1",18,"hpc_7",0.242
+"HR","Kinase","PLK1",19,"hpc_8",0.45
+"HR","Kinase","PLK1",20,"hpc_9",0.17
+"HR","Kinase","SRC",1,"hpc_0",0.186
+"HR","Kinase","SRC",2,"hpc_1",0.074
+"HR","Kinase","SRC",3,"hpc_10",0.16
+"HR","Kinase","SRC",4,"hpc_14",0.146
+"HR","Kinase","SRC",5,"hpc_15",0.124
+"HR","Kinase","SRC",6,"hpc_16",0.104
+"HR","Kinase","SRC",7,"hpc_20",0.128
+"HR","Kinase","SRC",8,"hpc_21",0.12
+"HR","Kinase","SRC",9,"hpc_22",0.1
+"HR","Kinase","SRC",10,"hpc_27",0.122
+"HR","Kinase","SRC",11,"hpc_3",0.174
+"HR","Kinase","SRC",12,"hpc_31",0.16
+"HR","Kinase","SRC",13,"hpc_32",0.144
+"HR","Kinase","SRC",14,"hpc_37",0.118
+"HR","Kinase","SRC",15,"hpc_39",0.134
+"HR","Kinase","SRC",16,"hpc_41",0.226
+"HR","Kinase","SRC",17,"hpc_44",0.12
+"HR","Kinase","SRC",18,"hpc_7",0.232
+"HR","Kinase","SRC",19,"hpc_8",0.108
+"HR","Kinase","SRC",20,"hpc_9",0.164
+"HR","Pathway","Androgen",1,"hpc_0",0.024
+"HR","Pathway","Androgen",2,"hpc_1",0.048
+"HR","Pathway","Androgen",3,"hpc_10",0.072
+"HR","Pathway","Androgen",4,"hpc_14",0.068
+"HR","Pathway","Androgen",5,"hpc_15",0.106
+"HR","Pathway","Androgen",6,"hpc_16",0.068
+"HR","Pathway","Androgen",7,"hpc_20",0.158
+"HR","Pathway","Androgen",8,"hpc_21",0.08
+"HR","Pathway","Androgen",9,"hpc_22",0.072
+"HR","Pathway","Androgen",10,"hpc_27",0.322
+"HR","Pathway","Androgen",11,"hpc_3",0.076
+"HR","Pathway","Androgen",12,"hpc_31",0.056
+"HR","Pathway","Androgen",13,"hpc_32",0.114
+"HR","Pathway","Androgen",14,"hpc_37",0.084
+"HR","Pathway","Androgen",15,"hpc_39",0.186
+"HR","Pathway","Androgen",16,"hpc_41",0.1
+"HR","Pathway","Androgen",17,"hpc_44",0.126
+"HR","Pathway","Androgen",18,"hpc_7",0.648
+"HR","Pathway","Androgen",19,"hpc_8",0.088
+"HR","Pathway","Androgen",20,"hpc_9",0.074
+"HR","Pathway","EGFR",1,"hpc_0",0.16
+"HR","Pathway","EGFR",2,"hpc_1",0.128
+"HR","Pathway","EGFR",3,"hpc_10",0.086
+"HR","Pathway","EGFR",4,"hpc_14",0.144
+"HR","Pathway","EGFR",5,"hpc_15",0.17
+"HR","Pathway","EGFR",6,"hpc_16",0.088
+"HR","Pathway","EGFR",7,"hpc_20",0.152
+"HR","Pathway","EGFR",8,"hpc_21",0.204
+"HR","Pathway","EGFR",9,"hpc_22",0.118
+"HR","Pathway","EGFR",10,"hpc_27",0.146
+"HR","Pathway","EGFR",11,"hpc_3",0.106
+"HR","Pathway","EGFR",12,"hpc_31",0.146
+"HR","Pathway","EGFR",13,"hpc_32",0.16
+"HR","Pathway","EGFR",14,"hpc_37",0.112
+"HR","Pathway","EGFR",15,"hpc_39",0.152
+"HR","Pathway","EGFR",16,"hpc_41",0.114
+"HR","Pathway","EGFR",17,"hpc_44",0.118
+"HR","Pathway","EGFR",18,"hpc_7",0.144
+"HR","Pathway","EGFR",19,"hpc_8",0.14
+"HR","Pathway","EGFR",20,"hpc_9",0.126
+"HR","Pathway","Estrogen",1,"hpc_0",0.026
+"HR","Pathway","Estrogen",2,"hpc_1",0.078
+"HR","Pathway","Estrogen",3,"hpc_10",0.13
+"HR","Pathway","Estrogen",4,"hpc_14",0.22
+"HR","Pathway","Estrogen",5,"hpc_15",0.202
+"HR","Pathway","Estrogen",6,"hpc_16",0.14
+"HR","Pathway","Estrogen",7,"hpc_20",0.312
+"HR","Pathway","Estrogen",8,"hpc_21",0.048
+"HR","Pathway","Estrogen",9,"hpc_22",0.176
+"HR","Pathway","Estrogen",10,"hpc_27",0.59
+"HR","Pathway","Estrogen",11,"hpc_3",0.064
+"HR","Pathway","Estrogen",12,"hpc_31",0.886
+"HR","Pathway","Estrogen",13,"hpc_32",0.1
+"HR","Pathway","Estrogen",14,"hpc_37",0.128
+"HR","Pathway","Estrogen",15,"hpc_39",0.21
+"HR","Pathway","Estrogen",16,"hpc_41",0.11
+"HR","Pathway","Estrogen",17,"hpc_44",0.268
+"HR","Pathway","Estrogen",18,"hpc_7",0.114
+"HR","Pathway","Estrogen",19,"hpc_8",0.174
+"HR","Pathway","Estrogen",20,"hpc_9",0.212
+"HR","Pathway","Hypoxia",1,"hpc_0",1
+"HR","Pathway","Hypoxia",2,"hpc_1",0.9
+"HR","Pathway","Hypoxia",3,"hpc_10",0.968
+"HR","Pathway","Hypoxia",4,"hpc_14",1
+"HR","Pathway","Hypoxia",5,"hpc_15",0.862
+"HR","Pathway","Hypoxia",6,"hpc_16",0.98
+"HR","Pathway","Hypoxia",7,"hpc_20",0.926
+"HR","Pathway","Hypoxia",8,"hpc_21",0.894
+"HR","Pathway","Hypoxia",9,"hpc_22",0.634
+"HR","Pathway","Hypoxia",10,"hpc_27",0.914
+"HR","Pathway","Hypoxia",11,"hpc_3",0.678
+"HR","Pathway","Hypoxia",12,"hpc_31",0.882
+"HR","Pathway","Hypoxia",13,"hpc_32",0.7
+"HR","Pathway","Hypoxia",14,"hpc_37",0.826
+"HR","Pathway","Hypoxia",15,"hpc_39",0.766
+"HR","Pathway","Hypoxia",16,"hpc_41",0.966
+"HR","Pathway","Hypoxia",17,"hpc_44",0.536
+"HR","Pathway","Hypoxia",18,"hpc_7",0.912
+"HR","Pathway","Hypoxia",19,"hpc_8",0.68
+"HR","Pathway","Hypoxia",20,"hpc_9",1
+"HR","Pathway","JAK-STAT",1,"hpc_0",0.1
+"HR","Pathway","JAK-STAT",2,"hpc_1",0.086
+"HR","Pathway","JAK-STAT",3,"hpc_10",0.132
+"HR","Pathway","JAK-STAT",4,"hpc_14",0.1
+"HR","Pathway","JAK-STAT",5,"hpc_15",0.086
+"HR","Pathway","JAK-STAT",6,"hpc_16",0.11
+"HR","Pathway","JAK-STAT",7,"hpc_20",0.14
+"HR","Pathway","JAK-STAT",8,"hpc_21",0.098
+"HR","Pathway","JAK-STAT",9,"hpc_22",0.116
+"HR","Pathway","JAK-STAT",10,"hpc_27",0.076
+"HR","Pathway","JAK-STAT",11,"hpc_3",0.108
+"HR","Pathway","JAK-STAT",12,"hpc_31",0.126
+"HR","Pathway","JAK-STAT",13,"hpc_32",0.078
+"HR","Pathway","JAK-STAT",14,"hpc_37",0.124
+"HR","Pathway","JAK-STAT",15,"hpc_39",0.11
+"HR","Pathway","JAK-STAT",16,"hpc_41",0.09
+"HR","Pathway","JAK-STAT",17,"hpc_44",0.088
+"HR","Pathway","JAK-STAT",18,"hpc_7",0.118
+"HR","Pathway","JAK-STAT",19,"hpc_8",0.108
+"HR","Pathway","JAK-STAT",20,"hpc_9",0.112
+"HR","Pathway","MAPK",1,"hpc_0",0.614
+"HR","Pathway","MAPK",2,"hpc_1",0.352
+"HR","Pathway","MAPK",3,"hpc_10",0.92
+"HR","Pathway","MAPK",4,"hpc_14",0.456
+"HR","Pathway","MAPK",5,"hpc_15",0.256
+"HR","Pathway","MAPK",6,"hpc_16",0.26
+"HR","Pathway","MAPK",7,"hpc_20",0.762
+"HR","Pathway","MAPK",8,"hpc_21",0.218
+"HR","Pathway","MAPK",9,"hpc_22",0.6
+"HR","Pathway","MAPK",10,"hpc_27",0.414
+"HR","Pathway","MAPK",11,"hpc_3",0.288
+"HR","Pathway","MAPK",12,"hpc_31",0.332
+"HR","Pathway","MAPK",13,"hpc_32",0.268
+"HR","Pathway","MAPK",14,"hpc_37",0.364
+"HR","Pathway","MAPK",15,"hpc_39",0.258
+"HR","Pathway","MAPK",16,"hpc_41",0.444
+"HR","Pathway","MAPK",17,"hpc_44",0.258
+"HR","Pathway","MAPK",18,"hpc_7",0.322
+"HR","Pathway","MAPK",19,"hpc_8",0.33
+"HR","Pathway","MAPK",20,"hpc_9",0.232
+"HR","Pathway","NFkB",1,"hpc_0",1
+"HR","Pathway","NFkB",2,"hpc_1",0.988
+"HR","Pathway","NFkB",3,"hpc_10",0.882
+"HR","Pathway","NFkB",4,"hpc_14",1
+"HR","Pathway","NFkB",5,"hpc_15",0.956
+"HR","Pathway","NFkB",6,"hpc_16",0.998
+"HR","Pathway","NFkB",7,"hpc_20",0.972
+"HR","Pathway","NFkB",8,"hpc_21",0.582
+"HR","Pathway","NFkB",9,"hpc_22",0.806
+"HR","Pathway","NFkB",10,"hpc_27",0.492
+"HR","Pathway","NFkB",11,"hpc_3",0.784
+"HR","Pathway","NFkB",12,"hpc_31",0.706
+"HR","Pathway","NFkB",13,"hpc_32",0.786
+"HR","Pathway","NFkB",14,"hpc_37",0.638
+"HR","Pathway","NFkB",15,"hpc_39",0.946
+"HR","Pathway","NFkB",16,"hpc_41",0.692
+"HR","Pathway","NFkB",17,"hpc_44",0.582
+"HR","Pathway","NFkB",18,"hpc_7",0.986
+"HR","Pathway","NFkB",19,"hpc_8",0.982
+"HR","Pathway","NFkB",20,"hpc_9",1
+"HR","Pathway","p53",1,"hpc_0",0.992
+"HR","Pathway","p53",2,"hpc_1",1
+"HR","Pathway","p53",3,"hpc_10",0.764
+"HR","Pathway","p53",4,"hpc_14",0.632
+"HR","Pathway","p53",5,"hpc_15",0.758
+"HR","Pathway","p53",6,"hpc_16",0.404
+"HR","Pathway","p53",7,"hpc_20",1
+"HR","Pathway","p53",8,"hpc_21",0.992
+"HR","Pathway","p53",9,"hpc_22",1
+"HR","Pathway","p53",10,"hpc_27",0.992
+"HR","Pathway","p53",11,"hpc_3",0.492
+"HR","Pathway","p53",12,"hpc_31",0.548
+"HR","Pathway","p53",13,"hpc_32",0.998
+"HR","Pathway","p53",14,"hpc_37",0.618
+"HR","Pathway","p53",15,"hpc_39",0.546
+"HR","Pathway","p53",16,"hpc_41",0.848
+"HR","Pathway","p53",17,"hpc_44",0.728
+"HR","Pathway","p53",18,"hpc_7",0.812
+"HR","Pathway","p53",19,"hpc_8",1
+"HR","Pathway","p53",20,"hpc_9",0.994
+"HR","Pathway","PI3K",1,"hpc_0",0.484
+"HR","Pathway","PI3K",2,"hpc_1",0.61
+"HR","Pathway","PI3K",3,"hpc_10",0.542
+"HR","Pathway","PI3K",4,"hpc_14",0.218
+"HR","Pathway","PI3K",5,"hpc_15",0.58
+"HR","Pathway","PI3K",6,"hpc_16",1
+"HR","Pathway","PI3K",7,"hpc_20",0.992
+"HR","Pathway","PI3K",8,"hpc_21",0.434
+"HR","Pathway","PI3K",9,"hpc_22",0.7
+"HR","Pathway","PI3K",10,"hpc_27",0.466
+"HR","Pathway","PI3K",11,"hpc_3",0.7
+"HR","Pathway","PI3K",12,"hpc_31",0.29
+"HR","Pathway","PI3K",13,"hpc_32",0.464
+"HR","Pathway","PI3K",14,"hpc_37",0.84
+"HR","Pathway","PI3K",15,"hpc_39",0.376
+"HR","Pathway","PI3K",16,"hpc_41",0.264
+"HR","Pathway","PI3K",17,"hpc_44",0.312
+"HR","Pathway","PI3K",18,"hpc_7",0.342
+"HR","Pathway","PI3K",19,"hpc_8",0.978
+"HR","Pathway","PI3K",20,"hpc_9",0.324
+"HR","Pathway","TGFb",1,"hpc_0",0.084
+"HR","Pathway","TGFb",2,"hpc_1",0.408
+"HR","Pathway","TGFb",3,"hpc_10",0.15
+"HR","Pathway","TGFb",4,"hpc_14",0.196
+"HR","Pathway","TGFb",5,"hpc_15",0.348
+"HR","Pathway","TGFb",6,"hpc_16",0.26
+"HR","Pathway","TGFb",7,"hpc_20",0.174
+"HR","Pathway","TGFb",8,"hpc_21",0.166
+"HR","Pathway","TGFb",9,"hpc_22",0.64
+"HR","Pathway","TGFb",10,"hpc_27",0.454
+"HR","Pathway","TGFb",11,"hpc_3",0.308
+"HR","Pathway","TGFb",12,"hpc_31",0.406
+"HR","Pathway","TGFb",13,"hpc_32",0.212
+"HR","Pathway","TGFb",14,"hpc_37",0.292
+"HR","Pathway","TGFb",15,"hpc_39",0.254
+"HR","Pathway","TGFb",16,"hpc_41",0.698
+"HR","Pathway","TGFb",17,"hpc_44",0.186
+"HR","Pathway","TGFb",18,"hpc_7",0.646
+"HR","Pathway","TGFb",19,"hpc_8",0.292
+"HR","Pathway","TGFb",20,"hpc_9",0.218
+"HR","Pathway","TNFa",1,"hpc_0",0.048
+"HR","Pathway","TNFa",2,"hpc_1",0.048
+"HR","Pathway","TNFa",3,"hpc_10",0.176
+"HR","Pathway","TNFa",4,"hpc_14",0.228
+"HR","Pathway","TNFa",5,"hpc_15",0.36
+"HR","Pathway","TNFa",6,"hpc_16",0.094
+"HR","Pathway","TNFa",7,"hpc_20",0.344
+"HR","Pathway","TNFa",8,"hpc_21",0.358
+"HR","Pathway","TNFa",9,"hpc_22",0.12
+"HR","Pathway","TNFa",10,"hpc_27",0.118
+"HR","Pathway","TNFa",11,"hpc_3",0.152
+"HR","Pathway","TNFa",12,"hpc_31",0.084
+"HR","Pathway","TNFa",13,"hpc_32",0.17
+"HR","Pathway","TNFa",14,"hpc_37",0.144
+"HR","Pathway","TNFa",15,"hpc_39",0.174
+"HR","Pathway","TNFa",16,"hpc_41",0.184
+"HR","Pathway","TNFa",17,"hpc_44",0.13
+"HR","Pathway","TNFa",18,"hpc_7",0.574
+"HR","Pathway","TNFa",19,"hpc_8",0.248
+"HR","Pathway","TNFa",20,"hpc_9",0.078
+"HR","Pathway","Trail",1,"hpc_0",0.922
+"HR","Pathway","Trail",2,"hpc_1",0.438
+"HR","Pathway","Trail",3,"hpc_10",0.612
+"HR","Pathway","Trail",4,"hpc_14",0.624
+"HR","Pathway","Trail",5,"hpc_15",0.514
+"HR","Pathway","Trail",6,"hpc_16",0.398
+"HR","Pathway","Trail",7,"hpc_20",0.51
+"HR","Pathway","Trail",8,"hpc_21",0.416
+"HR","Pathway","Trail",9,"hpc_22",0.51
+"HR","Pathway","Trail",10,"hpc_27",0.354
+"HR","Pathway","Trail",11,"hpc_3",0.294
+"HR","Pathway","Trail",12,"hpc_31",0.44
+"HR","Pathway","Trail",13,"hpc_32",0.344
+"HR","Pathway","Trail",14,"hpc_37",0.336
+"HR","Pathway","Trail",15,"hpc_39",0.398
+"HR","Pathway","Trail",16,"hpc_41",0.392
+"HR","Pathway","Trail",17,"hpc_44",0.42
+"HR","Pathway","Trail",18,"hpc_7",0.512
+"HR","Pathway","Trail",19,"hpc_8",0.456
+"HR","Pathway","Trail",20,"hpc_9",0.442
+"HR","Pathway","VEGF",1,"hpc_0",0.362
+"HR","Pathway","VEGF",2,"hpc_1",0.21
+"HR","Pathway","VEGF",3,"hpc_10",0.908
+"HR","Pathway","VEGF",4,"hpc_14",0.146
+"HR","Pathway","VEGF",5,"hpc_15",0.22
+"HR","Pathway","VEGF",6,"hpc_16",0.138
+"HR","Pathway","VEGF",7,"hpc_20",0.69
+"HR","Pathway","VEGF",8,"hpc_21",0.182
+"HR","Pathway","VEGF",9,"hpc_22",0.246
+"HR","Pathway","VEGF",10,"hpc_27",0.612
+"HR","Pathway","VEGF",11,"hpc_3",0.42
+"HR","Pathway","VEGF",12,"hpc_31",0.224
+"HR","Pathway","VEGF",13,"hpc_32",0.194
+"HR","Pathway","VEGF",14,"hpc_37",0.176
+"HR","Pathway","VEGF",15,"hpc_39",0.224
+"HR","Pathway","VEGF",16,"hpc_41",0.286
+"HR","Pathway","VEGF",17,"hpc_44",0.186
+"HR","Pathway","VEGF",18,"hpc_7",0.172
+"HR","Pathway","VEGF",19,"hpc_8",0.502
+"HR","Pathway","VEGF",20,"hpc_9",0.416
+"HR","Pathway","WNT",1,"hpc_0",0.15
+"HR","Pathway","WNT",2,"hpc_1",0.846
+"HR","Pathway","WNT",3,"hpc_10",0.092
+"HR","Pathway","WNT",4,"hpc_14",0.144
+"HR","Pathway","WNT",5,"hpc_15",0.782
+"HR","Pathway","WNT",6,"hpc_16",0.674
+"HR","Pathway","WNT",7,"hpc_20",0.346
+"HR","Pathway","WNT",8,"hpc_21",0.226
+"HR","Pathway","WNT",9,"hpc_22",0.584
+"HR","Pathway","WNT",10,"hpc_27",0.798
+"HR","Pathway","WNT",11,"hpc_3",0.588
+"HR","Pathway","WNT",12,"hpc_31",0.346
+"HR","Pathway","WNT",13,"hpc_32",0.318
+"HR","Pathway","WNT",14,"hpc_37",0.482
+"HR","Pathway","WNT",15,"hpc_39",0.508
+"HR","Pathway","WNT",16,"hpc_41",0.274
+"HR","Pathway","WNT",17,"hpc_44",0.284
+"HR","Pathway","WNT",18,"hpc_7",0.476
+"HR","Pathway","WNT",19,"hpc_8",0.87
+"HR","Pathway","WNT",20,"hpc_9",0.956
+"HR","Transcription factor","E2F1",1,"hpc_0",0.086
+"HR","Transcription factor","E2F1",2,"hpc_1",0.06
+"HR","Transcription factor","E2F1",3,"hpc_10",0.35
+"HR","Transcription factor","E2F1",4,"hpc_14",0.068
+"HR","Transcription factor","E2F1",5,"hpc_15",0.1
+"HR","Transcription factor","E2F1",6,"hpc_16",0.064
+"HR","Transcription factor","E2F1",7,"hpc_20",0.268
+"HR","Transcription factor","E2F1",8,"hpc_21",0.078
+"HR","Transcription factor","E2F1",9,"hpc_22",0.272
+"HR","Transcription factor","E2F1",10,"hpc_27",0.89
+"HR","Transcription factor","E2F1",11,"hpc_3",0.1
+"HR","Transcription factor","E2F1",12,"hpc_31",0.146
+"HR","Transcription factor","E2F1",13,"hpc_32",0.136
+"HR","Transcription factor","E2F1",14,"hpc_37",0.15
+"HR","Transcription factor","E2F1",15,"hpc_39",0.232
+"HR","Transcription factor","E2F1",16,"hpc_41",0.824
+"HR","Transcription factor","E2F1",17,"hpc_44",0.13
+"HR","Transcription factor","E2F1",18,"hpc_7",0.088
+"HR","Transcription factor","E2F1",19,"hpc_8",0.176
+"HR","Transcription factor","E2F1",20,"hpc_9",0.052
+"HR","Transcription factor","E2F4",1,"hpc_0",1
+"HR","Transcription factor","E2F4",2,"hpc_1",1
+"HR","Transcription factor","E2F4",3,"hpc_10",0.808
+"HR","Transcription factor","E2F4",4,"hpc_14",0.782
+"HR","Transcription factor","E2F4",5,"hpc_15",0.96
+"HR","Transcription factor","E2F4",6,"hpc_16",0.998
+"HR","Transcription factor","E2F4",7,"hpc_20",1
+"HR","Transcription factor","E2F4",8,"hpc_21",1
+"HR","Transcription factor","E2F4",9,"hpc_22",1
+"HR","Transcription factor","E2F4",10,"hpc_27",0.468
+"HR","Transcription factor","E2F4",11,"hpc_3",0.468
+"HR","Transcription factor","E2F4",12,"hpc_31",0.87
+"HR","Transcription factor","E2F4",13,"hpc_32",0.55
+"HR","Transcription factor","E2F4",14,"hpc_37",0.62
+"HR","Transcription factor","E2F4",15,"hpc_39",0.432
+"HR","Transcription factor","E2F4",16,"hpc_41",0.55
+"HR","Transcription factor","E2F4",17,"hpc_44",0.758
+"HR","Transcription factor","E2F4",18,"hpc_7",0.454
+"HR","Transcription factor","E2F4",19,"hpc_8",0.974
+"HR","Transcription factor","E2F4",20,"hpc_9",0.708
+"HR","Transcription factor","EGR1",1,"hpc_0",0.606
+"HR","Transcription factor","EGR1",2,"hpc_1",0.564
+"HR","Transcription factor","EGR1",3,"hpc_10",0.692
+"HR","Transcription factor","EGR1",4,"hpc_14",0.374
+"HR","Transcription factor","EGR1",5,"hpc_15",0.39
+"HR","Transcription factor","EGR1",6,"hpc_16",0.572
+"HR","Transcription factor","EGR1",7,"hpc_20",0.59
+"HR","Transcription factor","EGR1",8,"hpc_21",0.644
+"HR","Transcription factor","EGR1",9,"hpc_22",0.49
+"HR","Transcription factor","EGR1",10,"hpc_27",0.614
+"HR","Transcription factor","EGR1",11,"hpc_3",0.444
+"HR","Transcription factor","EGR1",12,"hpc_31",0.538
+"HR","Transcription factor","EGR1",13,"hpc_32",0.608
+"HR","Transcription factor","EGR1",14,"hpc_37",0.388
+"HR","Transcription factor","EGR1",15,"hpc_39",0.496
+"HR","Transcription factor","EGR1",16,"hpc_41",0.552
+"HR","Transcription factor","EGR1",17,"hpc_44",0.342
+"HR","Transcription factor","EGR1",18,"hpc_7",0.686
+"HR","Transcription factor","EGR1",19,"hpc_8",0.524
+"HR","Transcription factor","EGR1",20,"hpc_9",0.586
+"HR","Transcription factor","ETS1",1,"hpc_0",0.076
+"HR","Transcription factor","ETS1",2,"hpc_1",0.054
+"HR","Transcription factor","ETS1",3,"hpc_10",0.492
+"HR","Transcription factor","ETS1",4,"hpc_14",0.202
+"HR","Transcription factor","ETS1",5,"hpc_15",0.13
+"HR","Transcription factor","ETS1",6,"hpc_16",0.076
+"HR","Transcription factor","ETS1",7,"hpc_20",0.148
+"HR","Transcription factor","ETS1",8,"hpc_21",0.12
+"HR","Transcription factor","ETS1",9,"hpc_22",0.136
+"HR","Transcription factor","ETS1",10,"hpc_27",0.138
+"HR","Transcription factor","ETS1",11,"hpc_3",0.202
+"HR","Transcription factor","ETS1",12,"hpc_31",0.186
+"HR","Transcription factor","ETS1",13,"hpc_32",0.152
+"HR","Transcription factor","ETS1",14,"hpc_37",0.142
+"HR","Transcription factor","ETS1",15,"hpc_39",0.178
+"HR","Transcription factor","ETS1",16,"hpc_41",0.518
+"HR","Transcription factor","ETS1",17,"hpc_44",0.132
+"HR","Transcription factor","ETS1",18,"hpc_7",0.33
+"HR","Transcription factor","ETS1",19,"hpc_8",0.13
+"HR","Transcription factor","ETS1",20,"hpc_9",0.19
+"HR","Transcription factor","HNF1A",1,"hpc_0",0.032
+"HR","Transcription factor","HNF1A",2,"hpc_1",0.032
+"HR","Transcription factor","HNF1A",3,"hpc_10",0.064
+"HR","Transcription factor","HNF1A",4,"hpc_14",0.098
+"HR","Transcription factor","HNF1A",5,"hpc_15",0.072
+"HR","Transcription factor","HNF1A",6,"hpc_16",0.15
+"HR","Transcription factor","HNF1A",7,"hpc_20",0.122
+"HR","Transcription factor","HNF1A",8,"hpc_21",0.134
+"HR","Transcription factor","HNF1A",9,"hpc_22",0.114
+"HR","Transcription factor","HNF1A",10,"hpc_27",0.34
+"HR","Transcription factor","HNF1A",11,"hpc_3",0.126
+"HR","Transcription factor","HNF1A",12,"hpc_31",0.104
+"HR","Transcription factor","HNF1A",13,"hpc_32",0.11
+"HR","Transcription factor","HNF1A",14,"hpc_37",0.116
+"HR","Transcription factor","HNF1A",15,"hpc_39",0.108
+"HR","Transcription factor","HNF1A",16,"hpc_41",0.098
+"HR","Transcription factor","HNF1A",17,"hpc_44",0.078
+"HR","Transcription factor","HNF1A",18,"hpc_7",0.07
+"HR","Transcription factor","HNF1A",19,"hpc_8",0.098
+"HR","Transcription factor","HNF1A",20,"hpc_9",0.092
+"HR","Transcription factor","HNF4A",1,"hpc_0",0.052
+"HR","Transcription factor","HNF4A",2,"hpc_1",0.51
+"HR","Transcription factor","HNF4A",3,"hpc_10",0.108
+"HR","Transcription factor","HNF4A",4,"hpc_14",0.162
+"HR","Transcription factor","HNF4A",5,"hpc_15",0.234
+"HR","Transcription factor","HNF4A",6,"hpc_16",0.102
+"HR","Transcription factor","HNF4A",7,"hpc_20",0.138
+"HR","Transcription factor","HNF4A",8,"hpc_21",0.136
+"HR","Transcription factor","HNF4A",9,"hpc_22",0.206
+"HR","Transcription factor","HNF4A",10,"hpc_27",0.144
+"HR","Transcription factor","HNF4A",11,"hpc_3",0.226
+"HR","Transcription factor","HNF4A",12,"hpc_31",0.324
+"HR","Transcription factor","HNF4A",13,"hpc_32",0.208
+"HR","Transcription factor","HNF4A",14,"hpc_37",0.152
+"HR","Transcription factor","HNF4A",15,"hpc_39",0.202
+"HR","Transcription factor","HNF4A",16,"hpc_41",0.184
+"HR","Transcription factor","HNF4A",17,"hpc_44",0.14
+"HR","Transcription factor","HNF4A",18,"hpc_7",0.582
+"HR","Transcription factor","HNF4A",19,"hpc_8",0.236
+"HR","Transcription factor","HNF4A",20,"hpc_9",0.194
+"HR","Transcription factor","MYC",1,"hpc_0",0.462
+"HR","Transcription factor","MYC",2,"hpc_1",0.274
+"HR","Transcription factor","MYC",3,"hpc_10",0.484
+"HR","Transcription factor","MYC",4,"hpc_14",0.384
+"HR","Transcription factor","MYC",5,"hpc_15",0.292
+"HR","Transcription factor","MYC",6,"hpc_16",0.242
+"HR","Transcription factor","MYC",7,"hpc_20",0.444
+"HR","Transcription factor","MYC",8,"hpc_21",0.654
+"HR","Transcription factor","MYC",9,"hpc_22",0.358
+"HR","Transcription factor","MYC",10,"hpc_27",0.36
+"HR","Transcription factor","MYC",11,"hpc_3",0.342
+"HR","Transcription factor","MYC",12,"hpc_31",0.306
+"HR","Transcription factor","MYC",13,"hpc_32",0.26
+"HR","Transcription factor","MYC",14,"hpc_37",0.258
+"HR","Transcription factor","MYC",15,"hpc_39",0.216
+"HR","Transcription factor","MYC",16,"hpc_41",0.316
+"HR","Transcription factor","MYC",17,"hpc_44",0.264
+"HR","Transcription factor","MYC",18,"hpc_7",0.664
+"HR","Transcription factor","MYC",19,"hpc_8",0.228
+"HR","Transcription factor","MYC",20,"hpc_9",0.29
+"HR","Transcription factor","PRDM14",1,"hpc_0",0.216
+"HR","Transcription factor","PRDM14",2,"hpc_1",0.352
+"HR","Transcription factor","PRDM14",3,"hpc_10",0.506
+"HR","Transcription factor","PRDM14",4,"hpc_14",0.5
+"HR","Transcription factor","PRDM14",5,"hpc_15",0.206
+"HR","Transcription factor","PRDM14",6,"hpc_16",0.284
+"HR","Transcription factor","PRDM14",7,"hpc_20",0.274
+"HR","Transcription factor","PRDM14",8,"hpc_21",0.154
+"HR","Transcription factor","PRDM14",9,"hpc_22",0.16
+"HR","Transcription factor","PRDM14",10,"hpc_27",0.698
+"HR","Transcription factor","PRDM14",11,"hpc_3",0.172
+"HR","Transcription factor","PRDM14",12,"hpc_31",0.33
+"HR","Transcription factor","PRDM14",13,"hpc_32",0.18
+"HR","Transcription factor","PRDM14",14,"hpc_37",0.178
+"HR","Transcription factor","PRDM14",15,"hpc_39",0.288
+"HR","Transcription factor","PRDM14",16,"hpc_41",0.232
+"HR","Transcription factor","PRDM14",17,"hpc_44",0.18
+"HR","Transcription factor","PRDM14",18,"hpc_7",0.654
+"HR","Transcription factor","PRDM14",19,"hpc_8",0.188
+"HR","Transcription factor","PRDM14",20,"hpc_9",0.22
+"HR","Transcription factor","RFX5",1,"hpc_0",0.898
+"HR","Transcription factor","RFX5",2,"hpc_1",0.268
+"HR","Transcription factor","RFX5",3,"hpc_10",0.196
+"HR","Transcription factor","RFX5",4,"hpc_14",0.306
+"HR","Transcription factor","RFX5",5,"hpc_15",0.412
+"HR","Transcription factor","RFX5",6,"hpc_16",0.466
+"HR","Transcription factor","RFX5",7,"hpc_20",0.294
+"HR","Transcription factor","RFX5",8,"hpc_21",0.254
+"HR","Transcription factor","RFX5",9,"hpc_22",0.24
+"HR","Transcription factor","RFX5",10,"hpc_27",0.418
+"HR","Transcription factor","RFX5",11,"hpc_3",0.234
+"HR","Transcription factor","RFX5",12,"hpc_31",0.342
+"HR","Transcription factor","RFX5",13,"hpc_32",0.23
+"HR","Transcription factor","RFX5",14,"hpc_37",0.268
+"HR","Transcription factor","RFX5",15,"hpc_39",0.264
+"HR","Transcription factor","RFX5",16,"hpc_41",0.28
+"HR","Transcription factor","RFX5",17,"hpc_44",0.25
+"HR","Transcription factor","RFX5",18,"hpc_7",0.724
+"HR","Transcription factor","RFX5",19,"hpc_8",0.396
+"HR","Transcription factor","RFX5",20,"hpc_9",0.188
+"HR","Transcription factor","SOX2",1,"hpc_0",0.374
+"HR","Transcription factor","SOX2",2,"hpc_1",0.25
+"HR","Transcription factor","SOX2",3,"hpc_10",0.638
+"HR","Transcription factor","SOX2",4,"hpc_14",0.154
+"HR","Transcription factor","SOX2",5,"hpc_15",0.202
+"HR","Transcription factor","SOX2",6,"hpc_16",0.174
+"HR","Transcription factor","SOX2",7,"hpc_20",0.2
+"HR","Transcription factor","SOX2",8,"hpc_21",0.16
+"HR","Transcription factor","SOX2",9,"hpc_22",0.212
+"HR","Transcription factor","SOX2",10,"hpc_27",0.144
+"HR","Transcription factor","SOX2",11,"hpc_3",0.256
+"HR","Transcription factor","SOX2",12,"hpc_31",0.182
+"HR","Transcription factor","SOX2",13,"hpc_32",0.15
+"HR","Transcription factor","SOX2",14,"hpc_37",0.23
+"HR","Transcription factor","SOX2",15,"hpc_39",0.174
+"HR","Transcription factor","SOX2",16,"hpc_41",0.274
+"HR","Transcription factor","SOX2",17,"hpc_44",0.16
+"HR","Transcription factor","SOX2",18,"hpc_7",0.354
+"HR","Transcription factor","SOX2",19,"hpc_8",0.258
+"HR","Transcription factor","SOX2",20,"hpc_9",0.388
+"HR","Transcription factor","SPI1",1,"hpc_0",0.976
+"HR","Transcription factor","SPI1",2,"hpc_1",0.344
+"HR","Transcription factor","SPI1",3,"hpc_10",0.194
+"HR","Transcription factor","SPI1",4,"hpc_14",0.404
+"HR","Transcription factor","SPI1",5,"hpc_15",0.288
+"HR","Transcription factor","SPI1",6,"hpc_16",0.332
+"HR","Transcription factor","SPI1",7,"hpc_20",0.272
+"HR","Transcription factor","SPI1",8,"hpc_21",0.236
+"HR","Transcription factor","SPI1",9,"hpc_22",0.184
+"HR","Transcription factor","SPI1",10,"hpc_27",0.154
+"HR","Transcription factor","SPI1",11,"hpc_3",0.206
+"HR","Transcription factor","SPI1",12,"hpc_31",0.744
+"HR","Transcription factor","SPI1",13,"hpc_32",0.23
+"HR","Transcription factor","SPI1",14,"hpc_37",0.288
+"HR","Transcription factor","SPI1",15,"hpc_39",0.304
+"HR","Transcription factor","SPI1",16,"hpc_41",0.382
+"HR","Transcription factor","SPI1",17,"hpc_44",0.26
+"HR","Transcription factor","SPI1",18,"hpc_7",0.968
+"HR","Transcription factor","SPI1",19,"hpc_8",0.31
+"HR","Transcription factor","SPI1",20,"hpc_9",0.214
+"HR","Transcription factor","STAT1",1,"hpc_0",0.74
+"HR","Transcription factor","STAT1",2,"hpc_1",0.508
+"HR","Transcription factor","STAT1",3,"hpc_10",0.258
+"HR","Transcription factor","STAT1",4,"hpc_14",0.284
+"HR","Transcription factor","STAT1",5,"hpc_15",0.21
+"HR","Transcription factor","STAT1",6,"hpc_16",0.298
+"HR","Transcription factor","STAT1",7,"hpc_20",0.282
+"HR","Transcription factor","STAT1",8,"hpc_21",0.362
+"HR","Transcription factor","STAT1",9,"hpc_22",0.164
+"HR","Transcription factor","STAT1",10,"hpc_27",0.436
+"HR","Transcription factor","STAT1",11,"hpc_3",0.422
+"HR","Transcription factor","STAT1",12,"hpc_31",0.388
+"HR","Transcription factor","STAT1",13,"hpc_32",0.216
+"HR","Transcription factor","STAT1",14,"hpc_37",0.286
+"HR","Transcription factor","STAT1",15,"hpc_39",0.318
+"HR","Transcription factor","STAT1",16,"hpc_41",0.344
+"HR","Transcription factor","STAT1",17,"hpc_44",0.202
+"HR","Transcription factor","STAT1",18,"hpc_7",0.538
+"HR","Transcription factor","STAT1",19,"hpc_8",0.224
+"HR","Transcription factor","STAT1",20,"hpc_9",0.264
+"HR","Transcription factor","STAT2",1,"hpc_0",0.082
+"HR","Transcription factor","STAT2",2,"hpc_1",0.076
+"HR","Transcription factor","STAT2",3,"hpc_10",0.258
+"HR","Transcription factor","STAT2",4,"hpc_14",0.112
+"HR","Transcription factor","STAT2",5,"hpc_15",0.09
+"HR","Transcription factor","STAT2",6,"hpc_16",0.088
+"HR","Transcription factor","STAT2",7,"hpc_20",0.204
+"HR","Transcription factor","STAT2",8,"hpc_21",0.076
+"HR","Transcription factor","STAT2",9,"hpc_22",0.27
+"HR","Transcription factor","STAT2",10,"hpc_27",0.104
+"HR","Transcription factor","STAT2",11,"hpc_3",0.122
+"HR","Transcription factor","STAT2",12,"hpc_31",0.206
+"HR","Transcription factor","STAT2",13,"hpc_32",0.114
+"HR","Transcription factor","STAT2",14,"hpc_37",0.14
+"HR","Transcription factor","STAT2",15,"hpc_39",0.116
+"HR","Transcription factor","STAT2",16,"hpc_41",0.138
+"HR","Transcription factor","STAT2",17,"hpc_44",0.11
+"HR","Transcription factor","STAT2",18,"hpc_7",0.086
+"HR","Transcription factor","STAT2",19,"hpc_8",0.19
+"HR","Transcription factor","STAT2",20,"hpc_9",0.236
+"HR","Transcription factor","ZNF263",1,"hpc_0",0.064
+"HR","Transcription factor","ZNF263",2,"hpc_1",0.102
+"HR","Transcription factor","ZNF263",3,"hpc_10",0.104
+"HR","Transcription factor","ZNF263",4,"hpc_14",0.254
+"HR","Transcription factor","ZNF263",5,"hpc_15",0.12
+"HR","Transcription factor","ZNF263",6,"hpc_16",0.072
+"HR","Transcription factor","ZNF263",7,"hpc_20",0.118
+"HR","Transcription factor","ZNF263",8,"hpc_21",0.104
+"HR","Transcription factor","ZNF263",9,"hpc_22",0.114
+"HR","Transcription factor","ZNF263",10,"hpc_27",0.118
+"HR","Transcription factor","ZNF263",11,"hpc_3",0.09
+"HR","Transcription factor","ZNF263",12,"hpc_31",0.11
+"HR","Transcription factor","ZNF263",13,"hpc_32",0.188
+"HR","Transcription factor","ZNF263",14,"hpc_37",0.078
+"HR","Transcription factor","ZNF263",15,"hpc_39",0.212
+"HR","Transcription factor","ZNF263",16,"hpc_41",0.08
+"HR","Transcription factor","ZNF263",17,"hpc_44",0.1
+"HR","Transcription factor","ZNF263",18,"hpc_7",0.64
+"HR","Transcription factor","ZNF263",19,"hpc_8",0.14
+"HR","Transcription factor","ZNF263",20,"hpc_9",0.134
+"LR","Kinase","ATM",1,"hpc_0",0.142
+"LR","Kinase","ATM",2,"hpc_1",0.164
+"LR","Kinase","ATM",3,"hpc_10",0.106
+"LR","Kinase","ATM",4,"hpc_14",0.066
+"LR","Kinase","ATM",5,"hpc_15",0.124
+"LR","Kinase","ATM",6,"hpc_16",0.082
+"LR","Kinase","ATM",7,"hpc_20",0.114
+"LR","Kinase","ATM",8,"hpc_21",0.172
+"LR","Kinase","ATM",9,"hpc_22",0.094
+"LR","Kinase","ATM",10,"hpc_27",0.112
+"LR","Kinase","ATM",11,"hpc_3",0.12
+"LR","Kinase","ATM",12,"hpc_31",0.102
+"LR","Kinase","ATM",13,"hpc_32",0.1
+"LR","Kinase","ATM",14,"hpc_37",0.106
+"LR","Kinase","ATM",15,"hpc_39",0.106
+"LR","Kinase","ATM",16,"hpc_41",0.098
+"LR","Kinase","ATM",17,"hpc_44",0.104
+"LR","Kinase","ATM",18,"hpc_7",0.172
+"LR","Kinase","ATM",19,"hpc_8",0.086
+"LR","Kinase","ATM",20,"hpc_9",0.186
+"LR","Kinase","CDK1",1,"hpc_0",0.174
+"LR","Kinase","CDK1",2,"hpc_1",0.19
+"LR","Kinase","CDK1",3,"hpc_10",0.122
+"LR","Kinase","CDK1",4,"hpc_14",0.094
+"LR","Kinase","CDK1",5,"hpc_15",0.118
+"LR","Kinase","CDK1",6,"hpc_16",0.118
+"LR","Kinase","CDK1",7,"hpc_20",0.136
+"LR","Kinase","CDK1",8,"hpc_21",0.164
+"LR","Kinase","CDK1",9,"hpc_22",0.148
+"LR","Kinase","CDK1",10,"hpc_27",0.134
+"LR","Kinase","CDK1",11,"hpc_3",0.108
+"LR","Kinase","CDK1",12,"hpc_31",0.1
+"LR","Kinase","CDK1",13,"hpc_32",0.134
+"LR","Kinase","CDK1",14,"hpc_37",0.132
+"LR","Kinase","CDK1",15,"hpc_39",0.116
+"LR","Kinase","CDK1",16,"hpc_41",0.106
+"LR","Kinase","CDK1",17,"hpc_44",0.122
+"LR","Kinase","CDK1",18,"hpc_7",0.16
+"LR","Kinase","CDK1",19,"hpc_8",0.124
+"LR","Kinase","CDK1",20,"hpc_9",0.172
+"LR","Kinase","CDK2",1,"hpc_0",0.132
+"LR","Kinase","CDK2",2,"hpc_1",0.144
+"LR","Kinase","CDK2",3,"hpc_10",0.134
+"LR","Kinase","CDK2",4,"hpc_14",0.104
+"LR","Kinase","CDK2",5,"hpc_15",0.13
+"LR","Kinase","CDK2",6,"hpc_16",0.084
+"LR","Kinase","CDK2",7,"hpc_20",0.122
+"LR","Kinase","CDK2",8,"hpc_21",0.168
+"LR","Kinase","CDK2",9,"hpc_22",0.12
+"LR","Kinase","CDK2",10,"hpc_27",0.108
+"LR","Kinase","CDK2",11,"hpc_3",0.116
+"LR","Kinase","CDK2",12,"hpc_31",0.126
+"LR","Kinase","CDK2",13,"hpc_32",0.132
+"LR","Kinase","CDK2",14,"hpc_37",0.116
+"LR","Kinase","CDK2",15,"hpc_39",0.106
+"LR","Kinase","CDK2",16,"hpc_41",0.112
+"LR","Kinase","CDK2",17,"hpc_44",0.128
+"LR","Kinase","CDK2",18,"hpc_7",0.144
+"LR","Kinase","CDK2",19,"hpc_8",0.132
+"LR","Kinase","CDK2",20,"hpc_9",0.18
+"LR","Kinase","CHEK1",1,"hpc_0",0.362
+"LR","Kinase","CHEK1",2,"hpc_1",0.142
+"LR","Kinase","CHEK1",3,"hpc_10",0.208
+"LR","Kinase","CHEK1",4,"hpc_14",0.16
+"LR","Kinase","CHEK1",5,"hpc_15",0.192
+"LR","Kinase","CHEK1",6,"hpc_16",0.084
+"LR","Kinase","CHEK1",7,"hpc_20",0.146
+"LR","Kinase","CHEK1",8,"hpc_21",0.334
+"LR","Kinase","CHEK1",9,"hpc_22",0.178
+"LR","Kinase","CHEK1",10,"hpc_27",0.144
+"LR","Kinase","CHEK1",11,"hpc_3",0.146
+"LR","Kinase","CHEK1",12,"hpc_31",0.122
+"LR","Kinase","CHEK1",13,"hpc_32",0.254
+"LR","Kinase","CHEK1",14,"hpc_37",0.196
+"LR","Kinase","CHEK1",15,"hpc_39",0.196
+"LR","Kinase","CHEK1",16,"hpc_41",0.178
+"LR","Kinase","CHEK1",17,"hpc_44",0.152
+"LR","Kinase","CHEK1",18,"hpc_7",0.364
+"LR","Kinase","CHEK1",19,"hpc_8",0.256
+"LR","Kinase","CHEK1",20,"hpc_9",0.536
+"LR","Kinase","CSNK2A1",1,"hpc_0",0.132
+"LR","Kinase","CSNK2A1",2,"hpc_1",0.24
+"LR","Kinase","CSNK2A1",3,"hpc_10",0.106
+"LR","Kinase","CSNK2A1",4,"hpc_14",0.112
+"LR","Kinase","CSNK2A1",5,"hpc_15",0.146
+"LR","Kinase","CSNK2A1",6,"hpc_16",0.09
+"LR","Kinase","CSNK2A1",7,"hpc_20",0.154
+"LR","Kinase","CSNK2A1",8,"hpc_21",0.208
+"LR","Kinase","CSNK2A1",9,"hpc_22",0.146
+"LR","Kinase","CSNK2A1",10,"hpc_27",0.12
+"LR","Kinase","CSNK2A1",11,"hpc_3",0.142
+"LR","Kinase","CSNK2A1",12,"hpc_31",0.146
+"LR","Kinase","CSNK2A1",13,"hpc_32",0.192
+"LR","Kinase","CSNK2A1",14,"hpc_37",0.124
+"LR","Kinase","CSNK2A1",15,"hpc_39",0.146
+"LR","Kinase","CSNK2A1",16,"hpc_41",0.114
+"LR","Kinase","CSNK2A1",17,"hpc_44",0.142
+"LR","Kinase","CSNK2A1",18,"hpc_7",0.226
+"LR","Kinase","CSNK2A1",19,"hpc_8",0.196
+"LR","Kinase","CSNK2A1",20,"hpc_9",0.316
+"LR","Kinase","EGF",1,"hpc_0",0.158
+"LR","Kinase","EGF",2,"hpc_1",0.196
+"LR","Kinase","EGF",3,"hpc_10",0.148
+"LR","Kinase","EGF",4,"hpc_14",0.154
+"LR","Kinase","EGF",5,"hpc_15",0.114
+"LR","Kinase","EGF",6,"hpc_16",0.076
+"LR","Kinase","EGF",7,"hpc_20",0.09
+"LR","Kinase","EGF",8,"hpc_21",0.192
+"LR","Kinase","EGF",9,"hpc_22",0.096
+"LR","Kinase","EGF",10,"hpc_27",0.11
+"LR","Kinase","EGF",11,"hpc_3",0.112
+"LR","Kinase","EGF",12,"hpc_31",0.128
+"LR","Kinase","EGF",13,"hpc_32",0.136
+"LR","Kinase","EGF",14,"hpc_37",0.114
+"LR","Kinase","EGF",15,"hpc_39",0.13
+"LR","Kinase","EGF",16,"hpc_41",0.104
+"LR","Kinase","EGF",17,"hpc_44",0.118
+"LR","Kinase","EGF",18,"hpc_7",0.196
+"LR","Kinase","EGF",19,"hpc_8",0.12
+"LR","Kinase","EGF",20,"hpc_9",0.2
+"LR","Kinase","GSK3B",1,"hpc_0",0.142
+"LR","Kinase","GSK3B",2,"hpc_1",0.136
+"LR","Kinase","GSK3B",3,"hpc_10",0.17
+"LR","Kinase","GSK3B",4,"hpc_14",0.13
+"LR","Kinase","GSK3B",5,"hpc_15",0.16
+"LR","Kinase","GSK3B",6,"hpc_16",0.072
+"LR","Kinase","GSK3B",7,"hpc_20",0.144
+"LR","Kinase","GSK3B",8,"hpc_21",0.226
+"LR","Kinase","GSK3B",9,"hpc_22",0.128
+"LR","Kinase","GSK3B",10,"hpc_27",0.12
+"LR","Kinase","GSK3B",11,"hpc_3",0.122
+"LR","Kinase","GSK3B",12,"hpc_31",0.136
+"LR","Kinase","GSK3B",13,"hpc_32",0.16
+"LR","Kinase","GSK3B",14,"hpc_37",0.146
+"LR","Kinase","GSK3B",15,"hpc_39",0.13
+"LR","Kinase","GSK3B",16,"hpc_41",0.134
+"LR","Kinase","GSK3B",17,"hpc_44",0.132
+"LR","Kinase","GSK3B",18,"hpc_7",0.268
+"LR","Kinase","GSK3B",19,"hpc_8",0.152
+"LR","Kinase","GSK3B",20,"hpc_9",0.222
+"LR","Kinase","LCK",1,"hpc_0",0.874
+"LR","Kinase","LCK",2,"hpc_1",0.248
+"LR","Kinase","LCK",3,"hpc_10",0.144
+"LR","Kinase","LCK",4,"hpc_14",0.436
+"LR","Kinase","LCK",5,"hpc_15",0.222
+"LR","Kinase","LCK",6,"hpc_16",0.308
+"LR","Kinase","LCK",7,"hpc_20",0.346
+"LR","Kinase","LCK",8,"hpc_21",0.206
+"LR","Kinase","LCK",9,"hpc_22",0.294
+"LR","Kinase","LCK",10,"hpc_27",0.29
+"LR","Kinase","LCK",11,"hpc_3",0.18
+"LR","Kinase","LCK",12,"hpc_31",0.478
+"LR","Kinase","LCK",13,"hpc_32",0.314
+"LR","Kinase","LCK",14,"hpc_37",0.246
+"LR","Kinase","LCK",15,"hpc_39",0.236
+"LR","Kinase","LCK",16,"hpc_41",0.242
+"LR","Kinase","LCK",17,"hpc_44",0.216
+"LR","Kinase","LCK",18,"hpc_7",0.204
+"LR","Kinase","LCK",19,"hpc_8",0.18
+"LR","Kinase","LCK",20,"hpc_9",0.154
+"LR","Kinase","MAP3K14",1,"hpc_0",0.158
+"LR","Kinase","MAP3K14",2,"hpc_1",0.154
+"LR","Kinase","MAP3K14",3,"hpc_10",0.074
+"LR","Kinase","MAP3K14",4,"hpc_14",0.162
+"LR","Kinase","MAP3K14",5,"hpc_15",0.124
+"LR","Kinase","MAP3K14",6,"hpc_16",0.07
+"LR","Kinase","MAP3K14",7,"hpc_20",0.092
+"LR","Kinase","MAP3K14",8,"hpc_21",0.132
+"LR","Kinase","MAP3K14",9,"hpc_22",0.166
+"LR","Kinase","MAP3K14",10,"hpc_27",0.104
+"LR","Kinase","MAP3K14",11,"hpc_3",0.132
+"LR","Kinase","MAP3K14",12,"hpc_31",0.188
+"LR","Kinase","MAP3K14",13,"hpc_32",0.18
+"LR","Kinase","MAP3K14",14,"hpc_37",0.13
+"LR","Kinase","MAP3K14",15,"hpc_39",0.12
+"LR","Kinase","MAP3K14",16,"hpc_41",0.108
+"LR","Kinase","MAP3K14",17,"hpc_44",0.114
+"LR","Kinase","MAP3K14",18,"hpc_7",0.106
+"LR","Kinase","MAP3K14",19,"hpc_8",0.134
+"LR","Kinase","MAP3K14",20,"hpc_9",0.168
+"LR","Kinase","MAPK1",1,"hpc_0",0.126
+"LR","Kinase","MAPK1",2,"hpc_1",0.112
+"LR","Kinase","MAPK1",3,"hpc_10",0.124
+"LR","Kinase","MAPK1",4,"hpc_14",0.11
+"LR","Kinase","MAPK1",5,"hpc_15",0.126
+"LR","Kinase","MAPK1",6,"hpc_16",0.08
+"LR","Kinase","MAPK1",7,"hpc_20",0.142
+"LR","Kinase","MAPK1",8,"hpc_21",0.19
+"LR","Kinase","MAPK1",9,"hpc_22",0.096
+"LR","Kinase","MAPK1",10,"hpc_27",0.096
+"LR","Kinase","MAPK1",11,"hpc_3",0.116
+"LR","Kinase","MAPK1",12,"hpc_31",0.108
+"LR","Kinase","MAPK1",13,"hpc_32",0.118
+"LR","Kinase","MAPK1",14,"hpc_37",0.108
+"LR","Kinase","MAPK1",15,"hpc_39",0.094
+"LR","Kinase","MAPK1",16,"hpc_41",0.094
+"LR","Kinase","MAPK1",17,"hpc_44",0.096
+"LR","Kinase","MAPK1",18,"hpc_7",0.208
+"LR","Kinase","MAPK1",19,"hpc_8",0.142
+"LR","Kinase","MAPK1",20,"hpc_9",0.162
+"LR","Kinase","MAPK14",1,"hpc_0",0.106
+"LR","Kinase","MAPK14",2,"hpc_1",0.142
+"LR","Kinase","MAPK14",3,"hpc_10",0.142
+"LR","Kinase","MAPK14",4,"hpc_14",0.108
+"LR","Kinase","MAPK14",5,"hpc_15",0.132
+"LR","Kinase","MAPK14",6,"hpc_16",0.066
+"LR","Kinase","MAPK14",7,"hpc_20",0.114
+"LR","Kinase","MAPK14",8,"hpc_21",0.19
+"LR","Kinase","MAPK14",9,"hpc_22",0.104
+"LR","Kinase","MAPK14",10,"hpc_27",0.128
+"LR","Kinase","MAPK14",11,"hpc_3",0.116
+"LR","Kinase","MAPK14",12,"hpc_31",0.104
+"LR","Kinase","MAPK14",13,"hpc_32",0.13
+"LR","Kinase","MAPK14",14,"hpc_37",0.118
+"LR","Kinase","MAPK14",15,"hpc_39",0.116
+"LR","Kinase","MAPK14",16,"hpc_41",0.092
+"LR","Kinase","MAPK14",17,"hpc_44",0.116
+"LR","Kinase","MAPK14",18,"hpc_7",0.236
+"LR","Kinase","MAPK14",19,"hpc_8",0.136
+"LR","Kinase","MAPK14",20,"hpc_9",0.276
+"LR","Kinase","MAPK8",1,"hpc_0",0.148
+"LR","Kinase","MAPK8",2,"hpc_1",0.156
+"LR","Kinase","MAPK8",3,"hpc_10",0.182
+"LR","Kinase","MAPK8",4,"hpc_14",0.182
+"LR","Kinase","MAPK8",5,"hpc_15",0.148
+"LR","Kinase","MAPK8",6,"hpc_16",0.07
+"LR","Kinase","MAPK8",7,"hpc_20",0.134
+"LR","Kinase","MAPK8",8,"hpc_21",0.238
+"LR","Kinase","MAPK8",9,"hpc_22",0.104
+"LR","Kinase","MAPK8",10,"hpc_27",0.126
+"LR","Kinase","MAPK8",11,"hpc_3",0.114
+"LR","Kinase","MAPK8",12,"hpc_31",0.12
+"LR","Kinase","MAPK8",13,"hpc_32",0.164
+"LR","Kinase","MAPK8",14,"hpc_37",0.138
+"LR","Kinase","MAPK8",15,"hpc_39",0.118
+"LR","Kinase","MAPK8",16,"hpc_41",0.114
+"LR","Kinase","MAPK8",17,"hpc_44",0.146
+"LR","Kinase","MAPK8",18,"hpc_7",0.274
+"LR","Kinase","MAPK8",19,"hpc_8",0.138
+"LR","Kinase","MAPK8",20,"hpc_9",0.222
+"LR","Kinase","PLK1",1,"hpc_0",0.264
+"LR","Kinase","PLK1",2,"hpc_1",0.238
+"LR","Kinase","PLK1",3,"hpc_10",0.148
+"LR","Kinase","PLK1",4,"hpc_14",0.138
+"LR","Kinase","PLK1",5,"hpc_15",0.188
+"LR","Kinase","PLK1",6,"hpc_16",0.074
+"LR","Kinase","PLK1",7,"hpc_20",0.142
+"LR","Kinase","PLK1",8,"hpc_21",0.236
+"LR","Kinase","PLK1",9,"hpc_22",0.2
+"LR","Kinase","PLK1",10,"hpc_27",0.128
+"LR","Kinase","PLK1",11,"hpc_3",0.164
+"LR","Kinase","PLK1",12,"hpc_31",0.116
+"LR","Kinase","PLK1",13,"hpc_32",0.21
+"LR","Kinase","PLK1",14,"hpc_37",0.168
+"LR","Kinase","PLK1",15,"hpc_39",0.154
+"LR","Kinase","PLK1",16,"hpc_41",0.14
+"LR","Kinase","PLK1",17,"hpc_44",0.13
+"LR","Kinase","PLK1",18,"hpc_7",0.254
+"LR","Kinase","PLK1",19,"hpc_8",0.226
+"LR","Kinase","PLK1",20,"hpc_9",0.35
+"LR","Kinase","SRC",1,"hpc_0",0.162
+"LR","Kinase","SRC",2,"hpc_1",0.088
+"LR","Kinase","SRC",3,"hpc_10",0.102
+"LR","Kinase","SRC",4,"hpc_14",0.2
+"LR","Kinase","SRC",5,"hpc_15",0.136
+"LR","Kinase","SRC",6,"hpc_16",0.082
+"LR","Kinase","SRC",7,"hpc_20",0.126
+"LR","Kinase","SRC",8,"hpc_21",0.09
+"LR","Kinase","SRC",9,"hpc_22",0.11
+"LR","Kinase","SRC",10,"hpc_27",0.118
+"LR","Kinase","SRC",11,"hpc_3",0.102
+"LR","Kinase","SRC",12,"hpc_31",0.108
+"LR","Kinase","SRC",13,"hpc_32",0.11
+"LR","Kinase","SRC",14,"hpc_37",0.09
+"LR","Kinase","SRC",15,"hpc_39",0.096
+"LR","Kinase","SRC",16,"hpc_41",0.128
+"LR","Kinase","SRC",17,"hpc_44",0.106
+"LR","Kinase","SRC",18,"hpc_7",0.122
+"LR","Kinase","SRC",19,"hpc_8",0.13
+"LR","Kinase","SRC",20,"hpc_9",0.108
+"LR","Pathway","Androgen",1,"hpc_0",0.048
+"LR","Pathway","Androgen",2,"hpc_1",0.208
+"LR","Pathway","Androgen",3,"hpc_10",0.238
+"LR","Pathway","Androgen",4,"hpc_14",0.2
+"LR","Pathway","Androgen",5,"hpc_15",0.188
+"LR","Pathway","Androgen",6,"hpc_16",0.114
+"LR","Pathway","Androgen",7,"hpc_20",0.282
+"LR","Pathway","Androgen",8,"hpc_21",0.352
+"LR","Pathway","Androgen",9,"hpc_22",0.718
+"LR","Pathway","Androgen",10,"hpc_27",0.244
+"LR","Pathway","Androgen",11,"hpc_3",0.134
+"LR","Pathway","Androgen",12,"hpc_31",0.096
+"LR","Pathway","Androgen",13,"hpc_32",0.228
+"LR","Pathway","Androgen",14,"hpc_37",0.232
+"LR","Pathway","Androgen",15,"hpc_39",0.17
+"LR","Pathway","Androgen",16,"hpc_41",0.14
+"LR","Pathway","Androgen",17,"hpc_44",0.116
+"LR","Pathway","Androgen",18,"hpc_7",0.36
+"LR","Pathway","Androgen",19,"hpc_8",0.176
+"LR","Pathway","Androgen",20,"hpc_9",0.156
+"LR","Pathway","EGFR",1,"hpc_0",0.916
+"LR","Pathway","EGFR",2,"hpc_1",1
+"LR","Pathway","EGFR",3,"hpc_10",0.854
+"LR","Pathway","EGFR",4,"hpc_14",0.972
+"LR","Pathway","EGFR",5,"hpc_15",0.864
+"LR","Pathway","EGFR",6,"hpc_16",1
+"LR","Pathway","EGFR",7,"hpc_20",0.962
+"LR","Pathway","EGFR",8,"hpc_21",0.886
+"LR","Pathway","EGFR",9,"hpc_22",0.742
+"LR","Pathway","EGFR",10,"hpc_27",0.776
+"LR","Pathway","EGFR",11,"hpc_3",0.908
+"LR","Pathway","EGFR",12,"hpc_31",0.836
+"LR","Pathway","EGFR",13,"hpc_32",0.916
+"LR","Pathway","EGFR",14,"hpc_37",0.64
+"LR","Pathway","EGFR",15,"hpc_39",0.778
+"LR","Pathway","EGFR",16,"hpc_41",0.736
+"LR","Pathway","EGFR",17,"hpc_44",0.818
+"LR","Pathway","EGFR",18,"hpc_7",1
+"LR","Pathway","EGFR",19,"hpc_8",0.782
+"LR","Pathway","EGFR",20,"hpc_9",1
+"LR","Pathway","Estrogen",1,"hpc_0",0.174
+"LR","Pathway","Estrogen",2,"hpc_1",0.054
+"LR","Pathway","Estrogen",3,"hpc_10",0.266
+"LR","Pathway","Estrogen",4,"hpc_14",0.72
+"LR","Pathway","Estrogen",5,"hpc_15",0.088
+"LR","Pathway","Estrogen",6,"hpc_16",0.082
+"LR","Pathway","Estrogen",7,"hpc_20",0.342
+"LR","Pathway","Estrogen",8,"hpc_21",0.05
+"LR","Pathway","Estrogen",9,"hpc_22",0.13
+"LR","Pathway","Estrogen",10,"hpc_27",0.086
+"LR","Pathway","Estrogen",11,"hpc_3",0.122
+"LR","Pathway","Estrogen",12,"hpc_31",0.272
+"LR","Pathway","Estrogen",13,"hpc_32",0.124
+"LR","Pathway","Estrogen",14,"hpc_37",0.074
+"LR","Pathway","Estrogen",15,"hpc_39",0.124
+"LR","Pathway","Estrogen",16,"hpc_41",0.128
+"LR","Pathway","Estrogen",17,"hpc_44",0.174
+"LR","Pathway","Estrogen",18,"hpc_7",0.048
+"LR","Pathway","Estrogen",19,"hpc_8",0.094
+"LR","Pathway","Estrogen",20,"hpc_9",0.036
+"LR","Pathway","Hypoxia",1,"hpc_0",0.124
+"LR","Pathway","Hypoxia",2,"hpc_1",0.088
+"LR","Pathway","Hypoxia",3,"hpc_10",0.074
+"LR","Pathway","Hypoxia",4,"hpc_14",0.094
+"LR","Pathway","Hypoxia",5,"hpc_15",0.134
+"LR","Pathway","Hypoxia",6,"hpc_16",0.078
+"LR","Pathway","Hypoxia",7,"hpc_20",0.11
+"LR","Pathway","Hypoxia",8,"hpc_21",0.088
+"LR","Pathway","Hypoxia",9,"hpc_22",0.098
+"LR","Pathway","Hypoxia",10,"hpc_27",0.09
+"LR","Pathway","Hypoxia",11,"hpc_3",0.096
+"LR","Pathway","Hypoxia",12,"hpc_31",0.12
+"LR","Pathway","Hypoxia",13,"hpc_32",0.09
+"LR","Pathway","Hypoxia",14,"hpc_37",0.104
+"LR","Pathway","Hypoxia",15,"hpc_39",0.12
+"LR","Pathway","Hypoxia",16,"hpc_41",0.056
+"LR","Pathway","Hypoxia",17,"hpc_44",0.106
+"LR","Pathway","Hypoxia",18,"hpc_7",0.088
+"LR","Pathway","Hypoxia",19,"hpc_8",0.14
+"LR","Pathway","Hypoxia",20,"hpc_9",0.076
+"LR","Pathway","JAK-STAT",1,"hpc_0",0.11
+"LR","Pathway","JAK-STAT",2,"hpc_1",0.106
+"LR","Pathway","JAK-STAT",3,"hpc_10",0.092
+"LR","Pathway","JAK-STAT",4,"hpc_14",0.116
+"LR","Pathway","JAK-STAT",5,"hpc_15",0.11
+"LR","Pathway","JAK-STAT",6,"hpc_16",0.132
+"LR","Pathway","JAK-STAT",7,"hpc_20",0.114
+"LR","Pathway","JAK-STAT",8,"hpc_21",0.088
+"LR","Pathway","JAK-STAT",9,"hpc_22",0.1
+"LR","Pathway","JAK-STAT",10,"hpc_27",0.096
+"LR","Pathway","JAK-STAT",11,"hpc_3",0.14
+"LR","Pathway","JAK-STAT",12,"hpc_31",0.096
+"LR","Pathway","JAK-STAT",13,"hpc_32",0.11
+"LR","Pathway","JAK-STAT",14,"hpc_37",0.092
+"LR","Pathway","JAK-STAT",15,"hpc_39",0.102
+"LR","Pathway","JAK-STAT",16,"hpc_41",0.09
+"LR","Pathway","JAK-STAT",17,"hpc_44",0.118
+"LR","Pathway","JAK-STAT",18,"hpc_7",0.158
+"LR","Pathway","JAK-STAT",19,"hpc_8",0.13
+"LR","Pathway","JAK-STAT",20,"hpc_9",0.108
+"LR","Pathway","MAPK",1,"hpc_0",0.352
+"LR","Pathway","MAPK",2,"hpc_1",0.176
+"LR","Pathway","MAPK",3,"hpc_10",0.14
+"LR","Pathway","MAPK",4,"hpc_14",0.114
+"LR","Pathway","MAPK",5,"hpc_15",0.148
+"LR","Pathway","MAPK",6,"hpc_16",0.08
+"LR","Pathway","MAPK",7,"hpc_20",0.162
+"LR","Pathway","MAPK",8,"hpc_21",0.146
+"LR","Pathway","MAPK",9,"hpc_22",0.202
+"LR","Pathway","MAPK",10,"hpc_27",0.13
+"LR","Pathway","MAPK",11,"hpc_3",0.152
+"LR","Pathway","MAPK",12,"hpc_31",0.136
+"LR","Pathway","MAPK",13,"hpc_32",0.188
+"LR","Pathway","MAPK",14,"hpc_37",0.136
+"LR","Pathway","MAPK",15,"hpc_39",0.152
+"LR","Pathway","MAPK",16,"hpc_41",0.122
+"LR","Pathway","MAPK",17,"hpc_44",0.162
+"LR","Pathway","MAPK",18,"hpc_7",0.146
+"LR","Pathway","MAPK",19,"hpc_8",0.168
+"LR","Pathway","MAPK",20,"hpc_9",0.128
+"LR","Pathway","NFkB",1,"hpc_0",0.184
+"LR","Pathway","NFkB",2,"hpc_1",0.18
+"LR","Pathway","NFkB",3,"hpc_10",0.094
+"LR","Pathway","NFkB",4,"hpc_14",0.074
+"LR","Pathway","NFkB",5,"hpc_15",0.166
+"LR","Pathway","NFkB",6,"hpc_16",0.118
+"LR","Pathway","NFkB",7,"hpc_20",0.15
+"LR","Pathway","NFkB",8,"hpc_21",0.068
+"LR","Pathway","NFkB",9,"hpc_22",0.14
+"LR","Pathway","NFkB",10,"hpc_27",0.154
+"LR","Pathway","NFkB",11,"hpc_3",0.096
+"LR","Pathway","NFkB",12,"hpc_31",0.176
+"LR","Pathway","NFkB",13,"hpc_32",0.146
+"LR","Pathway","NFkB",14,"hpc_37",0.2
+"LR","Pathway","NFkB",15,"hpc_39",0.142
+"LR","Pathway","NFkB",16,"hpc_41",0.088
+"LR","Pathway","NFkB",17,"hpc_44",0.13
+"LR","Pathway","NFkB",18,"hpc_7",0.114
+"LR","Pathway","NFkB",19,"hpc_8",0.126
+"LR","Pathway","NFkB",20,"hpc_9",0.366
+"LR","Pathway","p53",1,"hpc_0",0.126
+"LR","Pathway","p53",2,"hpc_1",0.14
+"LR","Pathway","p53",3,"hpc_10",0.114
+"LR","Pathway","p53",4,"hpc_14",0.122
+"LR","Pathway","p53",5,"hpc_15",0.138
+"LR","Pathway","p53",6,"hpc_16",0.112
+"LR","Pathway","p53",7,"hpc_20",0.112
+"LR","Pathway","p53",8,"hpc_21",0.106
+"LR","Pathway","p53",9,"hpc_22",0.166
+"LR","Pathway","p53",10,"hpc_27",0.086
+"LR","Pathway","p53",11,"hpc_3",0.084
+"LR","Pathway","p53",12,"hpc_31",0.082
+"LR","Pathway","p53",13,"hpc_32",0.084
+"LR","Pathway","p53",14,"hpc_37",0.1
+"LR","Pathway","p53",15,"hpc_39",0.104
+"LR","Pathway","p53",16,"hpc_41",0.104
+"LR","Pathway","p53",17,"hpc_44",0.084
+"LR","Pathway","p53",18,"hpc_7",0.106
+"LR","Pathway","p53",19,"hpc_8",0.108
+"LR","Pathway","p53",20,"hpc_9",0.092
+"LR","Pathway","PI3K",1,"hpc_0",0.158
+"LR","Pathway","PI3K",2,"hpc_1",0.096
+"LR","Pathway","PI3K",3,"hpc_10",0.154
+"LR","Pathway","PI3K",4,"hpc_14",0.284
+"LR","Pathway","PI3K",5,"hpc_15",0.114
+"LR","Pathway","PI3K",6,"hpc_16",0.094
+"LR","Pathway","PI3K",7,"hpc_20",0.25
+"LR","Pathway","PI3K",8,"hpc_21",0.104
+"LR","Pathway","PI3K",9,"hpc_22",0.136
+"LR","Pathway","PI3K",10,"hpc_27",0.112
+"LR","Pathway","PI3K",11,"hpc_3",0.124
+"LR","Pathway","PI3K",12,"hpc_31",0.178
+"LR","Pathway","PI3K",13,"hpc_32",0.13
+"LR","Pathway","PI3K",14,"hpc_37",0.106
+"LR","Pathway","PI3K",15,"hpc_39",0.116
+"LR","Pathway","PI3K",16,"hpc_41",0.164
+"LR","Pathway","PI3K",17,"hpc_44",0.186
+"LR","Pathway","PI3K",18,"hpc_7",0.126
+"LR","Pathway","PI3K",19,"hpc_8",0.13
+"LR","Pathway","PI3K",20,"hpc_9",0.082
+"LR","Pathway","TGFb",1,"hpc_0",0.67
+"LR","Pathway","TGFb",2,"hpc_1",0.438
+"LR","Pathway","TGFb",3,"hpc_10",0.244
+"LR","Pathway","TGFb",4,"hpc_14",0.27
+"LR","Pathway","TGFb",5,"hpc_15",0.276
+"LR","Pathway","TGFb",6,"hpc_16",0.414
+"LR","Pathway","TGFb",7,"hpc_20",0.67
+"LR","Pathway","TGFb",8,"hpc_21",0.27
+"LR","Pathway","TGFb",9,"hpc_22",0.382
+"LR","Pathway","TGFb",10,"hpc_27",0.318
+"LR","Pathway","TGFb",11,"hpc_3",0.362
+"LR","Pathway","TGFb",12,"hpc_31",0.604
+"LR","Pathway","TGFb",13,"hpc_32",0.262
+"LR","Pathway","TGFb",14,"hpc_37",0.22
+"LR","Pathway","TGFb",15,"hpc_39",0.328
+"LR","Pathway","TGFb",16,"hpc_41",0.22
+"LR","Pathway","TGFb",17,"hpc_44",0.666
+"LR","Pathway","TGFb",18,"hpc_7",0.288
+"LR","Pathway","TGFb",19,"hpc_8",0.498
+"LR","Pathway","TGFb",20,"hpc_9",0.428
+"LR","Pathway","TNFa",1,"hpc_0",0.64
+"LR","Pathway","TNFa",2,"hpc_1",0.748
+"LR","Pathway","TNFa",3,"hpc_10",0.538
+"LR","Pathway","TNFa",4,"hpc_14",0.56
+"LR","Pathway","TNFa",5,"hpc_15",0.826
+"LR","Pathway","TNFa",6,"hpc_16",0.384
+"LR","Pathway","TNFa",7,"hpc_20",0.192
+"LR","Pathway","TNFa",8,"hpc_21",0.308
+"LR","Pathway","TNFa",9,"hpc_22",0.56
+"LR","Pathway","TNFa",10,"hpc_27",0.194
+"LR","Pathway","TNFa",11,"hpc_3",0.336
+"LR","Pathway","TNFa",12,"hpc_31",0.332
+"LR","Pathway","TNFa",13,"hpc_32",0.786
+"LR","Pathway","TNFa",14,"hpc_37",0.352
+"LR","Pathway","TNFa",15,"hpc_39",0.318
+"LR","Pathway","TNFa",16,"hpc_41",0.414
+"LR","Pathway","TNFa",17,"hpc_44",0.276
+"LR","Pathway","TNFa",18,"hpc_7",0.234
+"LR","Pathway","TNFa",19,"hpc_8",0.412
+"LR","Pathway","TNFa",20,"hpc_9",0.96
+"LR","Pathway","Trail",1,"hpc_0",0.916
+"LR","Pathway","Trail",2,"hpc_1",0.15
+"LR","Pathway","Trail",3,"hpc_10",0.11
+"LR","Pathway","Trail",4,"hpc_14",0.116
+"LR","Pathway","Trail",5,"hpc_15",0.216
+"LR","Pathway","Trail",6,"hpc_16",0.092
+"LR","Pathway","Trail",7,"hpc_20",0.076
+"LR","Pathway","Trail",8,"hpc_21",0.174
+"LR","Pathway","Trail",9,"hpc_22",0.13
+"LR","Pathway","Trail",10,"hpc_27",0.16
+"LR","Pathway","Trail",11,"hpc_3",0.098
+"LR","Pathway","Trail",12,"hpc_31",0.146
+"LR","Pathway","Trail",13,"hpc_32",0.26
+"LR","Pathway","Trail",14,"hpc_37",0.146
+"LR","Pathway","Trail",15,"hpc_39",0.15
+"LR","Pathway","Trail",16,"hpc_41",0.128
+"LR","Pathway","Trail",17,"hpc_44",0.138
+"LR","Pathway","Trail",18,"hpc_7",0.218
+"LR","Pathway","Trail",19,"hpc_8",0.156
+"LR","Pathway","Trail",20,"hpc_9",0.4
+"LR","Pathway","VEGF",1,"hpc_0",0.196
+"LR","Pathway","VEGF",2,"hpc_1",0.17
+"LR","Pathway","VEGF",3,"hpc_10",0.096
+"LR","Pathway","VEGF",4,"hpc_14",0.236
+"LR","Pathway","VEGF",5,"hpc_15",0.1
+"LR","Pathway","VEGF",6,"hpc_16",0.054
+"LR","Pathway","VEGF",7,"hpc_20",0.1
+"LR","Pathway","VEGF",8,"hpc_21",0.262
+"LR","Pathway","VEGF",9,"hpc_22",0.08
+"LR","Pathway","VEGF",10,"hpc_27",0.126
+"LR","Pathway","VEGF",11,"hpc_3",0.078
+"LR","Pathway","VEGF",12,"hpc_31",0.08
+"LR","Pathway","VEGF",13,"hpc_32",0.122
+"LR","Pathway","VEGF",14,"hpc_37",0.088
+"LR","Pathway","VEGF",15,"hpc_39",0.136
+"LR","Pathway","VEGF",16,"hpc_41",0.09
+"LR","Pathway","VEGF",17,"hpc_44",0.1
+"LR","Pathway","VEGF",18,"hpc_7",0.096
+"LR","Pathway","VEGF",19,"hpc_8",0.312
+"LR","Pathway","VEGF",20,"hpc_9",0.4
+"LR","Pathway","WNT",1,"hpc_0",0.02
+"LR","Pathway","WNT",2,"hpc_1",0.25
+"LR","Pathway","WNT",3,"hpc_10",0.064
+"LR","Pathway","WNT",4,"hpc_14",0.086
+"LR","Pathway","WNT",5,"hpc_15",0.056
+"LR","Pathway","WNT",6,"hpc_16",0.026
+"LR","Pathway","WNT",7,"hpc_20",0.082
+"LR","Pathway","WNT",8,"hpc_21",0.018
+"LR","Pathway","WNT",9,"hpc_22",0.024
+"LR","Pathway","WNT",10,"hpc_27",0.066
+"LR","Pathway","WNT",11,"hpc_3",0.078
+"LR","Pathway","WNT",12,"hpc_31",0.07
+"LR","Pathway","WNT",13,"hpc_32",0.052
+"LR","Pathway","WNT",14,"hpc_37",0.03
+"LR","Pathway","WNT",15,"hpc_39",0.096
+"LR","Pathway","WNT",16,"hpc_41",0.052
+"LR","Pathway","WNT",17,"hpc_44",0.044
+"LR","Pathway","WNT",18,"hpc_7",0.042
+"LR","Pathway","WNT",19,"hpc_8",0.044
+"LR","Pathway","WNT",20,"hpc_9",0.1
+"LR","Transcription factor","E2F1",1,"hpc_0",0.104
+"LR","Transcription factor","E2F1",2,"hpc_1",0.084
+"LR","Transcription factor","E2F1",3,"hpc_10",0.104
+"LR","Transcription factor","E2F1",4,"hpc_14",0.096
+"LR","Transcription factor","E2F1",5,"hpc_15",0.164
+"LR","Transcription factor","E2F1",6,"hpc_16",0.048
+"LR","Transcription factor","E2F1",7,"hpc_20",0.334
+"LR","Transcription factor","E2F1",8,"hpc_21",0.37
+"LR","Transcription factor","E2F1",9,"hpc_22",0.312
+"LR","Transcription factor","E2F1",10,"hpc_27",0.104
+"LR","Transcription factor","E2F1",11,"hpc_3",0.15
+"LR","Transcription factor","E2F1",12,"hpc_31",0.132
+"LR","Transcription factor","E2F1",13,"hpc_32",0.168
+"LR","Transcription factor","E2F1",14,"hpc_37",0.154
+"LR","Transcription factor","E2F1",15,"hpc_39",0.188
+"LR","Transcription factor","E2F1",16,"hpc_41",0.11
+"LR","Transcription factor","E2F1",17,"hpc_44",0.072
+"LR","Transcription factor","E2F1",18,"hpc_7",0.316
+"LR","Transcription factor","E2F1",19,"hpc_8",0.294
+"LR","Transcription factor","E2F1",20,"hpc_9",0.324
+"LR","Transcription factor","E2F4",1,"hpc_0",0.24
+"LR","Transcription factor","E2F4",2,"hpc_1",0.186
+"LR","Transcription factor","E2F4",3,"hpc_10",0.128
+"LR","Transcription factor","E2F4",4,"hpc_14",0.104
+"LR","Transcription factor","E2F4",5,"hpc_15",0.136
+"LR","Transcription factor","E2F4",6,"hpc_16",0.102
+"LR","Transcription factor","E2F4",7,"hpc_20",0.114
+"LR","Transcription factor","E2F4",8,"hpc_21",0.146
+"LR","Transcription factor","E2F4",9,"hpc_22",0.138
+"LR","Transcription factor","E2F4",10,"hpc_27",0.118
+"LR","Transcription factor","E2F4",11,"hpc_3",0.13
+"LR","Transcription factor","E2F4",12,"hpc_31",0.088
+"LR","Transcription factor","E2F4",13,"hpc_32",0.154
+"LR","Transcription factor","E2F4",14,"hpc_37",0.108
+"LR","Transcription factor","E2F4",15,"hpc_39",0.108
+"LR","Transcription factor","E2F4",16,"hpc_41",0.114
+"LR","Transcription factor","E2F4",17,"hpc_44",0.134
+"LR","Transcription factor","E2F4",18,"hpc_7",0.114
+"LR","Transcription factor","E2F4",19,"hpc_8",0.124
+"LR","Transcription factor","E2F4",20,"hpc_9",0.182
+"LR","Transcription factor","EGR1",1,"hpc_0",1
+"LR","Transcription factor","EGR1",2,"hpc_1",1
+"LR","Transcription factor","EGR1",3,"hpc_10",1
+"LR","Transcription factor","EGR1",4,"hpc_14",0.888
+"LR","Transcription factor","EGR1",5,"hpc_15",0.864
+"LR","Transcription factor","EGR1",6,"hpc_16",0.992
+"LR","Transcription factor","EGR1",7,"hpc_20",0.984
+"LR","Transcription factor","EGR1",8,"hpc_21",0.452
+"LR","Transcription factor","EGR1",9,"hpc_22",0.572
+"LR","Transcription factor","EGR1",10,"hpc_27",0.838
+"LR","Transcription factor","EGR1",11,"hpc_3",0.964
+"LR","Transcription factor","EGR1",12,"hpc_31",0.976
+"LR","Transcription factor","EGR1",13,"hpc_32",0.772
+"LR","Transcription factor","EGR1",14,"hpc_37",0.518
+"LR","Transcription factor","EGR1",15,"hpc_39",0.88
+"LR","Transcription factor","EGR1",16,"hpc_41",0.438
+"LR","Transcription factor","EGR1",17,"hpc_44",0.408
+"LR","Transcription factor","EGR1",18,"hpc_7",0.796
+"LR","Transcription factor","EGR1",19,"hpc_8",0.464
+"LR","Transcription factor","EGR1",20,"hpc_9",0.828
+"LR","Transcription factor","ETS1",1,"hpc_0",0.084
+"LR","Transcription factor","ETS1",2,"hpc_1",0.038
+"LR","Transcription factor","ETS1",3,"hpc_10",0.166
+"LR","Transcription factor","ETS1",4,"hpc_14",0.312
+"LR","Transcription factor","ETS1",5,"hpc_15",0.106
+"LR","Transcription factor","ETS1",6,"hpc_16",0.05
+"LR","Transcription factor","ETS1",7,"hpc_20",0.074
+"LR","Transcription factor","ETS1",8,"hpc_21",0.242
+"LR","Transcription factor","ETS1",9,"hpc_22",0.064
+"LR","Transcription factor","ETS1",10,"hpc_27",0.1
+"LR","Transcription factor","ETS1",11,"hpc_3",0.078
+"LR","Transcription factor","ETS1",12,"hpc_31",0.092
+"LR","Transcription factor","ETS1",13,"hpc_32",0.108
+"LR","Transcription factor","ETS1",14,"hpc_37",0.092
+"LR","Transcription factor","ETS1",15,"hpc_39",0.136
+"LR","Transcription factor","ETS1",16,"hpc_41",0.092
+"LR","Transcription factor","ETS1",17,"hpc_44",0.118
+"LR","Transcription factor","ETS1",18,"hpc_7",0.194
+"LR","Transcription factor","ETS1",19,"hpc_8",0.228
+"LR","Transcription factor","ETS1",20,"hpc_9",0.162
+"LR","Transcription factor","HNF1A",1,"hpc_0",0.016
+"LR","Transcription factor","HNF1A",2,"hpc_1",0.048
+"LR","Transcription factor","HNF1A",3,"hpc_10",0.076
+"LR","Transcription factor","HNF1A",4,"hpc_14",0.116
+"LR","Transcription factor","HNF1A",5,"hpc_15",0.052
+"LR","Transcription factor","HNF1A",6,"hpc_16",0.104
+"LR","Transcription factor","HNF1A",7,"hpc_20",0.02
+"LR","Transcription factor","HNF1A",8,"hpc_21",0.084
+"LR","Transcription factor","HNF1A",9,"hpc_22",0.04
+"LR","Transcription factor","HNF1A",10,"hpc_27",0.108
+"LR","Transcription factor","HNF1A",11,"hpc_3",0.04
+"LR","Transcription factor","HNF1A",12,"hpc_31",0.036
+"LR","Transcription factor","HNF1A",13,"hpc_32",0.088
+"LR","Transcription factor","HNF1A",14,"hpc_37",0.072
+"LR","Transcription factor","HNF1A",15,"hpc_39",0.094
+"LR","Transcription factor","HNF1A",16,"hpc_41",0.084
+"LR","Transcription factor","HNF1A",17,"hpc_44",0.068
+"LR","Transcription factor","HNF1A",18,"hpc_7",0.072
+"LR","Transcription factor","HNF1A",19,"hpc_8",0.05
+"LR","Transcription factor","HNF1A",20,"hpc_9",0.058
+"LR","Transcription factor","HNF4A",1,"hpc_0",0.128
+"LR","Transcription factor","HNF4A",2,"hpc_1",0.428
+"LR","Transcription factor","HNF4A",3,"hpc_10",0.086
+"LR","Transcription factor","HNF4A",4,"hpc_14",0.118
+"LR","Transcription factor","HNF4A",5,"hpc_15",0.128
+"LR","Transcription factor","HNF4A",6,"hpc_16",0.076
+"LR","Transcription factor","HNF4A",7,"hpc_20",0.148
+"LR","Transcription factor","HNF4A",8,"hpc_21",0.078
+"LR","Transcription factor","HNF4A",9,"hpc_22",0.138
+"LR","Transcription factor","HNF4A",10,"hpc_27",0.148
+"LR","Transcription factor","HNF4A",11,"hpc_3",0.11
+"LR","Transcription factor","HNF4A",12,"hpc_31",0.08
+"LR","Transcription factor","HNF4A",13,"hpc_32",0.15
+"LR","Transcription factor","HNF4A",14,"hpc_37",0.084
+"LR","Transcription factor","HNF4A",15,"hpc_39",0.104
+"LR","Transcription factor","HNF4A",16,"hpc_41",0.078
+"LR","Transcription factor","HNF4A",17,"hpc_44",0.218
+"LR","Transcription factor","HNF4A",18,"hpc_7",0.11
+"LR","Transcription factor","HNF4A",19,"hpc_8",0.162
+"LR","Transcription factor","HNF4A",20,"hpc_9",0.094
+"LR","Transcription factor","MYC",1,"hpc_0",0.808
+"LR","Transcription factor","MYC",2,"hpc_1",0.464
+"LR","Transcription factor","MYC",3,"hpc_10",0.414
+"LR","Transcription factor","MYC",4,"hpc_14",0.364
+"LR","Transcription factor","MYC",5,"hpc_15",0.47
+"LR","Transcription factor","MYC",6,"hpc_16",0.356
+"LR","Transcription factor","MYC",7,"hpc_20",0.35
+"LR","Transcription factor","MYC",8,"hpc_21",0.48
+"LR","Transcription factor","MYC",9,"hpc_22",0.24
+"LR","Transcription factor","MYC",10,"hpc_27",0.374
+"LR","Transcription factor","MYC",11,"hpc_3",0.522
+"LR","Transcription factor","MYC",12,"hpc_31",0.712
+"LR","Transcription factor","MYC",13,"hpc_32",0.886
+"LR","Transcription factor","MYC",14,"hpc_37",0.452
+"LR","Transcription factor","MYC",15,"hpc_39",0.3
+"LR","Transcription factor","MYC",16,"hpc_41",0.294
+"LR","Transcription factor","MYC",17,"hpc_44",0.532
+"LR","Transcription factor","MYC",18,"hpc_7",0.316
+"LR","Transcription factor","MYC",19,"hpc_8",0.53
+"LR","Transcription factor","MYC",20,"hpc_9",0.542
+"LR","Transcription factor","RFX5",1,"hpc_0",0.248
+"LR","Transcription factor","RFX5",2,"hpc_1",0.086
+"LR","Transcription factor","RFX5",3,"hpc_10",0.118
+"LR","Transcription factor","RFX5",4,"hpc_14",0.698
+"LR","Transcription factor","RFX5",5,"hpc_15",0.212
+"LR","Transcription factor","RFX5",6,"hpc_16",0.118
+"LR","Transcription factor","RFX5",7,"hpc_20",0.452
+"LR","Transcription factor","RFX5",8,"hpc_21",0.136
+"LR","Transcription factor","RFX5",9,"hpc_22",0.134
+"LR","Transcription factor","RFX5",10,"hpc_27",0.164
+"LR","Transcription factor","RFX5",11,"hpc_3",0.13
+"LR","Transcription factor","RFX5",12,"hpc_31",0.146
+"LR","Transcription factor","RFX5",13,"hpc_32",0.194
+"LR","Transcription factor","RFX5",14,"hpc_37",0.134
+"LR","Transcription factor","RFX5",15,"hpc_39",0.152
+"LR","Transcription factor","RFX5",16,"hpc_41",0.176
+"LR","Transcription factor","RFX5",17,"hpc_44",0.14
+"LR","Transcription factor","RFX5",18,"hpc_7",0.134
+"LR","Transcription factor","RFX5",19,"hpc_8",0.184
+"LR","Transcription factor","RFX5",20,"hpc_9",0.104
+"LR","Transcription factor","SOX2",1,"hpc_0",0.106
+"LR","Transcription factor","SOX2",2,"hpc_1",0.144
+"LR","Transcription factor","SOX2",3,"hpc_10",0.59
+"LR","Transcription factor","SOX2",4,"hpc_14",0.144
+"LR","Transcription factor","SOX2",5,"hpc_15",0.36
+"LR","Transcription factor","SOX2",6,"hpc_16",0.148
+"LR","Transcription factor","SOX2",7,"hpc_20",0.142
+"LR","Transcription factor","SOX2",8,"hpc_21",0.134
+"LR","Transcription factor","SOX2",9,"hpc_22",0.092
+"LR","Transcription factor","SOX2",10,"hpc_27",0.09
+"LR","Transcription factor","SOX2",11,"hpc_3",0.116
+"LR","Transcription factor","SOX2",12,"hpc_31",0.18
+"LR","Transcription factor","SOX2",13,"hpc_32",0.254
+"LR","Transcription factor","SOX2",14,"hpc_37",0.086
+"LR","Transcription factor","SOX2",15,"hpc_39",0.12
+"LR","Transcription factor","SOX2",16,"hpc_41",0.134
+"LR","Transcription factor","SOX2",17,"hpc_44",0.326
+"LR","Transcription factor","SOX2",18,"hpc_7",0.238
+"LR","Transcription factor","SOX2",19,"hpc_8",0.194
+"LR","Transcription factor","SOX2",20,"hpc_9",0.18
+"LR","Transcription factor","SPI1",1,"hpc_0",0.474
+"LR","Transcription factor","SPI1",2,"hpc_1",0.086
+"LR","Transcription factor","SPI1",3,"hpc_10",0.118
+"LR","Transcription factor","SPI1",4,"hpc_14",0.284
+"LR","Transcription factor","SPI1",5,"hpc_15",0.16
+"LR","Transcription factor","SPI1",6,"hpc_16",0.202
+"LR","Transcription factor","SPI1",7,"hpc_20",0.22
+"LR","Transcription factor","SPI1",8,"hpc_21",0.14
+"LR","Transcription factor","SPI1",9,"hpc_22",0.114
+"LR","Transcription factor","SPI1",10,"hpc_27",0.198
+"LR","Transcription factor","SPI1",11,"hpc_3",0.132
+"LR","Transcription factor","SPI1",12,"hpc_31",0.19
+"LR","Transcription factor","SPI1",13,"hpc_32",0.182
+"LR","Transcription factor","SPI1",14,"hpc_37",0.176
+"LR","Transcription factor","SPI1",15,"hpc_39",0.122
+"LR","Transcription factor","SPI1",16,"hpc_41",0.144
+"LR","Transcription factor","SPI1",17,"hpc_44",0.098
+"LR","Transcription factor","SPI1",18,"hpc_7",0.096
+"LR","Transcription factor","SPI1",19,"hpc_8",0.136
+"LR","Transcription factor","SPI1",20,"hpc_9",0.13
+"LR","Transcription factor","STAT1",1,"hpc_0",0.142
+"LR","Transcription factor","STAT1",2,"hpc_1",0.066
+"LR","Transcription factor","STAT1",3,"hpc_10",0.09
+"LR","Transcription factor","STAT1",4,"hpc_14",0.23
+"LR","Transcription factor","STAT1",5,"hpc_15",0.086
+"LR","Transcription factor","STAT1",6,"hpc_16",0.134
+"LR","Transcription factor","STAT1",7,"hpc_20",0.084
+"LR","Transcription factor","STAT1",8,"hpc_21",0.104
+"LR","Transcription factor","STAT1",9,"hpc_22",0.108
+"LR","Transcription factor","STAT1",10,"hpc_27",0.154
+"LR","Transcription factor","STAT1",11,"hpc_3",0.066
+"LR","Transcription factor","STAT1",12,"hpc_31",0.11
+"LR","Transcription factor","STAT1",13,"hpc_32",0.112
+"LR","Transcription factor","STAT1",14,"hpc_37",0.122
+"LR","Transcription factor","STAT1",15,"hpc_39",0.104
+"LR","Transcription factor","STAT1",16,"hpc_41",0.128
+"LR","Transcription factor","STAT1",17,"hpc_44",0.104
+"LR","Transcription factor","STAT1",18,"hpc_7",0.068
+"LR","Transcription factor","STAT1",19,"hpc_8",0.092
+"LR","Transcription factor","STAT1",20,"hpc_9",0.132
+"LR","Transcription factor","STAT2",1,"hpc_0",0.08
+"LR","Transcription factor","STAT2",2,"hpc_1",0.054
+"LR","Transcription factor","STAT2",3,"hpc_10",0.11
+"LR","Transcription factor","STAT2",4,"hpc_14",0.22
+"LR","Transcription factor","STAT2",5,"hpc_15",0.154
+"LR","Transcription factor","STAT2",6,"hpc_16",0.112
+"LR","Transcription factor","STAT2",7,"hpc_20",0.242
+"LR","Transcription factor","STAT2",8,"hpc_21",0.112
+"LR","Transcription factor","STAT2",9,"hpc_22",0.124
+"LR","Transcription factor","STAT2",10,"hpc_27",0.13
+"LR","Transcription factor","STAT2",11,"hpc_3",0.138
+"LR","Transcription factor","STAT2",12,"hpc_31",0.14
+"LR","Transcription factor","STAT2",13,"hpc_32",0.148
+"LR","Transcription factor","STAT2",14,"hpc_37",0.192
+"LR","Transcription factor","STAT2",15,"hpc_39",0.212
+"LR","Transcription factor","STAT2",16,"hpc_41",0.148
+"LR","Transcription factor","STAT2",17,"hpc_44",0.186
+"LR","Transcription factor","STAT2",18,"hpc_7",0.266
+"LR","Transcription factor","STAT2",19,"hpc_8",0.216
+"LR","Transcription factor","STAT2",20,"hpc_9",0.206
+"LR","Transcription factor","TP53",1,"hpc_0",0.036
+"LR","Transcription factor","TP53",2,"hpc_1",0.244
+"LR","Transcription factor","TP53",3,"hpc_10",0.068
+"LR","Transcription factor","TP53",4,"hpc_14",0.272
+"LR","Transcription factor","TP53",5,"hpc_15",0.278
+"LR","Transcription factor","TP53",6,"hpc_16",0.086
+"LR","Transcription factor","TP53",7,"hpc_20",0.06
+"LR","Transcription factor","TP53",8,"hpc_21",0.068
+"LR","Transcription factor","TP53",9,"hpc_22",0.082
+"LR","Transcription factor","TP53",10,"hpc_27",0.1
+"LR","Transcription factor","TP53",11,"hpc_3",0.058
+"LR","Transcription factor","TP53",12,"hpc_31",0.056
+"LR","Transcription factor","TP53",13,"hpc_32",0.1
+"LR","Transcription factor","TP53",14,"hpc_37",0.084
+"LR","Transcription factor","TP53",15,"hpc_39",0.1
+"LR","Transcription factor","TP53",16,"hpc_41",0.096
+"LR","Transcription factor","TP53",17,"hpc_44",0.084
+"LR","Transcription factor","TP53",18,"hpc_7",0.102
+"LR","Transcription factor","TP53",19,"hpc_8",0.068
+"LR","Transcription factor","TP53",20,"hpc_9",0.084
+"LR","Transcription factor","ZNF263",1,"hpc_0",1
+"LR","Transcription factor","ZNF263",2,"hpc_1",0.956
+"LR","Transcription factor","ZNF263",3,"hpc_10",0.992
+"LR","Transcription factor","ZNF263",4,"hpc_14",0.772
+"LR","Transcription factor","ZNF263",5,"hpc_15",0.66
+"LR","Transcription factor","ZNF263",6,"hpc_16",0.442
+"LR","Transcription factor","ZNF263",7,"hpc_20",0.756
+"LR","Transcription factor","ZNF263",8,"hpc_21",0.968
+"LR","Transcription factor","ZNF263",9,"hpc_22",0.938
+"LR","Transcription factor","ZNF263",10,"hpc_27",0.446
+"LR","Transcription factor","ZNF263",11,"hpc_3",0.996
+"LR","Transcription factor","ZNF263",12,"hpc_31",0.762
+"LR","Transcription factor","ZNF263",13,"hpc_32",0.966
+"LR","Transcription factor","ZNF263",14,"hpc_37",0.592
+"LR","Transcription factor","ZNF263",15,"hpc_39",0.982
+"LR","Transcription factor","ZNF263",16,"hpc_41",0.944
+"LR","Transcription factor","ZNF263",17,"hpc_44",0.804
+"LR","Transcription factor","ZNF263",18,"hpc_7",0.958
+"LR","Transcription factor","ZNF263",19,"hpc_8",0.93
+"LR","Transcription factor","ZNF263",20,"hpc_9",0.86

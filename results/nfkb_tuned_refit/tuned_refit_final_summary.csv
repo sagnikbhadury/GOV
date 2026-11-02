@@ -1,0 +1,2 @@
+"risk_group","molecular_layer","activity","step_a","step_u","burn","nrun","elapsed_seconds","acceptance_psia","acceptance_psiu","ess_psia","ess_psiu","ess_log_likelihood","pip_correlation_with_original","selections_original","selections_tuned","median_absolute_pip_change","maximum_absolute_pip_change","heldout_rmse","baseline_rmse"
+"HR","Pathway","NFkB",1.5,0.5,500,1500,938.53,0.367,0.459,95.1004692713109,18.8897502244506,63.4237340394242,0.477180955627853,19,7,0.406,0.895,2.10559646186345,2.15357756512426

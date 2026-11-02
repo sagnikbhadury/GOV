@@ -1,0 +1,421 @@
+"risk_group","molecular_layer","activity","parameter","post_burnin_draws","lag1_autocorrelation","effective_sample_size"
+"HR","Kinase","AKT1","post_log_likelihood",500,-0.0265786776356502,500
+"HR","Kinase","AKT1","residual_precision",500,0.128733158956534,264.667204186938
+"HR","Kinase","AKT1","kernel_variance",500,0.900536845929106,36.2549358201318
+"HR","Kinase","AKT1","density_lengthscale",500,0.98608908777296,4.34409678048014
+"HR","Kinase","AKT1","network_lengthscale",500,0.970446895709905,8.41151047029007
+"HR","Kinase","ATM","post_log_likelihood",500,-0.0379270056997626,500
+"HR","Kinase","ATM","residual_precision",500,0.338428504380501,27.7599425570881
+"HR","Kinase","ATM","kernel_variance",500,0.970917894672448,8.73024229072163
+"HR","Kinase","ATM","density_lengthscale",500,0.986425221518344,5.07447113247856
+"HR","Kinase","ATM","network_lengthscale",500,0.990397008261199,3.20201412638387
+"HR","Kinase","CDK1","post_log_likelihood",500,NA,NA
+"HR","Kinase","CDK1","residual_precision",500,0.0752385042892495,347.749276672969
+"HR","Kinase","CDK1","kernel_variance",500,0.868692818973182,56.1591231249442
+"HR","Kinase","CDK1","density_lengthscale",500,0.989701126198639,5.67737487666602
+"HR","Kinase","CDK1","network_lengthscale",500,0.994490419194631,4.83338510906082
+"HR","Kinase","CDK2","post_log_likelihood",500,NA,NA
+"HR","Kinase","CDK2","residual_precision",500,0.0846195766908401,384.009216632781
+"HR","Kinase","CDK2","kernel_variance",500,0.921882520699915,14.8256784065506
+"HR","Kinase","CDK2","density_lengthscale",500,0.984465524773658,3.59388703526497
+"HR","Kinase","CDK2","network_lengthscale",500,0.988507560912941,4.62186801056081
+"HR","Kinase","CHEK1","post_log_likelihood",500,0.0862198527769271,221.073624754429
+"HR","Kinase","CHEK1","residual_precision",500,0.474821040450499,53.2063870991017
+"HR","Kinase","CHEK1","kernel_variance",500,0.933092741882444,6.60748465849329
+"HR","Kinase","CHEK1","density_lengthscale",500,0.98465363052883,6.45483685635561
+"HR","Kinase","CHEK1","network_lengthscale",500,0.990731696686484,4.78089241233149
+"HR","Kinase","CSNK2A1","post_log_likelihood",500,0.162747477537431,102.284304573254
+"HR","Kinase","CSNK2A1","residual_precision",500,0.461710533409858,17.1786956172682
+"HR","Kinase","CSNK2A1","kernel_variance",500,0.949357250118201,6.8164614811736
+"HR","Kinase","CSNK2A1","density_lengthscale",500,0.988597873698114,4.28100397909383
+"HR","Kinase","CSNK2A1","network_lengthscale",500,0.982148762818578,8.82136544440814
+"HR","Kinase","EGF","post_log_likelihood",500,0.0238887153141201,327.170824244467
+"HR","Kinase","EGF","residual_precision",500,0.131175189953671,303.891321215885
+"HR","Kinase","EGF","kernel_variance",500,0.86131228003399,52.93741172987
+"HR","Kinase","EGF","density_lengthscale",500,0.986914595044335,3.79760060842635
+"HR","Kinase","EGF","network_lengthscale",500,0.97637674962566,8.44719928645726
+"HR","Kinase","GSK3B","post_log_likelihood",500,0.0746623308743292,435.933015101032
+"HR","Kinase","GSK3B","residual_precision",500,0.0988300224978763,443.433821359198
+"HR","Kinase","GSK3B","kernel_variance",500,0.771788078168035,58.7010027399095
+"HR","Kinase","GSK3B","density_lengthscale",500,0.996800713480207,2.71763697089883
+"HR","Kinase","GSK3B","network_lengthscale",500,0.994137370503067,2.99997255678633
+"HR","Kinase","LCK","post_log_likelihood",500,0.509961833363199,69.1901919648916
+"HR","Kinase","LCK","residual_precision",500,0.836884939217747,27.5115645649286
+"HR","Kinase","LCK","kernel_variance",500,0.858908918768112,22.2343018848493
+"HR","Kinase","LCK","density_lengthscale",500,0.972005266888292,13.0692089625423
+"HR","Kinase","LCK","network_lengthscale",500,0.985483245285208,4.51808385917313
+"HR","Kinase","MAP3K14","post_log_likelihood",500,-0.011197544512598,461.821285293898
+"HR","Kinase","MAP3K14","residual_precision",500,0.298082914917791,133.888708822374
+"HR","Kinase","MAP3K14","kernel_variance",500,0.925299005832143,36.6093340239978
+"HR","Kinase","MAP3K14","density_lengthscale",500,0.989640306645587,4.78462424933651
+"HR","Kinase","MAP3K14","network_lengthscale",500,0.989719954183618,4.70817307109904
+"HR","Kinase","MAPK1","post_log_likelihood",500,0.080395373734741,288.95175461716
+"HR","Kinase","MAPK1","residual_precision",500,0.106409639149331,339.340511881835
+"HR","Kinase","MAPK1","kernel_variance",500,0.836333077506193,69.0575004664623
+"HR","Kinase","MAPK1","density_lengthscale",500,0.992317755530026,4.17022813859512
+"HR","Kinase","MAPK1","network_lengthscale",500,0.973194732183398,9.53837555569618
+"HR","Kinase","MAPK14","post_log_likelihood",500,0.0436479929906058,465.620554365226
+"HR","Kinase","MAPK14","residual_precision",500,0.175221099459593,280.677640841212
+"HR","Kinase","MAPK14","kernel_variance",500,0.873376290080905,37.0357697420088
+"HR","Kinase","MAPK14","density_lengthscale",500,0.975740205754869,9.37368268325329
+"HR","Kinase","MAPK14","network_lengthscale",500,0.989774617947485,3.72817243821738
+"HR","Kinase","PLK1","post_log_likelihood",500,0.465069881433489,72.0052823271943
+"HR","Kinase","PLK1","residual_precision",500,0.803401365157768,18.6937237499633
+"HR","Kinase","PLK1","kernel_variance",500,0.880714851229004,30.389365621819
+"HR","Kinase","PLK1","density_lengthscale",500,0.994511956097935,3.21857607666454
+"HR","Kinase","PLK1","network_lengthscale",500,0.989933682569679,3.64936783675258
+"HR","Kinase","SRC","post_log_likelihood",500,0.0400096933001092,426.238063562168
+"HR","Kinase","SRC","residual_precision",500,0.188794797428117,283.588293615275
+"HR","Kinase","SRC","kernel_variance",500,0.864928988066173,43.4609209351797
+"HR","Kinase","SRC","density_lengthscale",500,0.983074799192065,5.73624908027044
+"HR","Kinase","SRC","network_lengthscale",500,0.985552011207,5.23996558340481
+"HR","Pathway","Androgen","post_log_likelihood",500,0.0493072297549415,330.625411758594
+"HR","Pathway","Androgen","residual_precision",500,0.236253847593383,181.878990914405
+"HR","Pathway","Androgen","kernel_variance",500,0.834164327103827,75.0680888159943
+"HR","Pathway","Androgen","density_lengthscale",500,0.984251578652904,7.47602217160875
+"HR","Pathway","Androgen","network_lengthscale",500,0.981093815648272,5.63926282191882
+"HR","Pathway","EGFR","post_log_likelihood",500,0.174203485243006,181.144579236194
+"HR","Pathway","EGFR","residual_precision",500,0.121463297985886,351.576641697392
+"HR","Pathway","EGFR","kernel_variance",500,0.875312406946846,58.1947677736376
+"HR","Pathway","EGFR","density_lengthscale",500,0.956332769893626,16.6961086951175
+"HR","Pathway","EGFR","network_lengthscale",500,0.993166220417389,6.40609315963659
+"HR","Pathway","Estrogen","post_log_likelihood",500,0.146994437594942,211.31472171267
+"HR","Pathway","Estrogen","residual_precision",500,0.330367076405955,249.80584423245
+"HR","Pathway","Estrogen","kernel_variance",500,0.855205427394351,48.3043881834879
+"HR","Pathway","Estrogen","density_lengthscale",500,0.960770454866295,9.89642789002175
+"HR","Pathway","Estrogen","network_lengthscale",500,0.989720065340046,3.58625898854282
+"HR","Pathway","Hypoxia","post_log_likelihood",500,0.500298825124216,24.0810858724408
+"HR","Pathway","Hypoxia","residual_precision",500,0.853962804125494,43.5589012785125
+"HR","Pathway","Hypoxia","kernel_variance",500,0.353179334247714,104.530406249146
+"HR","Pathway","Hypoxia","density_lengthscale",500,0.976480579424245,9.57577541980806
+"HR","Pathway","Hypoxia","network_lengthscale",500,0.9914596088226,3.56441630997429
+"HR","Pathway","JAK-STAT","post_log_likelihood",500,0.0420080762192156,230.505607007858
+"HR","Pathway","JAK-STAT","residual_precision",500,0.0253435117644854,244.954819629849
+"HR","Pathway","JAK-STAT","kernel_variance",500,0.834092691132779,65.0000270878175
+"HR","Pathway","JAK-STAT","density_lengthscale",500,0.984501514429878,6.45380666408027
+"HR","Pathway","JAK-STAT","network_lengthscale",500,0.984087567201699,5.87041520140816
+"HR","Pathway","MAPK","post_log_likelihood",500,0.469843040104052,13.338850144552
+"HR","Pathway","MAPK","residual_precision",500,0.820986402449937,10.7576441200549
+"HR","Pathway","MAPK","kernel_variance",500,0.908109836737342,21.8116888776484
+"HR","Pathway","MAPK","density_lengthscale",500,0.983825242528482,6.61330050537476
+"HR","Pathway","MAPK","network_lengthscale",500,0.988803936416311,5.56849742525877
+"HR","Pathway","NFkB","post_log_likelihood",500,0.772094180694509,9.36896878387526
+"HR","Pathway","NFkB","residual_precision",500,0.848354624837823,42.0607869023218
+"HR","Pathway","NFkB","kernel_variance",500,0.56651669563801,10.4693650160271
+"HR","Pathway","NFkB","density_lengthscale",500,0.986472448582069,7.69494178098919
+"HR","Pathway","NFkB","network_lengthscale",500,0.981369136668332,5.53132422742737
+"HR","Pathway","p53","post_log_likelihood",500,0.774364934318065,4.47288577890562
+"HR","Pathway","p53","residual_precision",500,0.873177468004973,42.4017460204188
+"HR","Pathway","p53","kernel_variance",500,0.487446703639042,16.7521784311898
+"HR","Pathway","p53","density_lengthscale",500,0.985640999791047,7.07548316572235
+"HR","Pathway","p53","network_lengthscale",500,0.990518490806469,6.0489861960027
+"HR","Pathway","PI3K","post_log_likelihood",500,0.687757955281204,48.4464580037253
+"HR","Pathway","PI3K","residual_precision",500,0.912492041986317,25.7037026890758
+"HR","Pathway","PI3K","kernel_variance",500,0.891536885529224,31.3827928682425
+"HR","Pathway","PI3K","density_lengthscale",500,0.972238871860219,6.78992466038715
+"HR","Pathway","PI3K","network_lengthscale",500,0.993878395428161,3.0229887964008
+"HR","Pathway","TGFb","post_log_likelihood",500,0.273440600049637,160.094073066047
+"HR","Pathway","TGFb","residual_precision",500,0.801421553865588,10.0816139926125
+"HR","Pathway","TGFb","kernel_variance",500,0.925961590256875,15.6003913944558
+"HR","Pathway","TGFb","density_lengthscale",500,0.973645262389378,11.2121726524301
+"HR","Pathway","TGFb","network_lengthscale",500,0.990805159466831,3.90599712511733
+"HR","Pathway","TNFa","post_log_likelihood",500,0.290335703218255,183.141675489304
+"HR","Pathway","TNFa","residual_precision",500,0.567179631053438,117.832576551079
+"HR","Pathway","TNFa","kernel_variance",500,0.812329152985352,77.8158430738261
+"HR","Pathway","TNFa","density_lengthscale",500,0.995956118253612,3.00152005912303
+"HR","Pathway","TNFa","network_lengthscale",500,0.978493340605362,10.009896559144
+"HR","Pathway","Trail","post_log_likelihood",500,0.506391794588947,17.0287707730361
+"HR","Pathway","Trail","residual_precision",500,0.987099637568984,4.30483380857185
+"HR","Pathway","Trail","kernel_variance",500,0.937543800594996,5.58663135270305
+"HR","Pathway","Trail","density_lengthscale",500,0.97850385284488,7.25183635046732
+"HR","Pathway","Trail","network_lengthscale",500,0.994877979099903,2.7810036652218
+"HR","Pathway","VEGF","post_log_likelihood",500,0.430177082202195,53.0635579730624
+"HR","Pathway","VEGF","residual_precision",500,0.820891635633758,14.5620604593896
+"HR","Pathway","VEGF","kernel_variance",500,0.896098923664324,35.5909504231783
+"HR","Pathway","VEGF","density_lengthscale",500,0.993441334806405,4.55209655835024
+"HR","Pathway","VEGF","network_lengthscale",500,0.98383158594394,4.85720772391544
+"HR","Pathway","WNT","post_log_likelihood",500,0.689856838808814,33.6332261123687
+"HR","Pathway","WNT","residual_precision",500,0.970199916001398,9.17221724815487
+"HR","Pathway","WNT","kernel_variance",500,0.852957250261611,28.9858446197373
+"HR","Pathway","WNT","density_lengthscale",500,0.986422910397528,5.74569355145302
+"HR","Pathway","WNT","network_lengthscale",500,0.968511601000457,8.55439437006364
+"HR","Transcription factor","E2F1","post_log_likelihood",500,0.272150374325021,131.595306661245
+"HR","Transcription factor","E2F1","residual_precision",500,0.530259439203903,55.2177552709563
+"HR","Transcription factor","E2F1","kernel_variance",500,0.915276643856155,22.9567268875533
+"HR","Transcription factor","E2F1","density_lengthscale",500,0.976148866997173,4.1722284487637
+"HR","Transcription factor","E2F1","network_lengthscale",500,0.99020328960084,3.5480356362643
+"HR","Transcription factor","E2F4","post_log_likelihood",500,0.535048788208359,13.7734508172675
+"HR","Transcription factor","E2F4","residual_precision",500,0.858007781944773,33.1826390960657
+"HR","Transcription factor","E2F4","kernel_variance",500,0.260580470544417,104.470515623982
+"HR","Transcription factor","E2F4","density_lengthscale",500,0.994065021860252,3.21838227655229
+"HR","Transcription factor","E2F4","network_lengthscale",500,0.986255157282783,6.0930321216349
+"HR","Transcription factor","EGR1","post_log_likelihood",500,0.88707785965202,4.06227124800782
+"HR","Transcription factor","EGR1","residual_precision",500,0.986727900443521,3.71274483913463
+"HR","Transcription factor","EGR1","kernel_variance",500,0.952046845540193,3.70412453954327
+"HR","Transcription factor","EGR1","density_lengthscale",500,0.970817302962809,6.9476797808956
+"HR","Transcription factor","EGR1","network_lengthscale",500,0.989187075176984,5.70156711851734
+"HR","Transcription factor","ETS1","post_log_likelihood",500,0.112783744753476,268.01562946213
+"HR","Transcription factor","ETS1","residual_precision",500,0.292036985364472,224.312876572115
+"HR","Transcription factor","ETS1","kernel_variance",500,0.875772209768664,23.5406414330521
+"HR","Transcription factor","ETS1","density_lengthscale",500,0.970231021859473,9.84793215431393
+"HR","Transcription factor","ETS1","network_lengthscale",500,0.986491658632281,6.64573154263852
+"HR","Transcription factor","HNF1A","post_log_likelihood",500,0.126891774724296,317.186531233217
+"HR","Transcription factor","HNF1A","residual_precision",500,0.29987785129886,194.040317097238
+"HR","Transcription factor","HNF1A","kernel_variance",500,0.797463907938242,90.3614370260335
+"HR","Transcription factor","HNF1A","density_lengthscale",500,0.988320393767162,7.32999147318966
+"HR","Transcription factor","HNF1A","network_lengthscale",500,0.993245102068639,3.21025932025254
+"HR","Transcription factor","HNF4A","post_log_likelihood",500,0.0921847925258724,269.984729296886
+"HR","Transcription factor","HNF4A","residual_precision",500,0.246078304624072,297.287622527436
+"HR","Transcription factor","HNF4A","kernel_variance",500,0.859548760090821,55.7143488168892
+"HR","Transcription factor","HNF4A","density_lengthscale",500,0.985433125384099,3.31430995865397
+"HR","Transcription factor","HNF4A","network_lengthscale",500,0.986891772236093,3.59490030860682
+"HR","Transcription factor","MYC","post_log_likelihood",500,0.298901166112905,133.59698580126
+"HR","Transcription factor","MYC","residual_precision",500,0.880019957223704,22.1164369055816
+"HR","Transcription factor","MYC","kernel_variance",500,0.924508996293582,31.3888047531505
+"HR","Transcription factor","MYC","density_lengthscale",500,0.988595796442357,3.18574454472539
+"HR","Transcription factor","MYC","network_lengthscale",500,0.992826027294162,4.02709403915637
+"HR","Transcription factor","PRDM14","post_log_likelihood",500,0.311962445098124,112.897638946636
+"HR","Transcription factor","PRDM14","residual_precision",500,0.608921771888251,100.742457095653
+"HR","Transcription factor","PRDM14","kernel_variance",500,0.894133934529934,52.9211282107686
+"HR","Transcription factor","PRDM14","density_lengthscale",500,0.978186321450961,9.13257426299103
+"HR","Transcription factor","PRDM14","network_lengthscale",500,0.989012589930282,4.213788797857
+"HR","Transcription factor","RFX5","post_log_likelihood",500,0.270417817922398,129.620474938883
+"HR","Transcription factor","RFX5","residual_precision",500,0.56974941145822,108.847434519213
+"HR","Transcription factor","RFX5","kernel_variance",500,0.87881306710087,50.6685754544017
+"HR","Transcription factor","RFX5","density_lengthscale",500,0.99008810127554,4.7125944067412
+"HR","Transcription factor","RFX5","network_lengthscale",500,0.991236731085899,6.59240443110126
+"HR","Transcription factor","SOX2","post_log_likelihood",500,0.16111386540582,180.218733302453
+"HR","Transcription factor","SOX2","residual_precision",500,0.550502062052616,81.7427200374493
+"HR","Transcription factor","SOX2","kernel_variance",500,0.902882152710107,50.7750912541606
+"HR","Transcription factor","SOX2","density_lengthscale",500,0.992204864632877,3.11653436493536
+"HR","Transcription factor","SOX2","network_lengthscale",500,0.99217439934477,3.17477768069706
+"HR","Transcription factor","SPI1","post_log_likelihood",500,0.354125320421976,96.4763615504934
+"HR","Transcription factor","SPI1","residual_precision",500,0.632568455358454,69.0655125904639
+"HR","Transcription factor","SPI1","kernel_variance",500,0.925093127144932,15.7787026892204
+"HR","Transcription factor","SPI1","density_lengthscale",500,0.975410266710703,4.18252190787887
+"HR","Transcription factor","SPI1","network_lengthscale",500,0.989505538172075,3.49868404739724
+"HR","Transcription factor","STAT1","post_log_likelihood",500,0.345902661473959,68.0498107390513
+"HR","Transcription factor","STAT1","residual_precision",500,0.584474035288465,43.6843733456622
+"HR","Transcription factor","STAT1","kernel_variance",500,0.942268335122219,17.7798244004339
+"HR","Transcription factor","STAT1","density_lengthscale",500,0.993934301193963,2.96074536051043
+"HR","Transcription factor","STAT1","network_lengthscale",500,0.986320907981639,4.67923939932905
+"HR","Transcription factor","STAT2","post_log_likelihood",500,0.15438860855313,187.878280736336
+"HR","Transcription factor","STAT2","residual_precision",500,0.270619937575329,184.672566191524
+"HR","Transcription factor","STAT2","kernel_variance",500,0.897592849634054,23.62090384988
+"HR","Transcription factor","STAT2","density_lengthscale",500,0.988145812941776,4.34356116734289
+"HR","Transcription factor","STAT2","network_lengthscale",500,0.990919763843096,3.01940749505752
+"HR","Transcription factor","ZNF263","post_log_likelihood",500,0.0490927829000487,292.529092019801
+"HR","Transcription factor","ZNF263","residual_precision",500,0.205973997280343,243.194661791697
+"HR","Transcription factor","ZNF263","kernel_variance",500,0.873943254925132,54.1116932424774
+"HR","Transcription factor","ZNF263","density_lengthscale",500,0.992086292114419,4.09285614745972
+"HR","Transcription factor","ZNF263","network_lengthscale",500,0.971777477585992,7.53392644032821
+"LR","Kinase","ATM","post_log_likelihood",500,0.0167561652389841,419.504012613394
+"LR","Kinase","ATM","residual_precision",500,0.0247706137584208,459.606180437426
+"LR","Kinase","ATM","kernel_variance",500,0.875570645055598,35.4648188690295
+"LR","Kinase","ATM","density_lengthscale",500,0.993153074049184,3.36100617439486
+"LR","Kinase","ATM","network_lengthscale",500,0.958784918421441,12.2465269849566
+"LR","Kinase","CDK1","post_log_likelihood",500,NA,NA
+"LR","Kinase","CDK1","residual_precision",500,0.0716431271209776,192.507178294709
+"LR","Kinase","CDK1","kernel_variance",500,0.904403576452512,29.2192408766845
+"LR","Kinase","CDK1","density_lengthscale",500,0.986413504765597,5.37620853590433
+"LR","Kinase","CDK1","network_lengthscale",500,0.995648148019993,2.76225853007952
+"LR","Kinase","CDK2","post_log_likelihood",500,NA,NA
+"LR","Kinase","CDK2","residual_precision",500,0.023799421922306,348.755829556063
+"LR","Kinase","CDK2","kernel_variance",500,0.907536834021756,37.3772520026084
+"LR","Kinase","CDK2","density_lengthscale",500,0.977940142125397,6.56285045910878
+"LR","Kinase","CDK2","network_lengthscale",500,0.995713813262959,2.80929202949937
+"LR","Kinase","CHEK1","post_log_likelihood",500,0.155969879656277,130.282347325436
+"LR","Kinase","CHEK1","residual_precision",500,0.515681020082215,63.6368927138156
+"LR","Kinase","CHEK1","kernel_variance",500,0.945102367249129,14.5701344691171
+"LR","Kinase","CHEK1","density_lengthscale",500,0.981526998095319,5.59319341614467
+"LR","Kinase","CHEK1","network_lengthscale",500,0.969742826393667,7.2265699105461
+"LR","Kinase","CSNK2A1","post_log_likelihood",500,0.0628434542221205,390.242385811745
+"LR","Kinase","CSNK2A1","residual_precision",500,0.243602633821347,151.233566861658
+"LR","Kinase","CSNK2A1","kernel_variance",500,0.897825553698353,38.1105912586083
+"LR","Kinase","CSNK2A1","density_lengthscale",500,0.983738094583303,4.1148236767387
+"LR","Kinase","CSNK2A1","network_lengthscale",500,0.959465627199367,5.87318029291222
+"LR","Kinase","EGF","post_log_likelihood",500,0.0784148958410797,294.21581550431
+"LR","Kinase","EGF","residual_precision",500,0.218724013705242,231.235266089918
+"LR","Kinase","EGF","kernel_variance",500,0.925594105971418,38.6677694298263
+"LR","Kinase","EGF","density_lengthscale",500,0.9898252142943,4.45362657518328
+"LR","Kinase","EGF","network_lengthscale",500,0.988606181916679,6.1200136937079
+"LR","Kinase","GSK3B","post_log_likelihood",500,0.0548074865073624,420.887771386123
+"LR","Kinase","GSK3B","residual_precision",500,0.0898746484275227,183.810612031592
+"LR","Kinase","GSK3B","kernel_variance",500,0.930073451725698,16.9079238452497
+"LR","Kinase","GSK3B","density_lengthscale",500,0.98758907364161,6.59823549300812
+"LR","Kinase","GSK3B","network_lengthscale",500,0.982205168388163,4.6025440526804
+"LR","Kinase","LCK","post_log_likelihood",500,0.251684052911764,116.128596530196
+"LR","Kinase","LCK","residual_precision",500,0.610428593860015,31.9154352820897
+"LR","Kinase","LCK","kernel_variance",500,0.899185571115532,34.3285736936814
+"LR","Kinase","LCK","density_lengthscale",500,0.972234949290889,9.45566279808577
+"LR","Kinase","LCK","network_lengthscale",500,0.988014435207254,4.41214696552125
+"LR","Kinase","MAP3K14","post_log_likelihood",500,0.102002823460362,397.218040472451
+"LR","Kinase","MAP3K14","residual_precision",500,0.187089561189882,311.840659659905
+"LR","Kinase","MAP3K14","kernel_variance",500,0.901441733406904,57.6871615618683
+"LR","Kinase","MAP3K14","density_lengthscale",500,0.987179129133791,7.70377399452244
+"LR","Kinase","MAP3K14","network_lengthscale",500,0.983927067539403,3.58033450243598
+"LR","Kinase","MAPK1","post_log_likelihood",500,0.0555460869677228,394.07053102585
+"LR","Kinase","MAPK1","residual_precision",500,0.0817613508170952,391.350050851763
+"LR","Kinase","MAPK1","kernel_variance",500,0.893639470402494,29.0489994149902
+"LR","Kinase","MAPK1","density_lengthscale",500,0.948814225996148,6.1407412376393
+"LR","Kinase","MAPK1","network_lengthscale",500,0.985195632102634,6.42121858750055
+"LR","Kinase","MAPK14","post_log_likelihood",500,0.0188726800181124,500
+"LR","Kinase","MAPK14","residual_precision",500,0.132508065086446,269.600805820814
+"LR","Kinase","MAPK14","kernel_variance",500,0.888691609494676,48.6311293726562
+"LR","Kinase","MAPK14","density_lengthscale",500,0.993895000530246,3.22307656362345
+"LR","Kinase","MAPK14","network_lengthscale",500,0.991137841481215,4.298618176485
+"LR","Kinase","MAPK8","post_log_likelihood",500,0.130609361858718,278.183011618516
+"LR","Kinase","MAPK8","residual_precision",500,0.147758971727751,280.710151505501
+"LR","Kinase","MAPK8","kernel_variance",500,0.881413500133028,60.2073718493338
+"LR","Kinase","MAPK8","density_lengthscale",500,0.996039487551977,2.91068943616144
+"LR","Kinase","MAPK8","network_lengthscale",500,0.991368860815629,3.46072527502854
+"LR","Kinase","PLK1","post_log_likelihood",500,0.126170843198072,193.052478049453
+"LR","Kinase","PLK1","residual_precision",500,0.466158443323259,53.7673952906584
+"LR","Kinase","PLK1","kernel_variance",500,0.965876310663159,18.16174109227
+"LR","Kinase","PLK1","density_lengthscale",500,0.98643316404054,4.38053703373495
+"LR","Kinase","PLK1","network_lengthscale",500,0.986000421795122,5.05793549724692
+"LR","Kinase","SRC","post_log_likelihood",500,0.125655091964413,212.250864878012
+"LR","Kinase","SRC","residual_precision",500,0.0730399698663235,479.602249683749
+"LR","Kinase","SRC","kernel_variance",500,0.925488207325827,29.2058815675717
+"LR","Kinase","SRC","density_lengthscale",500,0.978886801641391,7.8090195575495
+"LR","Kinase","SRC","network_lengthscale",500,0.995901843788477,2.8550414440715
+"LR","Pathway","Androgen","post_log_likelihood",500,0.214739205862377,276.869258851662
+"LR","Pathway","Androgen","residual_precision",500,0.593974292699621,94.5785142718902
+"LR","Pathway","Androgen","kernel_variance",500,0.866518775338635,53.8212025481378
+"LR","Pathway","Androgen","density_lengthscale",500,0.986849665534447,3.97855170385189
+"LR","Pathway","Androgen","network_lengthscale",500,0.990524929482418,3.12794043511839
+"LR","Pathway","EGFR","post_log_likelihood",500,0.871805512338064,3.84775880346861
+"LR","Pathway","EGFR","residual_precision",500,0.853219514210803,43.9120097393962
+"LR","Pathway","EGFR","kernel_variance",500,0.508714275936318,10.476320663
+"LR","Pathway","EGFR","density_lengthscale",500,0.968364710639823,13.0657707565771
+"LR","Pathway","EGFR","network_lengthscale",500,0.993977993558144,3.07854595214588
+"LR","Pathway","Estrogen","post_log_likelihood",500,0.148652861043398,337.861249809916
+"LR","Pathway","Estrogen","residual_precision",500,0.412665414357095,148.855246624215
+"LR","Pathway","Estrogen","kernel_variance",500,0.743275897073193,97.0942886885798
+"LR","Pathway","Estrogen","density_lengthscale",500,0.968995045845193,5.2835355494595
+"LR","Pathway","Estrogen","network_lengthscale",500,0.994520338050774,3.02898814857148
+"LR","Pathway","Hypoxia","post_log_likelihood",500,0.0847348686996985,367.700357059294
+"LR","Pathway","Hypoxia","residual_precision",500,0.086351351307933,397.878955655209
+"LR","Pathway","Hypoxia","kernel_variance",500,0.781302904818588,103.676339642013
+"LR","Pathway","Hypoxia","density_lengthscale",500,0.988342198801463,3.9676600362793
+"LR","Pathway","Hypoxia","network_lengthscale",500,0.996933365858489,2.89488411859353
+"LR","Pathway","JAK-STAT","post_log_likelihood",500,NA,NA
+"LR","Pathway","JAK-STAT","residual_precision",500,0.0940624751255374,374.780518762032
+"LR","Pathway","JAK-STAT","kernel_variance",500,0.857396258754676,54.4470972950476
+"LR","Pathway","JAK-STAT","density_lengthscale",500,0.991981665625838,4.09787550648756
+"LR","Pathway","JAK-STAT","network_lengthscale",500,0.99453786843601,2.94015203597804
+"LR","Pathway","MAPK","post_log_likelihood",500,-0.0160163470878306,387.220984084648
+"LR","Pathway","MAPK","residual_precision",500,0.0799034569213427,348.893361269393
+"LR","Pathway","MAPK","kernel_variance",500,0.8885458244858,41.3660080019443
+"LR","Pathway","MAPK","density_lengthscale",500,0.989254304783973,3.8687345159163
+"LR","Pathway","MAPK","network_lengthscale",500,0.991327092194744,3.07822883691614
+"LR","Pathway","NFkB","post_log_likelihood",500,0.11774491477075,246.660633844798
+"LR","Pathway","NFkB","residual_precision",500,0.205164075425603,271.52815378481
+"LR","Pathway","NFkB","kernel_variance",500,0.824643242329943,55.324076855171
+"LR","Pathway","NFkB","density_lengthscale",500,0.987182646633979,7.76948790663917
+"LR","Pathway","NFkB","network_lengthscale",500,0.992933291543847,3.03044662257942
+"LR","Pathway","p53","post_log_likelihood",500,0.0174815272570767,344.465133740133
+"LR","Pathway","p53","residual_precision",500,0.0465358328770888,330.913809214399
+"LR","Pathway","p53","kernel_variance",500,0.88435423714839,37.9275969379593
+"LR","Pathway","p53","density_lengthscale",500,0.986467998592241,3.62272745628261
+"LR","Pathway","p53","network_lengthscale",500,0.989675130932148,3.62412618071887
+"LR","Pathway","PI3K","post_log_likelihood",500,0.00736985115133169,414.547200085608
+"LR","Pathway","PI3K","residual_precision",500,0.222607174292233,214.60022505753
+"LR","Pathway","PI3K","kernel_variance",500,0.799336793889445,63.8963531021015
+"LR","Pathway","PI3K","density_lengthscale",500,0.984451232691641,5.9773073623357
+"LR","Pathway","PI3K","network_lengthscale",500,0.99362620222611,2.97376144594187
+"LR","Pathway","TGFb","post_log_likelihood",500,0.116522050197917,191.62178264425
+"LR","Pathway","TGFb","residual_precision",500,0.825015086791869,12.9900007055657
+"LR","Pathway","TGFb","kernel_variance",500,0.925007394241495,12.3171865140415
+"LR","Pathway","TGFb","density_lengthscale",500,0.995013219050529,3.47967001057014
+"LR","Pathway","TGFb","network_lengthscale",500,0.979251976262326,5.28884361015603
+"LR","Pathway","TNFa","post_log_likelihood",500,0.707823678274643,8.28261131352719
+"LR","Pathway","TNFa","residual_precision",500,0.984000197916609,5.87291278163982
+"LR","Pathway","TNFa","kernel_variance",500,0.859821005054166,16.2674904296695
+"LR","Pathway","TNFa","density_lengthscale",500,0.995416135656035,2.92920321523276
+"LR","Pathway","TNFa","network_lengthscale",500,0.983621410266777,7.08768856508615
+"LR","Pathway","Trail","post_log_likelihood",500,0.174930635691747,141.414119803766
+"LR","Pathway","Trail","residual_precision",500,0.33722777249372,95.5788891000737
+"LR","Pathway","Trail","kernel_variance",500,0.92638542842045,19.9335291858583
+"LR","Pathway","Trail","density_lengthscale",500,0.974563894444642,8.93413085912524
+"LR","Pathway","Trail","network_lengthscale",500,0.980077053781977,11.1211676897864
+"LR","Pathway","VEGF","post_log_likelihood",500,0.15528278494904,188.175718254151
+"LR","Pathway","VEGF","residual_precision",500,0.452627036991507,85.6353375178735
+"LR","Pathway","VEGF","kernel_variance",500,0.867206456797117,54.9290950830449
+"LR","Pathway","VEGF","density_lengthscale",500,0.989189589719201,4.36951346986056
+"LR","Pathway","VEGF","network_lengthscale",500,0.993145508993423,3.33760595310954
+"LR","Pathway","WNT","post_log_likelihood",500,0.2144435187642,266.044870427559
+"LR","Pathway","WNT","residual_precision",500,0.233485138075316,232.799643455953
+"LR","Pathway","WNT","kernel_variance",500,0.727304999593294,91.455649225181
+"LR","Pathway","WNT","density_lengthscale",500,0.978480517404714,7.02621636506012
+"LR","Pathway","WNT","network_lengthscale",500,0.991094848609471,3.5272527948155
+"LR","Transcription factor","E2F1","post_log_likelihood",500,0.0860596137916862,138.435149451258
+"LR","Transcription factor","E2F1","residual_precision",500,0.509646924670334,56.1470267320227
+"LR","Transcription factor","E2F1","kernel_variance",500,0.944135641434537,29.636352293886
+"LR","Transcription factor","E2F1","density_lengthscale",500,0.979219653655544,5.85309811175949
+"LR","Transcription factor","E2F1","network_lengthscale",500,0.986849865815692,3.97009465950054
+"LR","Transcription factor","E2F4","post_log_likelihood",500,0.0377361507461825,423.644365502288
+"LR","Transcription factor","E2F4","residual_precision",500,0.103325059114643,283.493325657257
+"LR","Transcription factor","E2F4","kernel_variance",500,0.861721590773379,48.4470773032647
+"LR","Transcription factor","E2F4","density_lengthscale",500,0.991631988821178,3.40840817223508
+"LR","Transcription factor","E2F4","network_lengthscale",500,0.989669519420493,2.9799212864864
+"LR","Transcription factor","EGR1","post_log_likelihood",500,0.709732190477409,11.1829378007784
+"LR","Transcription factor","EGR1","residual_precision",500,0.86259227813105,44.7091096121536
+"LR","Transcription factor","EGR1","kernel_variance",500,0.52490952317823,17.8346996045356
+"LR","Transcription factor","EGR1","density_lengthscale",500,0.97557230558329,4.90425077197419
+"LR","Transcription factor","EGR1","network_lengthscale",500,0.988422807156284,4.41256521364357
+"LR","Transcription factor","ETS1","post_log_likelihood",500,0.0204263505232614,304.518681443777
+"LR","Transcription factor","ETS1","residual_precision",500,0.273433101404627,212.794535529827
+"LR","Transcription factor","ETS1","kernel_variance",500,0.901554946435953,45.6192794324941
+"LR","Transcription factor","ETS1","density_lengthscale",500,0.989262118428053,5.23727209962879
+"LR","Transcription factor","ETS1","network_lengthscale",500,0.987011307643299,8.35698891979001
+"LR","Transcription factor","HNF1A","post_log_likelihood",500,0.0924587740660714,346.749287363169
+"LR","Transcription factor","HNF1A","residual_precision",500,0.0576793106339845,378.581465599192
+"LR","Transcription factor","HNF1A","kernel_variance",500,0.640277744085721,137.197192408498
+"LR","Transcription factor","HNF1A","density_lengthscale",500,0.968247678686016,6.38604033901927
+"LR","Transcription factor","HNF1A","network_lengthscale",500,0.987824251250797,5.12298406235477
+"LR","Transcription factor","HNF4A","post_log_likelihood",500,0.157450495501752,230.529816320188
+"LR","Transcription factor","HNF4A","residual_precision",500,0.306542853110966,235.090689001215
+"LR","Transcription factor","HNF4A","kernel_variance",500,0.801947778854128,74.7074015894875
+"LR","Transcription factor","HNF4A","density_lengthscale",500,0.980223765983333,6.28170850642099
+"LR","Transcription factor","HNF4A","network_lengthscale",500,0.986020729412998,7.92336454977106
+"LR","Transcription factor","MYC","post_log_likelihood",500,0.882366166801831,10.3185512330693
+"LR","Transcription factor","MYC","residual_precision",500,0.978883089938077,14.3797422614091
+"LR","Transcription factor","MYC","kernel_variance",500,0.934902907742956,12.0611128778517
+"LR","Transcription factor","MYC","density_lengthscale",500,0.986454850321985,8.16997397013587
+"LR","Transcription factor","MYC","network_lengthscale",500,0.991163625336689,3.32126776029382
+"LR","Transcription factor","RFX5","post_log_likelihood",500,0.219868867779607,151.664239761106
+"LR","Transcription factor","RFX5","residual_precision",500,0.402184210275863,132.992348523432
+"LR","Transcription factor","RFX5","kernel_variance",500,0.913759372942344,21.2919259325202
+"LR","Transcription factor","RFX5","density_lengthscale",500,0.995477076328178,2.70363060020216
+"LR","Transcription factor","RFX5","network_lengthscale",500,0.988146411273429,3.28183703037725
+"LR","Transcription factor","SOX2","post_log_likelihood",500,0.222493688672296,141.580657724143
+"LR","Transcription factor","SOX2","residual_precision",500,0.493468902143315,143.820230470594
+"LR","Transcription factor","SOX2","kernel_variance",500,0.909554196592206,44.069272162901
+"LR","Transcription factor","SOX2","density_lengthscale",500,0.984304042078692,5.55724778540685
+"LR","Transcription factor","SOX2","network_lengthscale",500,0.995854542244635,2.7870816800632
+"LR","Transcription factor","SPI1","post_log_likelihood",500,-0.0709033978779446,500
+"LR","Transcription factor","SPI1","residual_precision",500,0.178134288132028,262.603042187258
+"LR","Transcription factor","SPI1","kernel_variance",500,0.886419820057549,42.1646804386998
+"LR","Transcription factor","SPI1","density_lengthscale",500,0.988873014775509,3.57976845075025
+"LR","Transcription factor","SPI1","network_lengthscale",500,0.965512839695159,12.9353259390213
+"LR","Transcription factor","STAT1","post_log_likelihood",500,0.169314554291501,226.841683428458
+"LR","Transcription factor","STAT1","residual_precision",500,0.261268233823175,272.532134399697
+"LR","Transcription factor","STAT1","kernel_variance",500,0.872413353023582,58.2414863569703
+"LR","Transcription factor","STAT1","density_lengthscale",500,0.991868363170432,3.41869254457079
+"LR","Transcription factor","STAT1","network_lengthscale",500,0.991303512712424,3.39691916274912
+"LR","Transcription factor","STAT2","post_log_likelihood",500,0.0951217041003023,255.314202295404
+"LR","Transcription factor","STAT2","residual_precision",500,0.4510566843348,102.073052753918
+"LR","Transcription factor","STAT2","kernel_variance",500,0.868942226646742,57.9976730214021
+"LR","Transcription factor","STAT2","density_lengthscale",500,0.983779468505267,6.69035955099187
+"LR","Transcription factor","STAT2","network_lengthscale",500,0.984342206670827,5.39355546510987
+"LR","Transcription factor","TP53","post_log_likelihood",500,0.0470045990545989,444.388389304266
+"LR","Transcription factor","TP53","residual_precision",500,0.334243993700573,113.59323880826
+"LR","Transcription factor","TP53","kernel_variance",500,0.864858683177539,50.3587930020185
+"LR","Transcription factor","TP53","density_lengthscale",500,0.992928102240299,3.24042994466969
+"LR","Transcription factor","TP53","network_lengthscale",500,0.993638826459037,3.14136442587783
+"LR","Transcription factor","ZNF263","post_log_likelihood",500,0.72572864790139,10.5266648747817
+"LR","Transcription factor","ZNF263","residual_precision",500,0.901529346077397,12.856627354576
+"LR","Transcription factor","ZNF263","kernel_variance",500,0.627614883683862,28.5073742524438
+"LR","Transcription factor","ZNF263","density_lengthscale",500,0.993979785872435,2.83155502345861
+"LR","Transcription factor","ZNF263","network_lengthscale",500,0.974236540764777,8.12335884523308

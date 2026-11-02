@@ -47,3 +47,7 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# local-only files (never publish)
+PROJECT_STATUS_SUMMARY.md
+manuscript_main_FDR_UPDATED.tex

@@ -1,8 +1,10 @@
+> **DEPRECATED (Nov 2026).** This report is not part of the published analysis. It applies Benjamini-Hochberg to 1 - PIP, which is not a valid FDR correction for posterior inclusion probabilities, and it uses full-chain rather than post-burn-in PIPs. See `README_DEPRECATED.md` in this folder and `results/` for the authoritative outputs.
+
 # FDR Correction Analysis Report
 ## Graph-on-Vector Regression: LUAD Histopathology and Transcriptomics
 
 **Date:** July 29, 2026  
-**Status:** ✅ Complete - Manuscript-Ready  
+**Status:** Withdrawn (see banner above)  
 **Repository:** https://github.com/sagnikbhadury/GOV  
 
 ---

@@ -1,0 +1,87 @@
+[2025-11-15 13:40:16] [TRACE]   [OmnipathR] Reading JSON from `C:\Users\bhadury\AppData\Local\Cache\OmnipathR/cache.json` (encoding: UTF-8).
+[2025-11-15 13:40:16] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2025-11-15 13:40:16] [INFO]    [OmnipathR] Initialized cache: `C:\Users\bhadury\AppData\Local\Cache\OmnipathR`.
+[2025-11-15 13:40:16] [INFO]    [OmnipathR] Package `OmnipathR` packaged: 2025-09-03 23:07:57 UTC; biocbuild
+[2025-11-15 13:40:16] [INFO]    [OmnipathR] Package `OmnipathR` date/publication: 2025-09-03
+[2025-11-15 13:40:16] [INFO]    [OmnipathR] Package `OmnipathR` built: R 4.5.1; ; 2025-09-24 13:32:40 UTC; windows
+[2025-11-15 13:40:16] [INFO]    [OmnipathR] Package `OmnipathR` version: 3.16.2
+[2025-11-15 13:40:16] [INFO]    [OmnipathR] Package `OmnipathR` repository: Bioconductor 3.21
+[2025-11-15 13:40:19] [INFO]    [OmnipathR] Session info: [version=R version 4.5.1 (2025-06-13 ucrt); os=Windows 11 x64 (build 22631); system=x86_64, mingw32; ui=RStudio; language=(EN); collate=English_United States.utf8; ctype=English_United States.utf8; tz=America/New_York; date=2025-11-15; rstudio=2025.09.1+401 Cucumberleaf Sunflower (desktop); pandoc=3.6.3 @ C:/Program Files/RStudio/resources/app/bin/quarto/bin/tools/ (via rmarkdown); quarto=ERROR: Unknown command "TMPDIR=C:/Users/bhadury/AppData/Local/Temp/RtmpqOb7rv/file359c189b45ff". Did you mean command "preview"? @ C:\PROGRA~1\RStudio\RESOUR~1\app\bin\quarto\bin\quarto.exe]
+[2025-11-15 13:40:19] [INFO]    [OmnipathR] External libraries: [cairo=1.18.4; cairoFT=; pango=; png=1.6.48; jpeg=9.6; tiff=LIBTIFF, Version 4.7.0; tcl=8.6.16; curl=8.13.0; zlib=1.3.1; bzlib=1.0.8, 13-Jul-2019; xz=5.8.1; deflate=1.24; PCRE=10.45 2025-02-05; ICU=77.1; TRE=TRE 0.8.0 R_fixes (BSD); iconv=win_iconv; readline=; BLAS=; lapack=; lapack_version=3.12.1]
+[2025-11-15 13:40:20] [INFO]    [OmnipathR] Loaded packages: abind 1.4-8(2024-09-12); backports 1.5.0(2024-05-23); BiocParallel 1.42.2(2025-09-14); bit 4.6.0(2025-03-06); bit64 4.6.0-1(2025-01-16); blob 1.2.4(2023-03-17); cachem 1.1.0(2024-05-16); cellranger 1.1.0(2016-07-27); checkmate 2.3.3(2025-08-18); cli 3.6.5(2025-04-23); cluster 2.1.8.1(2025-03-12); codetools 0.2-20(2024-03-31); cowplot 1.2.0(2025-07-07); crayon 1.5.3(2024-06-20); curl 7.0.0(2025-08-19); data.table 1.17.8(2025-07-10); DBI 1.2.3(2024-06-02); decoupleR 2.14.0(2025-04-15); deldir 2.0-4(2024-02-28); dichromat 2.0-0.1(2022-05-02); digest 0.6.37(2024-08-19); dotCall64 1.2(2024-10-04); dplyr 1.1.4(2023-11-17); evaluate 1.0.5(2025-08-27); farver 2.1.2(2024-05-13); fastDummies 1.7.5(2025-01-20); fastmap 1.2.0(2024-05-15); fitdistrplus 1.2-4(2025-07-03); fs 1.6.6(2025-04-12); future 1.67.0(2025-07-29); future.apply 1.20.0(2025-06-06); generics 0.1.4(2025-05-09); ggplot2 4.0.0(2025-09-11); ggrepel 0.9.6(2024-09-07); ggridges 0.5.7(2025-08-27); globals 0.18.0(2025-05-08); glue 1.8.0(2024-09-30); goftest 1.2-3(2021-10-07); gridExtra 2.3(2017-09-09); gtable 0.3.6(2024-10-25); hms 1.1.4(2025-10-17); htmltools 0.5.8.1(2024-04-04); htmlwidgets 1.6.4(2023-12-06); httpuv 1.6.16(2025-04-16); httr 1.4.7(2023-08-15); httr2 1.2.1(2025-07-22); ica 1.0-3(2022-07-08); igraph 2.2.1(2025-10-27); irlba 2.3.5.1(2022-10-03); jsonlite 2.0.0(2025-03-27); KernSmooth 2.23-26(2025-01-01); knitr 1.50(2025-03-16); later 1.4.4(2025-08-27); lattice 0.22-7(2025-04-02); lazyeval 0.2.2(2019-03-15); lifecycle 1.0.4(2023-11-07); listenv 0.9.1(2024-01-29); lmtest 0.9-40(2022-03-21); logger 0.4.1(2025-09-11); lubridate 1.9.4(2024-12-08); magrittr 2.0.4(2025-09-12); MASS 7.3-65(2025-02-28); Matrix 1.7-4(2025-08-28); matrixStats 1.5.0(2025-01-07); memoise 2.0.1(2021-11-26); mime 0.13(2025-03-17); miniUI 0.1.2(2025-04-17); nlme 3.1-168(2025-03-31); OmnipathR 3.16.2(2025-09-03); parallelly 1.45.1(2025-07-24); patchwork 1.3.2(2025-08-25); pbapply 1.7-4(2025-07-20); pillar 1.11.1(2025-09-17); pkgconfig 2.0.3(2019-09-22); plotly 4.11.0(2025-06-19); plyr 1.8.9(2023-10-02); png 0.1-8(2022-11-29); polyclip 1.10-7(2024-07-23); prettyunits 1.2.0(2023-09-24); progress 1.2.3(2023-12-06); progressr 0.17.0(2025-10-15); promises 1.3.3(2025-05-29); purrr 1.1.0(2025-07-10); R.methodsS3 1.8.2(2022-06-13); R.oo 1.27.1(2025-05-02); R.utils 2.13.0(2025-02-24); R6 2.6.1(2025-02-15); RANN 2.6.2(2024-08-25); rappdirs 0.3.3(2021-01-31); RColorBrewer 1.1-3(2022-04-03); Rcpp 1.1.0(2025-07-02); RcppAnnoy 0.0.22(2024-01-23); RcppHNSW 0.6.0(2024-02-04); readr 2.1.5(2024-01-10); readxl 1.4.5(2025-03-07); reshape2 1.4.4(2020-04-09); reticulate 1.44.0(2025-10-25); rlang 1.1.6(2025-04-11); rmarkdown 2.30(2025-09-28); ROCR 1.0-11(2020-05-02); RSpectra 0.16-2(2024-07-18); RSQLite 2.4.3(2025-08-20); rstudioapi 0.17.1(2024-10-22); Rtsne 0.17(2023-12-07); rvest 1.0.5(2025-08-29); S7 0.2.0(2024-11-07); scales 1.4.0(2025-04-24); scattermore 1.2(2023-06-12); sctransform 0.4.2(2025-04-30); sessioninfo 1.2.3(2025-02-05); Seurat 5.3.1(2025-10-29); SeuratObject 5.2.0(2025-08-27); shiny 1.11.1(2025-07-03); sp 2.2-0(2025-02-01); spam 2.11-1(2025-01-20); spatstat.data 3.1-9(2025-10-18); spatstat.explore 3.5-3(2025-09-22); spatstat.geom 3.6-0(2025-09-20); spatstat.random 3.4-2(2025-09-21); spatstat.sparse 3.1-0(2024-06-21); spatstat.univar 3.1-4(2025-07-13); spatstat.utils 3.2-0(2025-09-20); stringi 1.8.7(2025-03-27); stringr 1.5.2(2025-09-08); survival 3.8-3(2024-12-17); tensor 1.5.1(2025-06-17); tibble 3.3.0(2025-06-08); tidyr 1.3.1(2024-01-24); tidyselect 1.2.1(2024-03-11); timechange 0.3.0(2024-01-18); tzdb 0.5.0(2025-03-15); uwot 0.2.3(2025-02-24); vctrs 0.6.5(2023-12-01); viridisLite 0.4.2(2023-05-02); withr 3.0.2(2024-10-28); xfun 0.53(2025-08-19); XML 3.99-0.19(2025-08-22); xml2 1.4.0(2025-08-20); xtable 1.8-4(2019-04-21); yaml 2.3.10(2024-07-26); zip 2.3.3(2025-05-13); zoo 1.8-14(2025-04-10)
+[2025-11-15 13:40:20] [INFO]    [OmnipathR] CURL: version: 8.14.1; headers: 8.14.1; ssl_version: (OpenSSL/3.5.0) Schannel; libz_version: 1.3; libssh_version: libssh2/1.11.0; libidn_version: NA; host: x86_64-w64-mingw32; protocols: dict, file, ftp, ftps, gopher, gophers, http, https, imap, imaps, ldap, ldaps, mqtt, pop3, pop3s, rtsp, scp, sftp, smb, smbs, smtp, smtps, telnet, tftp, ws, wss; ipv6: TRUE; http2: TRUE; idn: TRUE; url_parser: TRUE
+[2025-11-15 13:40:20] [TRACE]   [OmnipathR] Reading JSON from `C:/Users/bhadury/University of Michigan Dropbox/Sagnik Bhadury/R_packages/OmnipathR/db/db_def.json` (encoding: UTF-8).
+[2025-11-15 13:40:20] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2025-11-15 13:40:20] [TRACE]   [OmnipathR] Reading JSON from `C:/Users/bhadury/University of Michigan Dropbox/Sagnik Bhadury/R_packages/OmnipathR/internal/magic_bytes.json` (encoding: UTF-8).
+[2025-11-15 13:40:20] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2025-11-15 13:40:20] [TRACE]   [OmnipathR] Reading JSON from `C:/Users/bhadury/University of Michigan Dropbox/Sagnik Bhadury/R_packages/OmnipathR/internal/urls.json` (encoding: UTF-8).
+[2025-11-15 13:40:20] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2025-11-15 13:40:20] [TRACE]   [OmnipathR] Reading JSON from `C:/Users/bhadury/University of Michigan Dropbox/Sagnik Bhadury/R_packages/OmnipathR/internal/id_types.json` (encoding: UTF-8).
+[2025-11-15 13:40:20] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2025-11-15 13:40:30] [TRACE]   [OmnipathR] Reading JSON from `https://omnipathdb.org/resources` (encoding: UTF-8).
+[2025-11-15 13:40:30] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2025-11-15 13:40:30] [INFO]    [OmnipathR] Loading database `Ensembl and OMA organism names`.
+[2025-11-15 13:40:31] [INFO]    [OmnipathR] Looking up in cache `https://www.ensembl.org/info/about/species.html`: key=7332486db7400730697234bad76ca0c8e4d00799, latest version=1.
+[2025-11-15 13:40:31] [TRACE]   [OmnipathR] Cache file path: C:\Users\bhadury\AppData\Local\Cache\OmnipathR/7332486db7400730697234bad76ca0c8e4d00799-1.html
+[2025-11-15 13:40:31] [TRACE]   [OmnipathR] Downloading by `generic_downloader`.
+[2025-11-15 13:40:31] [TRACE]   [OmnipathR] Looking up in cache: `https://omabrowser.org/All/oma-species.txt`.
+[2025-11-15 13:40:31] [TRACE]   [OmnipathR] Loaded data from RDS `C:\Users\bhadury\AppData\Local\Cache\OmnipathR/30e690cbb55dfc63b5903ab337f34ffc2f4be397-1.rds`.
+[2025-11-15 13:40:31] [INFO]    [OmnipathR] Loaded database `Ensembl and OMA organism names`.
+[2025-11-15 13:40:31] [TRACE]   [OmnipathR] Processing args for OmniPath query
+[2025-11-15 13:40:31] [TRACE]   [OmnipathR] Arguments for OmniPath query: [wide=TRUE,resources=PROGENy,query_type=annotations]
+[2025-11-15 13:40:31] [TRACE]   [OmnipathR] Organism(s): 9606
+[2025-11-15 13:40:31] [TRACE]   [OmnipathR] Orthology targets: 
+[2025-11-15 13:40:31] [TRACE]   [OmnipathR] Reading JSON from `https://omnipathdb.org/resources` (encoding: UTF-8).
+[2025-11-15 13:40:31] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2025-11-15 13:40:31] [TRACE]   [OmnipathR] Looking up in cache: `https://omnipathdb.org/annotations?resources=PROGENy&license=academic`
+[2025-11-15 13:40:32] [TRACE]   [OmnipathR] Loaded data from RDS `C:\Users\bhadury\AppData\Local\Cache\OmnipathR/3492392585ba05414edfae46801492076437d7e7-1.rds`.
+[2025-11-15 13:40:32] [INFO]    [OmnipathR] Loaded from cache: `https://omnipathdb.org/annotations?resources=PROGENy&license=academic`
+[2025-11-15 13:40:32] [SUCCESS] [OmnipathR] Loaded 699831 annotation records from cache.
+[2025-11-15 13:48:50] [TRACE]   [OmnipathR] Processing args for OmniPath query
+[2025-11-15 13:48:50] [TRACE]   [OmnipathR] Arguments for OmniPath query: [datasets=[kinaseextra,omnipath],query_type=interactions]
+[2025-11-15 13:48:50] [TRACE]   [OmnipathR] Organism(s): 9606
+[2025-11-15 13:48:50] [TRACE]   [OmnipathR] Orthology targets: 
+[2025-11-15 13:48:50] [TRACE]   [OmnipathR] Looking up in cache: `https://omnipathdb.org/interactions?genesymbols=yes&datasets=kinaseextra,omnipath&organisms=9606&fields=sources,references,curation_effort&license=academic`
+[2025-11-15 13:48:50] [TRACE]   [OmnipathR] Loaded data from RDS `C:\Users\bhadury\AppData\Local\Cache\OmnipathR/bb8b56701728fd290cbf2c374b7a682c06069a1a-1.rds`.
+[2025-11-15 13:48:50] [INFO]    [OmnipathR] Loaded from cache: `https://omnipathdb.org/interactions?genesymbols=yes&datasets=kinaseextra,omnipath&organisms=9606&fields=sources,references,curation_effort&license=academic`
+[2025-11-15 13:48:52] [SUCCESS] [OmnipathR] Loaded 101454 interactions from cache.
+[2025-11-15 13:55:20] [TRACE]   [OmnipathR] Processing args for OmniPath query
+[2025-11-15 13:55:20] [TRACE]   [OmnipathR] Arguments for OmniPath query: [datasets=[kinaseextra,omnipath],query_type=interactions]
+[2025-11-15 13:55:20] [TRACE]   [OmnipathR] Organism(s): 9606
+[2025-11-15 13:55:20] [TRACE]   [OmnipathR] Orthology targets: 
+[2025-11-15 13:55:20] [TRACE]   [OmnipathR] Looking up in cache: `https://omnipathdb.org/interactions?genesymbols=yes&datasets=kinaseextra,omnipath&organisms=9606&fields=sources,references,curation_effort&license=academic`
+[2025-11-15 13:55:20] [TRACE]   [OmnipathR] Loaded data from RDS `C:\Users\bhadury\AppData\Local\Cache\OmnipathR/bb8b56701728fd290cbf2c374b7a682c06069a1a-1.rds`.
+[2025-11-15 13:55:20] [INFO]    [OmnipathR] Loaded from cache: `https://omnipathdb.org/interactions?genesymbols=yes&datasets=kinaseextra,omnipath&organisms=9606&fields=sources,references,curation_effort&license=academic`
+[2025-11-15 13:55:22] [SUCCESS] [OmnipathR] Loaded 101454 interactions from cache.
+[2025-11-15 13:59:07] [TRACE]   [OmnipathR] Processing args for OmniPath query
+[2025-11-15 13:59:07] [TRACE]   [OmnipathR] Arguments for OmniPath query: [dorothea_levels=[A,B,C,D],genesymbols=TRUE,organisms=9606,query_type=interactions,datasets=dorothea]
+[2025-11-15 13:59:08] [TRACE]   [OmnipathR] Organism(s): 9606
+[2025-11-15 13:59:08] [TRACE]   [OmnipathR] Orthology targets: 
+[2025-11-15 13:59:08] [TRACE]   [OmnipathR] Looking up in cache: `https://omnipathdb.org/interactions?genesymbols=yes&datasets=dorothea&organisms=9606&dorothea_levels=A,B,C,D&fields=sources,references,curation_effort,dorothea_level&license=academic`
+[2025-11-15 13:59:08] [TRACE]   [OmnipathR] Loaded data from RDS `C:\Users\bhadury\AppData\Local\Cache\OmnipathR/46d37339bbc3f9a05bb89ccb79278cf1233f5cdf-1.rds`.
+[2025-11-15 13:59:08] [INFO]    [OmnipathR] Loaded from cache: `https://omnipathdb.org/interactions?genesymbols=yes&datasets=dorothea&organisms=9606&dorothea_levels=A,B,C,D&fields=sources,references,curation_effort,dorothea_level&license=academic`
+[2025-11-15 13:59:12] [SUCCESS] [OmnipathR] Loaded 278677 interactions from cache.
+[2025-11-15 14:18:18] [TRACE]   [OmnipathR] Processing args for OmniPath query
+[2025-11-15 14:18:18] [TRACE]   [OmnipathR] Arguments for OmniPath query: [dorothea_levels=[A,B,C,D],genesymbols=TRUE,organisms=9606,query_type=interactions,datasets=dorothea]
+[2025-11-15 14:18:18] [TRACE]   [OmnipathR] Organism(s): 9606
+[2025-11-15 14:18:18] [TRACE]   [OmnipathR] Orthology targets: 
+[2025-11-15 14:18:18] [TRACE]   [OmnipathR] Looking up in cache: `https://omnipathdb.org/interactions?genesymbols=yes&datasets=dorothea&organisms=9606&dorothea_levels=A,B,C,D&fields=sources,references,curation_effort,dorothea_level&license=academic`
+[2025-11-15 14:18:18] [TRACE]   [OmnipathR] Loaded data from RDS `C:\Users\bhadury\AppData\Local\Cache\OmnipathR/46d37339bbc3f9a05bb89ccb79278cf1233f5cdf-1.rds`.
+[2025-11-15 14:18:18] [INFO]    [OmnipathR] Loaded from cache: `https://omnipathdb.org/interactions?genesymbols=yes&datasets=dorothea&organisms=9606&dorothea_levels=A,B,C,D&fields=sources,references,curation_effort,dorothea_level&license=academic`
+[2025-11-15 14:18:22] [SUCCESS] [OmnipathR] Loaded 278677 interactions from cache.
+[2025-11-15 14:21:12] [TRACE]   [OmnipathR] Processing args for OmniPath query
+[2025-11-15 14:21:12] [TRACE]   [OmnipathR] Arguments for OmniPath query: [datasets=[kinaseextra,omnipath],query_type=interactions]
+[2025-11-15 14:21:12] [TRACE]   [OmnipathR] Organism(s): 9606
+[2025-11-15 14:21:12] [TRACE]   [OmnipathR] Orthology targets: 
+[2025-11-15 14:21:12] [TRACE]   [OmnipathR] Looking up in cache: `https://omnipathdb.org/interactions?genesymbols=yes&datasets=kinaseextra,omnipath&organisms=9606&fields=sources,references,curation_effort&license=academic`
+[2025-11-15 14:21:12] [TRACE]   [OmnipathR] Loaded data from RDS `C:\Users\bhadury\AppData\Local\Cache\OmnipathR/bb8b56701728fd290cbf2c374b7a682c06069a1a-1.rds`.
+[2025-11-15 14:21:12] [INFO]    [OmnipathR] Loaded from cache: `https://omnipathdb.org/interactions?genesymbols=yes&datasets=kinaseextra,omnipath&organisms=9606&fields=sources,references,curation_effort&license=academic`
+[2025-11-15 14:21:15] [SUCCESS] [OmnipathR] Loaded 101454 interactions from cache.
+[2025-11-15 14:22:15] [TRACE]   [OmnipathR] Processing args for OmniPath query
+[2025-11-15 14:22:15] [TRACE]   [OmnipathR] Arguments for OmniPath query: [datasets=[kinaseextra,omnipath],query_type=interactions]
+[2025-11-15 14:22:15] [TRACE]   [OmnipathR] Organism(s): 9606
+[2025-11-15 14:22:15] [TRACE]   [OmnipathR] Orthology targets: 
+[2025-11-15 14:22:15] [TRACE]   [OmnipathR] Looking up in cache: `https://omnipathdb.org/interactions?genesymbols=yes&datasets=kinaseextra,omnipath&organisms=9606&fields=sources,references,curation_effort&license=academic`
+[2025-11-15 14:22:16] [TRACE]   [OmnipathR] Loaded data from RDS `C:\Users\bhadury\AppData\Local\Cache\OmnipathR/bb8b56701728fd290cbf2c374b7a682c06069a1a-1.rds`.
+[2025-11-15 14:22:16] [INFO]    [OmnipathR] Loaded from cache: `https://omnipathdb.org/interactions?genesymbols=yes&datasets=kinaseextra,omnipath&organisms=9606&fields=sources,references,curation_effort&license=academic`
+[2025-11-15 14:22:17] [SUCCESS] [OmnipathR] Loaded 101454 interactions from cache.
